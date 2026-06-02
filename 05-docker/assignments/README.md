@@ -19,32 +19,8 @@ Assignments must:
 
 ---
 
-### Assignment — Dockerised Web Application  
-**File:** [11-dockerise-web-application.md](./11-dockerise-web-application.md)  
-**Concepts:** Dockerfiles, images, containers  
-
-**Focus:** Preparing a simple application for containerisation.
-
----
-
-### Assignment — Containerise Web Application (Part 1)  
-**File:** [12-containerise-web-application-1.md](./12-containerise-web-application-1.md)  
-**Concepts:** Docker build workflow, container execution  
-
-**Focus:** Running a web application inside a Docker container.
-
----
-
-### Assignment — Containerise Web Application (Part 2)  
-**File:** [13-containerise-web-application-2.md](./13-containerise-web-application-2.md)  
-**Concepts:** Multi-container workflows, validation  
-
-**Focus:** Improving and validating the containerised application setup.
-
----
-
-### Assignment — CoderCo Containers Challenge  
-**File:** [32-coderco-containers-challenge.md](./32-coderco-containers-challenge.md)  
+### Assignment — Containers Challenge  
+**File:** [32-containers-challenge.md](./32-containers-challenge.md)  
 **Concepts:** Flask, Redis, Docker Compose, service communication  
 
 **Focus:** Building a multi-container application using Docker Compose.
