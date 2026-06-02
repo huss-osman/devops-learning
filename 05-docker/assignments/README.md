@@ -38,7 +38,7 @@ Assignments must:
 
 ## Bonus Challenges
 
-The following bonus tasks extend the **Containers Challenge** by introducing more realistic Docker and cloud-native workflows.
+The following bonus tasks extend the **[Containers Challenge](./32-containers-challenge.md)** by introducing more realistic Docker and cloud-native workflows.
 
 ### Persistent Storage for Redis  
 **File:** [21-persistent-storage.md](./33-persistent-storage.md)  
