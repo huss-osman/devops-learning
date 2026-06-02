@@ -20,7 +20,7 @@ Assignments must:
 ---
 
 ### Assignment — Containers Challenge  
-**File:** [32-containers-challenge.md](./32-containers-challenge.md)  
+**File:** [20-containers-challenge.md](./32-containers-challenge.md)  
 **Concepts:** Flask, Redis, Docker Compose, service communication  
 
 **Focus:** Building a multi-container application using Docker Compose.
@@ -41,7 +41,7 @@ Assignments must:
 The following bonus tasks extend the **Containers Challenge** by introducing more realistic Docker and cloud-native workflows.
 
 ### Persistent Storage for Redis  
-**File:** [33-persistent-storage.md](./33-persistent-storage.md)  
+**File:** [21-persistent-storage.md](./33-persistent-storage.md)  
 **Concepts:** Docker volumes, persistence  
 
 **Focus:** Persisting Redis data beyond the container lifecycle using Docker volumes.
@@ -49,7 +49,7 @@ The following bonus tasks extend the **Containers Challenge** by introducing mor
 ---
 
 ### Environment Variables  
-**File:** [34-environment-variables.md](./34-environment-variables.md)  
+**File:** [22-environment-variables.md](./34-environment-variables.md)  
 **Concepts:** Configuration management, environment variables  
 
 **Focus:** Reading Redis connection details from environment variables for cleaner container configuration.
@@ -57,7 +57,7 @@ The following bonus tasks extend the **Containers Challenge** by introducing mor
 ---
 
 ### Scaling the Flask Application  
-**File:** [35-scaling-the-flask-application.md](./35-scaling-the-flask-application.md)  
+**File:** [23-scaling-the-flask-application.md](./35-scaling-the-flask-application.md)  
 **Concepts:** Scaling, load balancing, container orchestration  
 
 **Focus:** Running multiple Flask container instances and distributing traffic between services.
