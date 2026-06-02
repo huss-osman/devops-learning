@@ -66,7 +66,9 @@ The following bonus tasks extend the **Containers Challenge** by introducing mor
 
 ## Hands-On Docker Repository
 
-Alongside these fundamentals notes, I also maintain a separate hands-on Docker repository where assignment files, Dockerfiles, Compose files, configurations, and container projects are pushed after completion.
+Alongside these fundamentals notes, I also maintain a separate hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
+
+All assignment files, Dockerfiles, Compose files, configurations, and container projects built throughout these labs and assignments are pushed to the repository after completion.
 
 ➡️ [View Docker Learning Repository](https://github.com/huss-osman/docker-learning)
 
