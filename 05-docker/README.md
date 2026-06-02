@@ -118,7 +118,7 @@ By working through this module, I aimed to:
 
 ### Assignments
 
-- [containerised-flask-redis-app](./assignments/30-containerised-flask-redis-app)
+- [Containerised Flask Redis App](./assignments/30-containerised-flask-redis-app.md)  
   Building a multi-container Flask and Redis application with Docker Compose.
   
 ---
