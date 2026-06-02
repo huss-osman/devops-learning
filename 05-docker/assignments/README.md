@@ -66,13 +66,9 @@ The following bonus tasks extend the **Containers Challenge** by introducing mor
 
 ## Hands-On Docker Repository
 
-Alongside these fundamentals notes, I also maintain a hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
-
-The repository includes Docker commands, image creation, container management, troubleshooting, optimisation, and step-by-step learning progression.
+Alongside these fundamentals notes, I also maintain a separate hands-on Docker repository where assignment files, Dockerfiles, Compose files, configurations, and container projects are pushed after completion.
 
 ➡️ [View Docker Learning Repository](https://github.com/huss-osman/docker-learning)
-
-All Docker projects, experiments, and container workflows are continuously pushed and documented there throughout the learning process.
 
 ---
 
