@@ -119,7 +119,7 @@ Covers:
 - Multi-stage builds and orchestration concepts
 - Practical containerisation projects and real-world scenarios in [Labs](./05-docker/labs) and [Assignments](./05-docker/assignments)
 - Hands-on Docker workflows, image builds, Dockerfiles, and container projects pushed to the [Docker Learning Repository](https://github.com/huss-osman/docker-learning)
-  
+      
 ---
 
 ## 🎯 Learning Focus
