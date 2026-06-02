@@ -211,8 +211,6 @@ These assignments simulate how applications are packaged, connected, and prepare
 
 ## Hands-On Docker Repository
 
-Alongside these fundamentals notes, I also maintain a hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
-
-The repository includes Docker commands, image creation, container management, troubleshooting, and step-by-step learning progression.
+Alongside these fundamentals notes, I also maintain a separate hands-on Docker repository where assignment files, Dockerfiles, Compose files, configurations, and container projects are pushed after completion.
 
 ➡️ [View Docker Learning Repository](https://github.com/huss-osman/docker-learning)
