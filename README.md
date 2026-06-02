@@ -118,7 +118,6 @@ Covers:
 - Docker debugging tools (`docker ps`, `docker logs`, `docker exec`, `docker inspect`)
 - Multi-stage builds and orchestration concepts
 - Practical containerisation projects and real-world scenarios in [Labs](./05-docker/labs) and [Assignments](./05-docker/assignments)
-- Hands-on Docker workflows, Dockerfiles, and image builds pushed to the [Docker Learning Repository](https://github.com/huss-osman/docker-learning)
       
 ---
 
