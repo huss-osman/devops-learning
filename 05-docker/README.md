@@ -148,6 +148,14 @@ Hands-on Docker debugging and troubleshooting exercises.
 
 ---
 
+### `assignments/`
+
+Practical Docker projects and containerisation challenges.
+
+➡️ [Open assignments](./assignments)
+
+---
+
 ## Fundamentals
 
 The Fundamentals section focuses on building a strong understanding of Docker through **core container concepts and real-world behaviour**.
@@ -180,6 +188,24 @@ Each lab includes:
 These labs simulate the kind of issues faced in **development and production environments**.
 
 ➡️ [View Labs](./labs)
+
+---
+
+## Assignments
+
+The Assignments section focuses on applying Docker knowledge through real-world containerisation tasks.
+
+Assignments include:
+
+• Building web applications inside containers  
+• Writing Dockerfiles  
+• Running multi-container applications with Docker Compose  
+• Connecting Flask and Redis services  
+• Adding persistence, environment variables, and load balancing  
+
+These assignments simulate how applications are packaged, connected, and prepared for deployment in real DevOps workflows.
+
+➡️ [View Assignments](./assignments)
 
 ---
 
