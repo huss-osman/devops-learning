@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="docker-assignments-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/DockerAssignmentsBanner.png" />
+<img width="1000" height="500" alt="docker-assignments-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/DockerAssignments.png" />
 
 # Docker Assignments
 
