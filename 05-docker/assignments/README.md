@@ -27,43 +27,52 @@ Assignments must:
 
 **Requirements**
 
-- Create a Flask application  
-- Use Redis for persistent counting  
-- Write a Dockerfile for the Flask app  
-- Use Docker Compose to connect services  
-- Validate application communication and functionality  
+- Create a Flask application with multiple routes  
+- Use Redis as a key-value data store  
+- Write a Dockerfile for the Flask application  
+- Use Docker Compose to orchestrate services  
+- Validate communication between containers  
+- Test application functionality across services  
 
 ---
 
-### Assignment — Persistent Storage  
-**File:** [34-persistent-storage.md](./34-persistent-storage.md)  
+## Bonus Challenges
+
+The following bonus tasks extend the **Containers Challenge** by introducing more realistic Docker and cloud-native workflows.
+
+### Persistent Storage for Redis  
+**File:** [33-persistent-storage.md](./33-persistent-storage.md)  
 **Concepts:** Docker volumes, persistence  
 
-**Focus:** Maintaining application data beyond container lifecycle.
+**Focus:** Persisting Redis data beyond the container lifecycle using Docker volumes.
 
 ---
 
-### Assignment — Environment Variables  
-**File:** [35-environment-variables.md](./35-environment-variables.md)  
+### Environment Variables  
+**File:** [34-environment-variables.md](./34-environment-variables.md)  
 **Concepts:** Configuration management, environment variables  
 
-**Focus:** Managing configuration cleanly across containers.
+**Focus:** Reading Redis connection details from environment variables for cleaner container configuration.
 
 ---
 
-### Assignment — Load Balancing with NGINX  
-**File:** [36-load-balancing-with-nginx.md](./36-load-balancing-with-nginx.md)  
-**Concepts:** Reverse proxying, scaling, load balancing  
+### Scaling the Flask Application  
+**File:** [35-scaling-the-flask-application.md](./35-scaling-the-flask-application.md)  
+**Concepts:** Scaling, load balancing, container orchestration  
 
-**Focus:** Distributing traffic between multiple containerised services.
+**Focus:** Running multiple Flask container instances and distributing traffic between services.
 
 ---
 
-### Assignment — Push to Docker Learning Repo  
-**File:** [37-push-to-docker-learning-repo.md](./37-push-to-docker-learning-repo.md)  
-**Concepts:** Git workflows, project publishing  
+## Hands-On Docker Repository
 
-**Focus:** Publishing and documenting Docker projects professionally.
+Alongside these fundamentals notes, I also maintain a hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
+
+The repository includes Docker commands, image creation, container management, troubleshooting, optimisation, and step-by-step learning progression.
+
+➡️ [View Docker Learning Repository](https://github.com/huss-osman/docker-learning)
+
+All Docker projects, experiments, and container workflows are continuously pushed and documented there throughout the learning process.
 
 ---
 
@@ -76,6 +85,7 @@ Assignments must:
 - Service communication and networking  
 - Persistent storage and configuration management  
 - Debugging and troubleshooting containers  
+- Scaling containerised applications  
 
 ---
 
@@ -83,4 +93,4 @@ Assignments must:
 
 These assignments bridge the gap between understanding containers and deploying real multi-service applications.
 
-By building and debugging Docker environments practically, they reinforce the workflows used in real DevOps and cloud environments.
+By building and debugging Docker environments practically, they reinforce the workflows commonly used across modern DevOps and cloud-native environments.
