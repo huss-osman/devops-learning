@@ -1,26 +1,28 @@
+<img width="1000" height="500" alt="docker-assignments-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/DockerAssignmentsBanner.png" />
+
 # Docker Assignments
 
 ![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Containerisation-purple?logo=docker&logoColor=white)
-![Assignments](https://img.shields.io/badge/Assignments-8-darkgreen)
+![Assignments](https://img.shields.io/badge/Assignments-1-darkgreen)
 
-These assignments focus on reinforcing **Docker and containerisation fundamentals** through structured, real-world challenges.
+This assignment focuses on reinforcing **Docker and containerisation fundamentals** through structured, real-world challenges.
 
-Assignments must:
+Assignment must:
 
 - Demonstrate understanding of containers and Dockerfiles  
-- Show clear configuration and reasoning  
+- Show clear configuration steps and reasoning  
 - Validate communication between services  
-- Reflect real-world DevOps and deployment workflows  
+- Reflect real-world multi-container deployment workflows  
 
-> [!TIP]
-> Attempt the assignments independently before reviewing solutions.  
+> [!TIP]  
+> Attempt the assignment independently before searching for solutions.  
 > Use tools like `docker ps`, `docker logs`, `docker exec`, and `docker compose` to debug behaviour.
 
 ---
 
-### Assignment — Containers Challenge  
-**File:** [20-containers-challenge.md](./32-containers-challenge.md)  
+### Assignment — Containerised Flask Redis App  
+**File:** [20-containerised-flask-redis-app.md](./20-containerised-flask-redis-app.md)  
 **Concepts:** Flask, Redis, Docker Compose, service communication  
 
 **Focus:** Building a multi-container application using Docker Compose.
@@ -33,44 +35,9 @@ Assignments must:
 - Use Docker Compose to orchestrate services  
 - Validate communication between containers  
 - Test application functionality across services  
-
----
-
-## Bonus Challenges
-
-The following bonus tasks extend the **[Containers Challenge](./32-containers-challenge.md)** by introducing more realistic Docker and cloud-native workflows.
-
-### Persistent Storage for Redis  
-**File:** [21-persistent-storage.md](./33-persistent-storage.md)  
-**Concepts:** Docker volumes, persistence  
-
-**Focus:** Persisting Redis data beyond the container lifecycle using Docker volumes.
-
----
-
-### Environment Variables  
-**File:** [22-environment-variables.md](./34-environment-variables.md)  
-**Concepts:** Configuration management, environment variables  
-
-**Focus:** Reading Redis connection details from environment variables for cleaner container configuration.
-
----
-
-### Scaling the Flask Application  
-**File:** [23-scaling-the-flask-application.md](./35-scaling-the-flask-application.md)  
-**Concepts:** Scaling, load balancing, container orchestration  
-
-**Focus:** Running multiple Flask container instances and distributing traffic between services.
-
----
-
-## Hands-On Docker Repository
-
-Alongside these fundamentals notes, I also maintain a separate hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
-
-All assignment files, Dockerfiles, Compose files, configurations, and container projects built throughout these labs and assignments are pushed to the repository after completion.
-
-➡️ [View Docker Learning Repository](https://github.com/huss-osman/docker-learning)
+- Configure persistent storage for Redis using Docker volumes  
+- Read Redis connection details using environment variables  
+- Scale the Flask application across multiple containers  
 
 ---
 
