@@ -113,6 +113,13 @@ By working through this module, I aimed to:
 
 - [Multi-Stage Builds](./labs/19-multistage-builds.md)  
   Creating smaller, cleaner Docker images using multi-stage builds.
+
+---
+
+### Assignments
+
+- [containerised-flask-redis-app](./assignments/30-containerised-flask-redis-app)
+  Building a multi-container Flask and Redis application with Docker Compose.
   
 ---
 
