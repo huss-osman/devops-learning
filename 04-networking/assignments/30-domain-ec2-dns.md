@@ -54,6 +54,16 @@ The goal of this project was to:
 
 ---
 
+## How It Works
+
+1. A user visits the custom domain configured through Cloudflare DNS  
+2. Cloudflare routes traffic to the EC2 public IPv4 address  
+3. Security Groups allow inbound HTTP and HTTPS traffic  
+4. NGINX running on the Ubuntu EC2 instance receives the request  
+5. The web server responds publicly through the configured domain
+
+---
+
 # Registering the Domain
 
 The custom domain was configured and connected through Cloudflare DNS.
@@ -259,6 +269,23 @@ Some issues encountered during deployment included:
 
 - NGINX not running correctly
 - DNS pointing to the wrong IP address
+  
+---
+
+## Why I Built It
+
+I built this project to strengthen my understanding of networking, DNS routing, cloud infrastructure, and Linux server management within AWS environments.
+
+The goal was to move beyond theory by deploying a publicly accessible NGINX web server on AWS EC2 and exposing it through a custom domain using Cloudflare DNS.
+
+I also wanted hands-on experience with:
+
+- DNS resolution and routing  
+- Public IP addressing  
+- Security Groups and firewall rules  
+- Linux server administration  
+- HTTP traffic flow  
+- Real-world troubleshooting workflows
   
 ---
 
