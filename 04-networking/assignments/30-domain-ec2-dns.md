@@ -253,7 +253,7 @@ After configuration and troubleshooting, the NGINX web server became publicly ac
 ---
 
 
-# Troubleshooting Lessons
+# Troubleshooting 
 
 Some issues encountered during deployment included:
 
