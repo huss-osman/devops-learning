@@ -21,8 +21,8 @@ Assignment must:
 
 ---
 
-### Assignment — Domain + EC2 + DNS (NGINX)  
-**File:** [30-domain-ec2-dns.md](./30-domain-ec2-dns.md)  
+### Assignment — NGINX on AWS EC2 + Cloudflare  
+**File:** [30-aws-ec2-nginx-cloudflare.md](./30-aws-ec2-nginx-cloudflare.md)  
 **Concepts:** DNS, IP addressing, ports, routing, cloud networking  
 
 **Focus:** Connecting infrastructure to the internet and validating end-to-end communication.
