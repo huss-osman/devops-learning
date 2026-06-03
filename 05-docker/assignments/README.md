@@ -21,23 +21,24 @@ Assignment must:
 
 ---
 
-### Assignment — Containerised Flask Redis App  
-**File:** [20-containerised-flask-redis-app.md](./20-nginx-flask-redis-app.md)  
-**Concepts:** Flask, Redis, Docker Compose, service communication  
+### Assignment — NGINX Flask Redis App  
+**File:** [20-nginx-flask-redis-app.md](./20-nginx-flask-redis-app.md)  
+**Concepts:** Flask, Redis, NGINX, Docker Compose, service communication  
 
-**Focus:** Building a multi-container application using Docker Compose.
+**Focus:** Building a multi-container application with reverse proxying and load balancing using Docker Compose.
 
 **Requirements**
 
 - Create a Flask application with multiple routes  
 - Use Redis as a key-value data store  
-- Write a Dockerfile for the Flask application  
+- Configure NGINX as a reverse proxy and load balancer  
+- Write Dockerfiles for the application services  
 - Use Docker Compose to orchestrate services  
 - Validate communication between containers  
 - Test application functionality across services  
 - Configure persistent storage for Redis using Docker volumes  
 - Read Redis connection details using environment variables  
-- Scale the Flask application across multiple containers  
+- Scale the Flask application across multiple containers
 
 ---
 
