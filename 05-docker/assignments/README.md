@@ -22,7 +22,7 @@ Assignment must:
 ---
 
 ### Assignment — Containerised Flask Redis App  
-**File:** [20-containerised-flask-redis-app.md](./20-containerised-flask-redis-app.md)  
+**File:** [20-containerised-flask-redis-app.md](./20-nginx-flask-redis-app.md)  
 **Concepts:** Flask, Redis, Docker Compose, service communication  
 
 **Focus:** Building a multi-container application using Docker Compose.
