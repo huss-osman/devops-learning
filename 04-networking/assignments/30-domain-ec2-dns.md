@@ -274,18 +274,14 @@ Some issues encountered during deployment included:
 
 ## Why I Built It
 
-I built this project to strengthen my understanding of networking, DNS routing, cloud infrastructure, and Linux server management within AWS environments.
+I wanted a hands-on understanding of:
 
-The goal was to move beyond theory by deploying a publicly accessible NGINX web server on AWS EC2 and exposing it through a custom domain using Cloudflare DNS.
-
-I also wanted hands-on experience with:
-
-- DNS resolution and routing  
-- Public IP addressing  
-- Security Groups and firewall rules  
-- Linux server administration  
-- HTTP traffic flow  
-- Real-world troubleshooting workflows
+- How DNS routing and public domain traffic work in real-world environments  
+- Configuring and managing NGINX web servers on AWS EC2  
+- How cloud networking components fit together across AWS infrastructure  
+- Securing public-facing infrastructure using Security Groups and SSH restrictions  
+- Troubleshooting real networking and connectivity issues across Linux environments  
+- Building something more practical and production-style beyond basic demos
   
 ---
 
