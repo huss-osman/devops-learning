@@ -37,7 +37,7 @@ The goal of this project was to:
 # Architecture 
 
 <p align="center">
-<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture%20Diagram.png" />
+<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture_Diagram.png" />
 </p>
 
 > [!NOTE]
