@@ -14,7 +14,7 @@ This module is structured to take you from fundamentals to practical, real-world
 
 ### Fundamentals
 
-- [Introduction to Docker](./fundamentals/01-introduction-to-docker.md)  
+- [Introduction to Docker](./01-introduction-to-docker.md)  
   Introduction to Docker, containers, and modern containerisation.
 
 - [What are Containers?](./fundamentals/02-what-are-containers.md)  
