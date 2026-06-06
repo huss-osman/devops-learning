@@ -21,35 +21,6 @@ By completing this project, the setup simulates how modern containerised applica
 
 ---
 
-## Repository Structure
-
-```bash
-nginx-flask-redis-app/
-├── app/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── static/
-│       └── images/
-│           ├── Architecture_Diagram.png
-│           ├── App_Preview.png
-│           ├── Environment_Variables.png
-│           ├── Flask_Application_Code.png
-│           ├── NGINX_Load_Balancing.png
-│           ├── Redis_Configuration.png
-│           ├── Redis_Persistence_strg.png
-│           └── trackerio-logo.png
-│
-├── nginx/
-│   └── nginx.conf
-│
-├── Dockerfile
-├── docker-compose.yml
-├── .gitignore
-└── README.md
-```
-
----
-
 ## Objective
 
 The goal of this project was to:
