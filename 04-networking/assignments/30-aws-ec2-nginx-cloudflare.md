@@ -1,7 +1,9 @@
 # NGINX on AWS EC2 + Cloudflare
 
+![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
+![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
 <p align="center">
