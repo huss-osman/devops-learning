@@ -311,7 +311,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 
 ---
 
-## Repository Structure
+## Folder Structure
 
 ```bash
 06-aws/
