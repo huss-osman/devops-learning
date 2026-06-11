@@ -141,19 +141,106 @@ The goal is long-term understanding that transfers directly to production system
 
 ---
 
-## Folder Purpose
+## Folder Structure
 
-### `fundamentals/`
-Core Bash concepts explained with examples and reasoning  
-➡️ [Open fundamentals](./fundamentals)
-
-### `labs/`
-Hands-on Bash scripting challenges used to reinforce concepts through practical exercises  
-➡️ [Open labs](./labs)
-
-### `assignments/`
-Structured challenge submissions (each challenge includes the `.sh` script and a short `.md` reflection/write-up)  
-➡️ [Open assignments](./assignments)
+```bash
+02-bash/
+├── README.md
+│
+├── fundamentals/
+│   ├── README.md
+│   ├── 01-introduction.md
+│   ├── 02-writing-first-script.md
+│   ├── 03-shebang.md
+│   ├── 04-comments.md
+│   ├── 05-running-scripts.md
+│   ├── 06-variables.md
+│   ├── 07-parameters.md
+│   ├── 08-arithmetic-expansion.md
+│   ├── 09-conditionals.md
+│   ├── 10-loops.md
+│   ├── 11-functions.md
+│   ├── 12-user-input.md
+│   ├── 13-piping-and-redirection.md
+│   ├── 14-exit-codes.md
+│   ├── 15-set-options.md
+│   ├── 16-environment-and-path.md
+│   └── 17-working-with-files.md
+│
+├── labs/
+│   ├── README.md
+│   │
+│   ├── bashbattlearena/
+│   │   ├── README.md
+│   │   ├── level01.sh
+│   │   ├── level02.sh
+│   │   ├── level03.sh
+│   │   ├── level04.sh
+│   │   ├── level05.sh
+│   │   ├── level06.sh
+│   │   ├── level07.sh
+│   │   ├── level08.sh
+│   │   ├── level09.sh
+│   │   ├── level10.sh
+│   │   ├── level11.sh
+│   │   ├── level12.sh
+│   │   ├── level13.sh
+│   │   ├── level14.sh
+│   │   └── level15.sh
+│   │
+│   └── bash-practice/
+│       ├── README.md
+│       │
+│       ├── basics/
+│       │   ├── arithmetic.sh
+│       │   ├── hello_world.sh
+│       │   └── my-first-script.sh
+│       │
+│       ├── variables/
+│       │   ├── readenv_variable.sh
+│       │   ├── standarenv_variable.sh
+│       │   └── var.sh
+│       │
+│       ├── conditionals/
+│       │   ├── elseifstatement.sh
+│       │   ├── ifstatement.sh
+│       │   └── nested_if_statements.sh
+│       │
+│       ├── loops/
+│       │   ├── for_loops.sh
+│       │   └── while_loops.sh
+│       │
+│       ├── functions/
+│       │   └── functions.sh
+│       │
+│       ├── files/
+│       │   ├── combine.txt
+│       │   ├── hello.txt
+│       │   ├── multilinecopy.txt
+│       │   ├── read.txt
+│       │   ├── test.txt
+│       │   └── test2.txt
+│       │
+│       └── misc/
+│           ├── error_handling.sh
+│           ├── exit_code.sh
+│           ├── filecheck_sums.sh
+│           ├── piping.sh
+│           ├── reading_files.sh
+│           ├── script.sh
+│           ├── set_e.sh
+│           └── user_input.sh
+│
+├── assignments/
+│   ├── README.md
+│   ├── challenge01_calculator.sh
+│   ├── challenge02_file_ops.sh
+│   ├── challenge03_permissions.sh
+│   ├── challenge04_backup_txt.sh
+│   └── bonus_system_monitor.sh
+│
+└── README.md
+```
 
 ---
 
