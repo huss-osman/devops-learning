@@ -128,15 +128,52 @@ The goal is long-term understanding that transfers to production systems.
 
 ---
 
-## Folder Purpose
+## Folder Structure
 
-### `fundamentals/`  
-Core Linux concepts explained with examples and reasoning  
-➡️ [Open fundamentals](./fundamentals)
-
-### `labs/`  
-Hands-on applied practice and troubleshooting scenarios  
-➡️ [Open labs](./labs)
+```bash
+01-linux/
+├── README.md
+│
+├── fundamentals/
+│   ├── README.md
+│   ├── terminal-basics.md
+│   ├── shell-basics.md
+│   ├── file-system.md
+│   ├── permissions.md
+│   ├── users-and-groups.md
+│   ├── environment-variables.md
+│   ├── text-processing.md
+│   ├── data-redirection.md
+│   ├── process-management.md
+│   ├── bash-vs-zsh.md
+│   └── vim-basics.md
+│
+├── labs/
+│   ├── README.md
+│   │
+│   ├── bandit/
+│   │   ├── README.md
+│   │   ├── level01.md
+│   │   ├── level02.md
+│   │   ├── level03.md
+│   │   ├── level04.md
+│   │   ├── level05.md
+│   │   ├── level06.md
+│   │   ├── level07.md
+│   │   ├── level08.md
+│   │   ├── level09.md
+│   │   ├── level10.md
+│   │   ├── level11.md
+│   │   └── level12.md
+│   │
+│   └── sadservers/
+│       ├── README.md
+│       ├── easy/
+│       │   └── saint-john.md
+│       ├── medium/
+│       │   └── manhattan.md
+│       └── hard/
+```
 
 ---
 
