@@ -190,29 +190,62 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ---
 
-## Folder Purpose
+## Folder Structure
 
-### `fundamentals/`
-
-Core Git concepts explained with examples and reasoning.
-
-➡️ [Open fundamentals](./fundamentals)
-
----
-
-### `labs/`
-
-Hands-on Git practice including repository setup, branching workflows, rebasing, and GitHub integration.
-
-➡️ [Open labs](./labs)
-
----
-
-### `best-practices/`
-
-Professional Git usage including commit hygiene, automation, and security practices.
-
-➡️ [Open best practices](./best-practices)
+```bash
+03-git/
+├── README.md
+│
+├── fundamentals/
+│   ├── README.md
+│   ├── 01-git-intro.md
+│   ├── 02-version-control.md
+│   ├── 03-centralised-vs-distributed.md
+│   ├── 04-git-changed-the-game.md
+│   ├── 05-git-not-a-file-tracker.md
+│   ├── 06-git-terminology.md
+│   ├── 07-dotgit-directory.md
+│   ├── 08-common-commands.md
+│   ├── 09-areas-of-git.md
+│   ├── 10-viewing-history.md
+│   ├── 11-git-vs-github.md
+│   ├── 12-branching-101.md
+│   ├── 13-merging.md
+│   ├── 14-visualise-branches.md
+│   ├── 15-rebase-vs-merge.md
+│   ├── 16-stash-and-pop.md
+│   ├── 17-reset-revert-cherrypick.md
+│   ├── 18-connect-to-github.md
+│   ├── 19-forks-and-prs.md
+│   ├── 20-collaboration-practices.md
+│   ├── 21-typical-workflow.md
+│   └── 22-trunk-based-development.md
+│
+├── labs/
+│   ├── README.md
+│   ├── 28-github-signup.md
+│   ├── 29-ssh-key.md
+│   ├── 30-git-verify-login.md
+│   ├── 31-new-repository.md
+│   ├── 32-first-repository-push.md
+│   ├── 33-branching-and-merging.md
+│   ├── 34-git-workflow.md
+│   ├── 35-undoing-in-git.md
+│   ├── 36-git-stash.md
+│   ├── 37-git-rebase-and-squash.md
+│   ├── 38-git-cherry-pick.md
+│   ├── 39-gitignore.md
+│   ├── 40-git-amend.md
+│   └── 41-precommit.md
+│
+├── best-practices/
+│   ├── README.md
+│   ├── 23-commit-hygiene.md
+│   ├── 24-precommit-and-automation.md
+│   ├── 25-common-mistakes.md
+│   ├── 26-git-at-scale.md
+│   └── 27-git-security.md
+```
 
 ---
 
