@@ -173,6 +173,7 @@ The goal is long-term understanding that transfers to production systems.
 │       ├── medium/
 │       │   └── manhattan.md
 │       └── hard/
+│           └── jakarta.md
 ```
 
 ---
