@@ -409,7 +409,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 
 ## Fundamentals
 
-The Fundamentals section focuses on building a strong understanding of AWS through **core cloud concepts and real-world infrastructure fundamentals**.
+The Fundamentals section focuses on understanding AWS through **core cloud fundamentals**.
 
 Rather than memorising services, the emphasis is on understanding:
 
