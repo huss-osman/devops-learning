@@ -16,7 +16,7 @@ The focus throughout this repository is understanding **how containers, Dockerfi
 
 ---
 
-## New to AWS? Read This First
+## 🧠 New to AWS? Read This First
 
 - AWS can feel overwhelming at first — that’s normal.
 - Focus on the core building blocks first: IAM, EC2, VPC, Security Groups, Load Balancers, DNS, and Containers.
