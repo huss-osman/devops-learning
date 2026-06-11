@@ -8,11 +8,11 @@
 ![Networking](https://img.shields.io/badge/Networking-VPC%20%7C%20Route%2053-purple?logo=amazonaws&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on learning of **Amazon Web Services (AWS)** through cloud infrastructure, security, networking, compute, containers, and deployment concepts.
+This repository documents my hands-on learning of **Amazon Web Services (AWS)** through practical cloud infrastructure workflows.
 
-AWS is one of the main platforms used in modern DevOps. It provides the infrastructure used to run applications, manage networking, secure access, deploy containers, scale workloads, and build production-ready cloud environments.
+AWS is a major part of modern infrastructure and application deployment. It allows applications and their supporting infrastructure to be built, secured, deployed, and scaled across cloud environments using a wide range of managed services.
 
-The focus throughout this module is understanding **how AWS services work together**, not memorising individual services.
+The focus throughout this repository is understanding **how containers, Dockerfiles, images, and networking work** through practical learning.
 
 ---
 
