@@ -160,29 +160,51 @@ The goal is long-term understanding that transfers directly to **cloud, DevOps, 
 
 ---
 
-## Folder Purpose
+## Folder Structure
 
-### `fundamentals/`
-
-Core networking concepts explained with reasoning and examples.
-
-➡️ [Open fundamentals](./fundamentals)
-
----
-
-### `labs/`
-
-Hands-on networking practice and troubleshooting scenarios.
-
-➡️ [Open labs](./labs)
-
----
-
-### `assignments/`
-
-Real-world networking scenarios and applied cloud networking tasks.
-
-➡️ [Open assignments](./assignments)
+```bash
+04-networking/
+├── README.md
+│
+├── fundamentals/
+│   ├── README.md
+│   ├── 01-introduction-to-networking.md
+│   ├── 02-networking-fundamentals.md
+│   ├── 03-overview-of-computer-networks.md
+│   ├── 04-lan-and-wan.md
+│   ├── 05-switches-routers-and-firewalls.md
+│   ├── 06-ip-address-and-mac-address.md
+│   ├── 07-ports-and-protocols-tcp-udp.md
+│   ├── 08-introduction-to-the-osi-model.md
+│   ├── 09-the-7-layers-of-the-osi-model.md
+│   ├── 10-tcp-ip-model.md
+│   ├── 11-osi-layers-sender-receiver-pov.md
+│   ├── 12-ports-and-protocols-recap.md
+│   ├── 13-introduction-to-dns.md
+│   ├── 14-what-is-dns.md
+│   ├── 15-dns-components.md
+│   ├── 16-dns-records.md
+│   ├── 17-how-does-dns-work.md
+│   ├── 18-network-debugging-tools.md
+│   ├── 19-etc-hosts-file.md
+│   ├── 20-what-is-routing.md
+│   ├── 21-static-vs-dynamic-routing.md
+│   ├── 22-common-routing-protocols.md
+│   ├── 23-subnetting-and-cidr.md
+│   ├── 24-binary-ipv4-and-os.md
+│   ├── 25-calculating-subnets.md
+│   └── 26-nat-network-address-translation.md
+│
+├── labs/
+│   ├── README.md
+│   ├── 27-troubleshoot-like-a-pro.md
+│   └── 28-troubleshoot-with-ping-traceroute-nslookup.md
+│
+├── assignments/
+│   ├── README.md
+│   ├── 29-cloud-networking.md
+│   └── 30-aws-ec2-nginx-cloudflare.md
+```
 
 ---
 
