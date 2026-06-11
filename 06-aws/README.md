@@ -307,7 +307,7 @@ This repository reflects how I learn, not just what I learned.
 - Troubleshooting real access, networking, DNS, and deployment issues
 - Treating cost control as part of cloud engineering
 
-The goal is long-term understanding that transfers directly into **DevOps, cloud infrastructure, CI/CD, containers, and production environments**.
+The goal is long-term understanding that transfers directly into **AWS**, **cloud infrastructure**, and modern **DevOps environments**.
 
 ---
 
