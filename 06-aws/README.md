@@ -318,6 +318,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 ├── README.md
 │
 ├── fundamentals/
+│   ├── README.md
 │   ├── 01-aws-introduction.md
 │   ├── 02-aws-history.md
 │   ├── 03-aws-facts.md
@@ -328,6 +329,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 08-billing-and-mfa-setup.md
 │
 ├── iam/
+│   ├── README.md
 │   ├── 01-iam-introduction.md
 │   ├── 02-users-and-groups.md
 │   ├── 03-permissions.md
@@ -338,6 +340,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 08-iam-security-best-practices.md
 │
 ├── compute/
+│   ├── README.md
 │   ├── 01-amazon-ec2.md
 │   ├── 02-ec2-sizing-and-configuration.md
 │   ├── 03-ec2-user-data.md
@@ -345,6 +348,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 05-ec2-purchasing-options.md
 │
 ├── networking/
+│   ├── README.md
 │   ├── 01-security-groups.md
 │   ├── 02-security-groups-deep-dive.md
 │   ├── 03-public-vs-private-ip.md
@@ -360,11 +364,13 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 13-ipv6-in-aws.md
 │
 ├── storage/
+│   ├── README.md
 │   ├── 01-ebs-volumes.md
 │   ├── 02-ami-overview.md
 │   └── 03-amazon-efs.md
 │
 ├── load-balancing/
+│   ├── README.md
 │   ├── 01-scalability-and-high-availability.md
 │   ├── 02-elastic-load-balancing.md
 │   ├── 03-application-load-balancer.md
@@ -373,6 +379,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 06-auto-scaling-groups.md
 │
 ├── containers/
+│   ├── README.md
 │   ├── 01-containers-on-aws.md
 │   ├── 02-amazon-ecs.md
 │   ├── 03-ecs-iam-roles.md
@@ -382,11 +389,13 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 07-amazon-eks.md
 │
 ├── serverless/
+│   ├── README.md
 │   ├── 01-serverless-overview.md
 │   ├── 02-aws-lambda.md
 │   └── 03-lambda-benefits-use-cases.md
 │
 ├── dns-route53/
+│   ├── README.md
 │   ├── 01-amazon-route53.md
 │   ├── 02-hosted-zones.md
 │   ├── 03-dns-terminology.md
@@ -395,10 +404,12 @@ The goal is long-term understanding that transfers directly into **AWS**, **clou
 │   └── 06-domains-and-registrars.md
 │
 ├── cdn-cloudfront/
+│   ├── README.md
 │   ├── 01-cloudfront-overview.md
 │   └── 02-cloudfront-origins.md
 │
 └── assignments/
+    ├── README.md
     ├── 01-vpc-and-networking.md
     ├── 02-application-load-balancer.md
     ├── 03-s3-cloudfront-route53.md
