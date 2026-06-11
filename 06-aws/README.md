@@ -603,5 +603,3 @@ Assignments include:
 These assignments simulate real-world AWS environments and help bridge the gap between learning individual services and building complete cloud solutions.
 
 ➡️ [View Assignments](./assignments)
-
-➡️ [View Assignments](./assignments)
