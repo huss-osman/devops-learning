@@ -419,7 +419,7 @@ Rather than memorising services, the emphasis is on understanding:
 - How AWS accounts should be secured
 - How AWS services fit together within cloud environments
 
-These notes build a strong foundation for networking, security, compute, containers, serverless applications, and production cloud architectures.
+These notes build a strong foundation for future topics such as **networking**, **security**, **containers**, and **cloud architecture**.
 
 ➡️ [View Fundamentals](./fundamentals)
 
@@ -600,6 +600,6 @@ Assignments include:
 - Building serverless APIs with Lambda and API Gateway
 - Applying IAM, security, monitoring, and cloud best practices
 
-These assignments simulate real-world AWS environments and help bridge the gap between learning individual services and building complete cloud solutions.
+These assignments simulate how AWS services are deployed, connected, and managed in real cloud environments.
 
 ➡️ [View Assignments](./assignments)
