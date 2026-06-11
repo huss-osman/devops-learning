@@ -137,29 +137,43 @@ The goal is long-term understanding that transfers directly into **cloud infrast
 
 ---
 
-## Folder Purpose
+## Folder Structure
 
-### `fundamentals/`
-
-Core Docker and containerisation concepts explained using practical examples and hands-on commands.
-
-➡️ [Open fundamentals](./fundamentals)
-
----
-
-### `labs/`
-
-Hands-on Docker debugging and troubleshooting exercises.
-
-➡️ [Open labs](./labs)
-
----
-
-### `assignments/`
-
-Practical Docker projects and containerisation challenges.
-
-➡️ [Open assignments](./assignments)
+```bash
+05-docker/
+├── README.md
+│
+├── fundamentals/
+│   ├── README.md
+│   ├── 01-introduction-to-docker.md
+│   ├── 02-what-are-containers.md
+│   ├── 03-benefits-of-containers.md
+│   ├── 04-what-is-docker.md
+│   ├── 05-images-and-containers.md
+│   ├── 06-importance-in-modern-development.md
+│   ├── 07-vms-vs-containers.md
+│   ├── 08-docker-installation.md
+│   ├── 09-understanding-the-dockerfile.md
+│   ├── 10-introduction-to-docker-networking.md
+│   ├── 11-introduction-to-docker-compose.md
+│   ├── 12-why-docker-compose-is-important.md
+│   ├── 13-docker-registries.md
+│   ├── 18-important-docker-commands.md
+│   ├── 20-docker-swarm-vs-kubernetes.md
+│   └── 21-why-use-orchestration-tools.md
+│
+├── labs/
+│   ├── README.md
+│   ├── 14-dockerhub.md
+│   ├── 15-pushing-images-to-amazon-ecr.md
+│   ├── 16-using-images-from-ecr.md
+│   ├── 17-debugging-networking-issues.md
+│   └── 19-multistage-builds.md
+│
+├── assignments/
+│   ├── README.md
+│   └── 20-nginx-flask-redis-app.md
+```
 
 ---
 
