@@ -36,7 +36,10 @@ The goal is not just to memorise tools, but to understand how systems behave, au
 
 ## 📁 Featured Folders
 
-### **[🐧 Linux](https://github.com/huss-osman/devops-learning/tree/main/01-linux)**
+<h3>
+  <img src="https://github.com/user-attachments/assets/a4d88cc6-7a7f-4035-9b82-5d0354d8e0bb" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/01-linux">Linux</a>
+</h3>
 
 Core Linux fundamentals and hands-on operational practice.
 
@@ -51,7 +54,10 @@ Covers:
 
 ---
 
-### **[🖥️ Bash Scripting](https://github.com/huss-osman/devops-learning/tree/main/02-bash)**
+<h3>
+  <img src="https://github.com/user-attachments/assets/dabfb244-0d00-405a-9eb0-b9262fd1e2b7" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/02-bash">Bash Scripting</a>
+</h3>
 
 Foundational scripting concepts and hands-on automation practice.
 
@@ -65,10 +71,13 @@ Covers:
 - Piping and redirection
 - Safe scripting practices (`set -e`, `set -u`, etc.)
 - Real-world scripting challenges including [Bash Practice](./02-bash/labs/bash-practice), [Bash Battle Arena](./02-bash/labs/bashbattlearena), and [Assignments](./02-bash/assignments)
-- 
+  
 ---
 
-### **[🔧 Git & GitHub](https://github.com/huss-osman/devops-learning/tree/main/03-git)**
+<h3>
+  <img src="https://github.com/user-attachments/assets/ebaac862-de30-40ee-9466-25622db90c1d" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/03-git">Git</a>
+</h3>
 
 Core Git fundamentals and hands-on collaboration practice.
 
@@ -86,7 +95,10 @@ Covers:
 
 ---
 
-### **[🌐 Networking](https://github.com/huss-osman/devops-learning/tree/main/04-networking)**
+<h3>
+  <img src="https://github.com/user-attachments/assets/224184e0-5eb6-44e4-b601-ec20332b6f8d" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/04-networking">Networking</a>
+</h3>
 
 Core networking fundamentals and hands-on troubleshooting practice.
 
@@ -103,7 +115,10 @@ Covers:
 
 ---
 
-### **[🐳 Docker](https://github.com/huss-osman/devops-learning/tree/main/05-docker)**
+<h3>
+  <img src="https://github.com/user-attachments/assets/2fc49307-4efa-4fef-8663-96b3f8f9ff30" width="34" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/05-docker">Docker</a>
+</h3>
 
 Core Docker fundamentals and hands-on containerisation practice.
 
@@ -121,7 +136,10 @@ Covers:
       
 ---
 
-### **[☁️ AWS](https://github.com/huss-osman/devops-learning/tree/main/06-aws)**
+<h3>
+  <img src="AWS_ICON_URL" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/06-aws">AWS</a>
+</h3>
 
 Core AWS fundamentals and hands-on cloud infrastructure practice.
 
