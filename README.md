@@ -137,7 +137,7 @@ Covers:
 ---
 
 <h3>
-  <img src="AWS_ICON_URL" width="28" align="center">
+  <img src="https://github.com/user-attachments/assets/9f8a1574-e10d-443f-9996-c9113383775f" width="28" align="center">
   <a href="https://github.com/huss-osman/devops-learning/tree/main/06-aws">AWS</a>
 </h3>
 
