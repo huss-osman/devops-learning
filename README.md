@@ -121,6 +121,26 @@ Covers:
       
 ---
 
+### **[☁️ AWS](https://github.com/huss-osman/devops-learning/tree/main/06-aws)**
+
+Core AWS fundamentals and hands-on cloud infrastructure practice.
+
+Covers:
+- AWS global infrastructure, Regions, and Availability Zones
+- `IAM` users, groups, policies, roles, MFA, and access control
+- `EC2` instances, `AMIs`, User Data, and instance types
+- Security Groups, public/private IPs, Elastic IPs, and `VPC` networking
+- Subnets, route tables, Internet Gateways, NAT Gateways, `NACLs`, and `VPC Endpoints`
+- `EBS`, `AMIs`, and `EFS` storage concepts
+- Load balancing, health checks, `SSL/TLS`, and Auto Scaling Groups
+- Containers on AWS using `ECS`, `ECR`, and `EKS`
+- Serverless concepts using `AWS Lambda`
+- DNS and routing with `Route 53`
+- CDN concepts using `CloudFront`
+- Practical cloud infrastructure projects in [Assignments](./06-aws/assignments)
+
+---
+
 ## 🎯 Learning Focus
 
 This repository is designed to:
