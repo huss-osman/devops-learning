@@ -4,7 +4,20 @@
 
 This section introduces **Amazon Web Services (AWS)**, a cloud computing platform that provides infrastructure, networking, storage, security, and application services. It focuses on how AWS enables organisations to build, deploy, and operate applications without managing hardware.
 
-It helps build an understanding of how AWS services integrate together, making AWS essential for **cloud infrastructure**, **automation**, **container platforms**, **high availability**, and modern DevOps workflows.
+It helps build an understanding of how AWS services integrate together, making AWS essential for **cloud infrastructure**, **automation**, **container platforms**, **high availability**, and modern **DevOps workflows**.
+
+---
+
+## AWS Introduction
+
+This section provides an introduction to AWS and the core concepts that form the foundation of cloud computing. It explores why organisations adopt cloud platforms, the benefits of cloud services, and how AWS has become one of the most widely used cloud providers in the world.
+
+Understanding these concepts is important before working with individual AWS services, as they provide the context needed to understand how cloud infrastructure, scalability, and modern application deployments operate in practice.
+
+## Contents
+
+* [What You'll Learn](#what-youll-learn)
+* [The AWS Learning Path](#the-aws-learning-path)
 
 ---
 
@@ -12,7 +25,10 @@ It helps build an understanding of how AWS services integrate together, making A
 
 This module covers the core concepts and services used throughout **Amazon Web Services (AWS)**. It starts with **cloud computing fundamentals** and gradually progresses into **security**, **compute**, **networking**, **storage**, **containers**, **serverless**, and other essential cloud technologies.
 
-Throughout the module, you'll learn why organisations adopt **AWS**, how cloud platforms differ from traditional infrastructure, the benefits of operating in the cloud, and how AWS services work together to build **scalable**, **secure**, and **highly available** solutions. Practical examples and hands-on assignments are included to reinforce real-world cloud and DevOps concepts.
+Throughout the module, you'll learn why organisations adopt **AWS**, how cloud platforms differ from traditional infrastructure, the benefits of operating in the cloud, and how AWS services work together to build **scalable**, **secure**, and **highly available** solutions.
+
+> [!NOTE]
+> Practical examples and hands-on assignments are included throughout the module to reinforce real-world cloud and DevOps concepts.
 
 ---
 
@@ -180,15 +196,19 @@ Hands-on projects covering:
 
 ➡️ [View Assignments](../assignments)
 
+> [!IMPORTANT]
+> AWS services rarely operate in isolation. Throughout this learning path, you'll see how networking, security, compute, storage, containers, and automation services work together to build production-ready cloud environments.
+
 ---
 
 ## Key Takeaways
 
-- AWS provides on-demand cloud infrastructure and services
-- Cloud resources can be deployed and scaled globally
-- Security and IAM are fundamental AWS concepts
-- Networking is the foundation of cloud architecture
-- AWS services work together to build reliable production systems
+* AWS provides on-demand cloud infrastructure and services
+* Cloud resources can be deployed and scaled globally
+* Security and IAM are fundamental AWS concepts
+* Networking is the foundation of cloud architecture
+* AWS services work together to build reliable production systems
+* Cloud platforms reduce the need to manage physical infrastructure
 
 ---
 
