@@ -33,7 +33,7 @@ Topics include:
 * AWS Account Setup
 * Billing & MFA Setup
 
-➡️ [View Fundamentals](./fundamentals)
+➡️ [View Fundamentals](./fundamentals/README.md)
 
 ---
 
@@ -50,7 +50,7 @@ Topics include:
 * IAM Roles
 * Security Best Practices
 
-➡️ [View IAM](./iam)
+➡️ [View IAM](./iam/README.md)
 
 ---
 
@@ -64,7 +64,7 @@ Topics include:
 * Instance Types
 * Purchasing Options
 
-➡️ [View Compute](./compute)
+➡️ [View Compute](./compute/README.md)
 
 ---
 
@@ -84,7 +84,7 @@ Topics include:
 * VPC Endpoints
 * IPv6
 
-➡️ [View Networking](./networking)
+➡️ [View Networking](./networking/README.md)
 
 ---
 
@@ -96,7 +96,7 @@ Topics include:
 * AMIs
 * Amazon EFS
 
-➡️ [View Storage](./storage)
+➡️ [View Storage](./storage/README.md)
 
 ---
 
@@ -111,7 +111,7 @@ Topics include:
 * SSL/TLS
 * Auto Scaling Groups
 
-➡️ [View Load Balancing](./load-balancing)
+➡️ [View Load Balancing](./load-balancing/README.md)
 
 ---
 
@@ -127,7 +127,7 @@ Topics include:
 * Amazon ECR
 * Amazon EKS
 
-➡️ [View Containers](./containers)
+➡️ [View Containers](./containers/README.md)
 
 ---
 
@@ -139,7 +139,7 @@ Topics include:
 * AWS Lambda
 * Lambda Benefits & Use Cases
 
-➡️ [View Serverless](./serverless)
+➡️ [View Serverless](./serverless/README.md)
 
 ---
 
@@ -154,7 +154,7 @@ Topics include:
 * Routing Policies
 * Domains & Registrars
 
-➡️ [View Route 53](./dns-route53)
+➡️ [View Route 53](./dns-route53/README.md)
 
 ---
 
@@ -165,7 +165,7 @@ Topics include:
 * CloudFront Overview
 * CloudFront Origins
 
-➡️ [View CloudFront](./cdn-cloudfront)
+➡️ [View CloudFront](./cdn-cloudfront/README.md)
 
 ---
 
@@ -178,7 +178,7 @@ Hands-on projects covering:
 * S3, CloudFront & Route 53
 * Serverless APIs with Lambda
 
-➡️ [View Assignments](./assignments)
+➡️ [View Assignments](./assignments/README.md)
 
 ---
 
