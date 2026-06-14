@@ -178,7 +178,7 @@ Hands-on projects covering:
 * S3, CloudFront & Route 53
 * Serverless APIs with Lambda
 
-➡️ [View Assignments](../assignmentsd)
+➡️ [View Assignments](../assignments)
 
 ---
 
