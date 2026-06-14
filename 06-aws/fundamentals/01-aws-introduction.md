@@ -33,7 +33,7 @@ Topics include:
 * AWS Account Setup
 * Billing & MFA Setup
 
-➡️ [View Fundamentals](./fundamentals/README.md)
+➡️ [View Fundamentals](../fundamentals)
 
 ---
 
