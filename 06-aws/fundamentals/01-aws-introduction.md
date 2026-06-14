@@ -50,7 +50,7 @@ Topics include:
 * IAM Roles
 * Security Best Practices
 
-➡️ [View IAM](./iam/README.md)
+➡️ [View IAM](../iam)
 
 ---
 
