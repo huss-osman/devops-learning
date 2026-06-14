@@ -197,7 +197,7 @@ Hands-on projects covering:
 ➡️ [View Assignments](../assignments)
 
 > [!IMPORTANT]
-> AWS services rarely operate in isolation. Throughout this learning path, you'll see how networking, security, compute, storage, containers, and automation services work together to build production-ready cloud environments.
+> AWS services rarely operate in isolation. Production environments typically combine services such as **IAM**, **VPC**, **EC2**, **S3**, **Route 53**, **Load Balancers**, **ECS**, **EKS**, and **Lambda** to build secure, scalable, and highly available cloud architectures.
 
 ---
 
