@@ -89,6 +89,6 @@ The expansion demonstrated AWS's commitment to **global availability**, **region
 
 ## Reflection
 
-Learning about the history of **AWS** helped me understand how cloud computing evolved from traditional infrastructure models into the on-demand services used today. It highlighted how innovation in **scalability**, **automation**, **storage**, and **compute resources** transformed the technology industry.
+Learning about the history of **AWS** helped me understand how cloud computing evolved from traditional infrastructure models into the on-demand services used today. It provided valuable insight into cloud adoption.
 
 I also learned how AWS grew from an internal Amazon project into a globally available cloud platform. This reinforces the importance of **cloud services**, **global infrastructure**, **high availability**, and **distributed systems** in modern **software development**, **infrastructure engineering**, and **DevOps workflows**.
