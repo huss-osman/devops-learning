@@ -27,7 +27,7 @@ Understanding the history of AWS helps explain the origins of cloud computing an
 ## AWS Timeline
 
 <p align="center">
-  <img width="1200" alt="AWS History Timeline" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_History_Timeline.png">
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2b9bfb00-f54d-48ce-ada1-3c5c2c2c1264" />
 </p>
 
 ---
