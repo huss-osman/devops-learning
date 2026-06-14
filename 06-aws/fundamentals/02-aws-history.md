@@ -14,7 +14,7 @@ It helps build an understanding of why AWS was created, how cloud computing emer
   <img width="1200" alt="AWS History Timeline" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_History_Timeline.png">
 </p>
 
-### 2002 – Internal Launch
+### • 2002 – Internal Launch
 
 AWS was first launched internally within Amazon.
 
@@ -24,7 +24,7 @@ This internal infrastructure would later become the foundation of AWS.
 
 ---
 
-### 2003 – The Idea Takes Shape
+### • 2003 – The Idea Takes Shape
 
 Amazon began exploring the idea of offering its infrastructure capabilities to external businesses.
 
@@ -38,7 +38,7 @@ This period is often considered the beginning of AWS as a commercial product.
 
 ---
 
-### 2004 – First Public AWS Service
+### • 2004 – First Public AWS Service
 
 AWS launched publicly with **Amazon SQS (Simple Queue Service)**.
 
@@ -48,7 +48,7 @@ Although simple by today's standards, it represented an important step towards c
 
 ---
 
-### 2006 – The Big Launch
+### • 2006 – The Big Launch
 
 AWS officially relaunched with several services that remain core parts of the platform today:
 
@@ -66,7 +66,7 @@ This marked the point where AWS began gaining significant industry attention.
 
 ---
 
-### 2007 – Global Expansion
+### • 2007 – Global Expansion
 
 AWS expanded beyond the United States and launched infrastructure in Europe.
 
