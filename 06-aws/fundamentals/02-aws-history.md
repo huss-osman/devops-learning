@@ -8,13 +8,31 @@ It helps build an understanding of why AWS was created, how cloud computing emer
 
 ---
 
+## AWS History
+
+This section explores the major milestones that contributed to the development of AWS. It highlights how AWS evolved from an internal Amazon initiative into a globally recognised cloud platform used by millions of organisations and developers.
+
+Understanding the history of AWS helps explain the origins of cloud computing and provides context for many of the services, concepts, and technologies that are widely used throughout modern cloud environments.
+
+## Contents
+
+* [2002 – Internal Launch](#2002--internal-launch)
+* [2003 – The Idea Takes Shape](#2003--the-idea-takes-shape)
+* [2004 – First Public AWS Service](#2004--first-public-aws-service)
+* [2006 – The Big Launch](#2006--the-big-launch)
+* [2007 – Global Expansion](#2007--global-expansion)
+
+---
+
 ## AWS Timeline
 
 <p align="center">
   <img width="1200" alt="AWS History Timeline" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_History_Timeline.png">
 </p>
 
-### • 2002 – Internal Launch
+---
+
+### 2002 – Internal Launch
 
 AWS was first launched internally within Amazon.
 
@@ -22,9 +40,12 @@ At the time, Amazon was focused primarily on its e-commerce business, but the co
 
 This internal infrastructure would later become the foundation of AWS.
 
+> [!NOTE]
+> AWS originally started as a solution to support Amazon's own internal operations before becoming a commercial cloud platform.
+
 ---
 
-### • 2003 – The Idea Takes Shape
+### 2003 – The Idea Takes Shape
 
 Amazon began exploring the idea of offering its infrastructure capabilities to external businesses.
 
@@ -36,9 +57,12 @@ The vision was simple:
 
 This period is often considered the beginning of AWS as a commercial product.
 
+> [!IMPORTANT]
+> This marked the transition from internal infrastructure management to the concept of cloud computing as a service.
+
 ---
 
-### • 2004 – First Public AWS Service
+### 2004 – First Public AWS Service
 
 AWS launched publicly with **Amazon SQS (Simple Queue Service)**.
 
@@ -46,9 +70,12 @@ SQS enabled applications to exchange messages through managed queues, helping sy
 
 Although simple by today's standards, it represented an important step towards cloud-native application architectures.
 
+> [!NOTE]
+> Amazon SQS remains an AWS service today and is widely used for asynchronous communication between applications.
+
 ---
 
-### • 2006 – The Big Launch
+### 2006 – The Big Launch
 
 AWS officially relaunched with several services that remain core parts of the platform today:
 
@@ -64,15 +91,21 @@ These services allowed businesses to:
 
 This marked the point where AWS began gaining significant industry attention.
 
+> [!IMPORTANT]
+> Many people consider 2006 to be the true beginning of modern cloud computing due to the launch of EC2 and S3.
+
 ---
 
-### • 2007 – Global Expansion
+### 2007 – Global Expansion
 
 AWS expanded beyond the United States and launched infrastructure in Europe.
 
 This gave organisations around the world access to Amazon's cloud platform and laid the foundation for the global AWS network that exists today.
 
 The expansion demonstrated AWS's commitment to **global availability**, **regional infrastructure**, and serving customers worldwide.
+
+> [!NOTE]
+> Global expansion allowed AWS customers to deploy workloads closer to users while helping satisfy regional compliance requirements.
 
 ---
 
