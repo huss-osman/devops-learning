@@ -64,7 +64,7 @@ Topics include:
 * Instance Types
 * Purchasing Options
 
-➡️ [View Compute](./compute/README.md)
+➡️ [View Compute](../compute)
 
 ---
 
@@ -84,7 +84,7 @@ Topics include:
 * VPC Endpoints
 * IPv6
 
-➡️ [View Networking](./networking/README.md)
+➡️ [View Networking](../networking)
 
 ---
 
@@ -96,7 +96,7 @@ Topics include:
 * AMIs
 * Amazon EFS
 
-➡️ [View Storage](./storage/README.md)
+➡️ [View Storage](../storage)
 
 ---
 
@@ -111,7 +111,7 @@ Topics include:
 * SSL/TLS
 * Auto Scaling Groups
 
-➡️ [View Load Balancing](./load-balancing/README.md)
+➡️ [View Load Balancing](../load-balancing)
 
 ---
 
@@ -127,7 +127,7 @@ Topics include:
 * Amazon ECR
 * Amazon EKS
 
-➡️ [View Containers](./containers/README.md)
+➡️ [View Containers](../containers)
 
 ---
 
@@ -139,7 +139,7 @@ Topics include:
 * AWS Lambda
 * Lambda Benefits & Use Cases
 
-➡️ [View Serverless](./serverless/README.md)
+➡️ [View Serverless](../serverless)
 
 ---
 
@@ -154,7 +154,7 @@ Topics include:
 * Routing Policies
 * Domains & Registrars
 
-➡️ [View Route 53](./dns-route53/README.md)
+➡️ [View Route 53](../dns-route53)
 
 ---
 
@@ -165,7 +165,7 @@ Topics include:
 * CloudFront Overview
 * CloudFront Origins
 
-➡️ [View CloudFront](./cdn-cloudfront/README.md)
+➡️ [View CloudFront](../cdn-cloudfront)
 
 ---
 
@@ -178,7 +178,7 @@ Hands-on projects covering:
 * S3, CloudFront & Route 53
 * Serverless APIs with Lambda
 
-➡️ [View Assignments](./assignments/README.md)
+➡️ [View Assignments](../assignmentsd)
 
 ---
 
