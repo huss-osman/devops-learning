@@ -1,4 +1,4 @@
-# AWS AWS Introduction
+# AWS Introduction
 
 ## Overview
 
@@ -8,162 +8,162 @@ It helps build an understanding of how AWS services integrate together, making A
 
 ---
 
+## What You'll Learn
+
+This module covers the core concepts and services used throughout **Amazon Web Services (AWS)**. It starts with **cloud computing fundamentals** and gradually progresses into **security**, **compute**, **networking**, **storage**, **containers**, **serverless**, and other essential cloud technologies.
+
+Throughout the module, you'll learn why organisations adopt **AWS**, how cloud platforms differ from traditional infrastructure, the benefits of operating in the cloud, and how AWS services work together to build **scalable**, **secure**, and **highly available** solutions. Practical examples and hands-on assignments are included to reinforce real-world cloud and DevOps concepts.
+
+---
+
 ## The AWS Learning Path
 
 This module is structured to build AWS knowledge step by step.
 
-### Chapter 1 – AWS Introduction
+### Fundamentals
 
 Topics include:
 
-- What cloud computing is
-- Why AWS exists
-- Benefits of cloud platforms
-- Common AWS use cases
+* AWS Introduction
+* AWS History
+* AWS Facts
+* AWS Cloud Use Cases
+* AWS Global Infrastructure
+* AWS Console Tour
+* AWS Account Setup
+* Billing & MFA Setup
 
-➡️ [View AWS Introduction](./fundamentals/01-aws-introduction.md)
+➡️ [View Fundamentals](./fundamentals)
 
 ---
 
-### Chapter 2 – AWS Global Infrastructure
+### IAM
 
 Topics include:
 
-- Regions
-- Availability Zones
-- Edge Locations
-- Global AWS architecture
-
-➡️ [View Global Infrastructure](./fundamentals/05-global-infrastructure.md)
-
----
-
-### Chapter 3 – Billing & Account Security
-
-Topics include:
-
-- AWS account setup
-- Billing dashboards
-- Budgets
-- MFA protection
-
-➡️ [View Billing & MFA Setup](./fundamentals/08-billing-and-mfa-setup.md)
-
----
-
-### Chapter 4 – IAM
-
-Topics include:
-
-- Users and Groups
-- Permissions
-- Policies
-- Roles
-- MFA and security best practices
+* IAM Introduction
+* Users and Groups
+* Permissions
+* IAM Policies
+* Password Policies & MFA
+* Access Keys
+* IAM Roles
+* Security Best Practices
 
 ➡️ [View IAM](./iam)
 
 ---
 
-### Chapter 5 – Compute
+### Compute
 
 Topics include:
 
-- Amazon EC2
-- Instance types
-- User Data
-- Purchasing options
+* Amazon EC2
+* EC2 Sizing & Configuration
+* EC2 User Data
+* Instance Types
+* Purchasing Options
 
 ➡️ [View Compute](./compute)
 
 ---
 
-### Chapter 6 – Networking
+### Networking
 
 Topics include:
 
-- Security Groups
-- VPCs
-- Subnets
-- NAT Gateways
-- Internet Gateways
-- VPC Endpoints
+* Security Groups
+* Public vs Private IPs
+* Elastic IPs
+* Amazon VPC
+* CIDR & Subnets
+* Internet Gateways
+* NAT Gateways
+* NACLs
+* VPC Peering
+* VPC Endpoints
+* IPv6
 
 ➡️ [View Networking](./networking)
 
 ---
 
-### Chapter 7 – Storage
+### Storage
 
 Topics include:
 
-- EBS
-- AMIs
-- EFS
+* EBS Volumes
+* AMIs
+* Amazon EFS
 
 ➡️ [View Storage](./storage)
 
 ---
 
-### Chapter 8 – Load Balancing & Scaling
+### Load Balancing & Scaling
 
 Topics include:
 
-- Elastic Load Balancers
-- Application Load Balancers
-- Network Load Balancers
-- Auto Scaling Groups
+* Scalability & High Availability
+* Elastic Load Balancing
+* Application Load Balancers
+* Network Load Balancers
+* SSL/TLS
+* Auto Scaling Groups
 
 ➡️ [View Load Balancing](./load-balancing)
 
 ---
 
-### Chapter 9 – Containers on AWS
+### Containers
 
 Topics include:
 
-- ECS
-- ECR
-- EKS
-- Load Balancer integration
-- Service Auto Scaling
+* Containers on AWS
+* Amazon ECS
+* ECS IAM Roles
+* ECS Load Balancer Integration
+* ECS Service Auto Scaling
+* Amazon ECR
+* Amazon EKS
 
 ➡️ [View Containers](./containers)
 
 ---
 
-### Chapter 10 – Serverless
+### Serverless
 
 Topics include:
 
-- Serverless architecture
-- AWS Lambda
-- Event-driven workloads
+* Serverless Overview
+* AWS Lambda
+* Lambda Benefits & Use Cases
 
 ➡️ [View Serverless](./serverless)
 
 ---
 
-### Chapter 11 – DNS & Route 53
+### DNS & Route 53
 
 Topics include:
 
-- DNS fundamentals
-- Hosted Zones
-- Routing Policies
-- Domain management
+* Amazon Route 53
+* Hosted Zones
+* DNS Terminology
+* DNS Record Types
+* Routing Policies
+* Domains & Registrars
 
 ➡️ [View Route 53](./dns-route53)
 
 ---
 
-### Chapter 12 – CloudFront
+### CDN & CloudFront
 
 Topics include:
 
-- Content Delivery Networks
-- CloudFront Origins
-- Edge caching
+* CloudFront Overview
+* CloudFront Origins
 
 ➡️ [View CloudFront](./cdn-cloudfront)
 
@@ -171,15 +171,12 @@ Topics include:
 
 ### Assignments
 
-The module also includes hands-on cloud projects designed to reinforce AWS concepts through practical implementation.
+Hands-on projects covering:
 
-These assignments cover:
-
-- VPC design
-- Load balancing
-- Route 53
-- CloudFront
-- Serverless applications
+* VPC & Networking
+* Application Load Balancers
+* S3, CloudFront & Route 53
+* Serverless APIs with Lambda
 
 ➡️ [View Assignments](./assignments)
 
