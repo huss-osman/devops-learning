@@ -141,6 +141,10 @@ The infrastructure map can be used to:
 
 The **AWS Management Console** is the primary interface used to manage AWS resources and services.
 
+<p align="center">
+  <img width="1200" alt="AWS Console Overview" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Console_Overview.png" />
+</p>
+
 From the console you can:
 
 * Launch EC2 instances
@@ -148,10 +152,6 @@ From the console you can:
 * Configure IAM users and roles
 * Manage networking resources
 * Deploy cloud infrastructure
-
-<p align="center">
-  <img width="1200" alt="AWS Console Overview" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Console_Overview.png" />
-</p>
 
 The AWS Console acts as the central management interface for AWS environments.
 
