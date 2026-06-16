@@ -140,7 +140,7 @@ AWS uses this information for account ownership and verification purposes.
 Provide a valid debit or credit card to complete registration.
 
 <p align="center">
-  <img width="1000" alt="AWS Billing Information" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(5).png" />
+  <img width="1000" alt="AWS Billing Information" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(6).png" />
 </p>
 
 AWS may perform a temporary verification charge to confirm the payment method.
