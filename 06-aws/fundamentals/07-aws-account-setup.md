@@ -6,12 +6,6 @@ This section focuses on creating an **AWS Account** and preparing the environmen
 
 Understanding how to create and secure an AWS account is an important first step before working with **cloud infrastructure**, **networking**, **storage**, **security**, **containers**, and other AWS services.
 
----
-
-## AWS Account Setup
-
-This section covers the process of creating a new AWS account, verifying ownership, configuring billing information, and preparing access to the AWS Management Console.
-
 ## Contents
 
 - [AWS Registration Page](#aws-registration-page)
