@@ -6,14 +6,6 @@ This section explores the history of **Amazon Web Services (AWS)** and how it ev
 
 It helps build an understanding of why AWS was created, how cloud computing emerged as a service model, and why AWS became a major force in **cloud infrastructure**, **scalability**, **automation**, **global availability**, and modern **DevOps workflows**.
 
----
-
-## AWS History
-
-This section explores the major milestones that contributed to the development of AWS. It highlights how AWS evolved from an internal Amazon initiative into a globally recognised cloud platform used by millions of organisations and developers.
-
-Understanding the history of AWS helps explain the origins of cloud computing and provides context for many of the services, concepts, and technologies that are widely used throughout modern cloud environments.
-
 ## Contents
 
 * [2002 – Internal Launch](#2002--internal-launch)
