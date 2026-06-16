@@ -8,12 +8,6 @@ It helps build an understanding of how AWS infrastructure is organised, how to s
 
 ---
 
-## AWS Global Infrastructure
-
-This section explores the core infrastructure components that make up AWS. It introduces **Regions**, **Availability Zones**, **Edge Locations**, and the **AWS Management Console**, while explaining how these services work together to provide resilient cloud platforms.
-
-Understanding AWS Global Infrastructure is essential before deploying workloads because infrastructure location affects **latency**, **cost**, **availability**, **compliance**, and overall application performance.
-
 ## Contents
 
 * [AWS Regions](#aws-regions)
