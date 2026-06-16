@@ -6,8 +6,6 @@ This section introduces **AWS Global Infrastructure**, the worldwide network of 
 
 It helps build an understanding of how AWS infrastructure is organised, how to select appropriate deployment locations, and why concepts such as **latency**, **compliance**, **high availability**, and **global scalability** are fundamental in modern cloud environments.
 
----
-
 ## Contents
 
 * [AWS Regions](#aws-regions)
