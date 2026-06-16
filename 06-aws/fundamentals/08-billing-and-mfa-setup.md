@@ -6,8 +6,6 @@ Before creating AWS resources, it is important to secure the account and impleme
 
 These configurations help protect AWS accounts from unauthorised access while reducing the risk of unexpected charges. Establishing security and billing controls early is considered a cloud best practice and provides a safer foundation for deploying AWS services.
 
----
-
 ## Contents
 
 * [Why MFA and Budgets Matter](#why-mfa-and-budgets-matter)
