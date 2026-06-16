@@ -6,14 +6,6 @@ This section introduces **Amazon Web Services (AWS)**, a cloud computing platfor
 
 It helps build an understanding of how AWS services integrate together, making AWS essential for **cloud infrastructure**, **automation**, **container platforms**, **high availability**, and modern **DevOps workflows**.
 
----
-
-## AWS Introduction
-
-This section provides an introduction to AWS and the core concepts that form the foundation of cloud computing. It explores why organisations adopt cloud platforms, the benefits of cloud services, and how AWS has become one of the most widely used cloud providers in the world.
-
-Understanding these concepts is important before working with individual AWS services, as they provide the context needed to understand how cloud infrastructure, scalability, and modern application deployments operate in practice.
-
 ## Contents
 
 * [What You'll Learn](#what-youll-learn)
