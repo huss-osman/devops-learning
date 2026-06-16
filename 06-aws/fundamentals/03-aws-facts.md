@@ -6,14 +6,6 @@ This section explores key facts about **Amazon Web Services (AWS)** and its posi
 
 It helps build an understanding of AWS's global presence, customer adoption, service portfolio, and why it remains a major provider of **cloud infrastructure**, **compute services**, **storage solutions**, **networking**, and modern **DevOps workflows**.
 
----
-
-## AWS Facts
-
-This section highlights key facts and figures about AWS. It explores AWS's market position, customer adoption, global reach, and continued innovation to demonstrate why it remains one of the most influential cloud platforms in the world.
-
-Understanding these facts helps provide context around the scale of AWS and explains why organisations of all sizes continue to adopt cloud technologies for modern infrastructure and application deployments.
-
 ## Contents
 
 * [AWS Is One of the Largest Cloud Providers](#aws-is-one-of-the-largest-cloud-providers)
