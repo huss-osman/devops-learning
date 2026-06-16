@@ -45,7 +45,7 @@ Click **Complete Sign Up** to begin creating a new AWS account.
 If you do not already have an AWS account, select **Create a new AWS account**.
 
 <p align="center">
-  <img width="1000" alt="Create AWS Account" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration_2.png" />
+  <img width="1000" alt="Create AWS Account" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(1).png" />
 </p>
 
 You will be prompted to enter:
@@ -62,7 +62,7 @@ AWS uses the email address for account recovery, billing notifications, and secu
 After submitting your email address, AWS sends a verification code to confirm ownership.
 
 <p align="center">
-  <img width="1000" alt="Verify Email Address" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration_3.png" />
+  <img width="1000" alt="Verify Email Address" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(2).png" />
 </p>
 
 Enter the verification code received by email and select **Verify**.
@@ -77,7 +77,7 @@ Enter the verification code received by email and select **Verify**.
 Create a secure password for the AWS root account.
 
 <p align="center">
-  <img width="1000" alt="Create Root Password" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration_4.png" />
+  <img width="1000" alt="Create Root Password" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(3).png" />
 </p>
 
 The root account has unrestricted access to all AWS services and resources.
@@ -94,7 +94,7 @@ The root account has unrestricted access to all AWS services and resources.
 Select **Personal** for individual learning environments and provide the required contact details.
 
 <p align="center">
-  <img width="1000" alt="AWS Contact Information" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration_5.png" />
+  <img width="1000" alt="AWS Contact Information" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(4).png" />
 </p>
 
 Information requested includes:
@@ -113,7 +113,7 @@ AWS uses this information for account ownership and billing verification.
 Provide a valid debit or credit card to complete account registration.
 
 <p align="center">
-  <img width="1000" alt="AWS Billing Information" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration_6.png" />
+  <img width="1000" alt="AWS Billing Information" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_Registration(5).png" />
 </p>
 
 AWS may perform a small temporary verification charge to validate the payment method.
