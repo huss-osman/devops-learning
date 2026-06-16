@@ -6,14 +6,6 @@ This section introduces the **AWS Management Console**, the primary web interfac
 
 It helps build an understanding of how users interact with AWS services, making the console essential for managing **cloud infrastructure**, **security**, **networking**, **storage**, **compute resources**, and modern **DevOps workflows**.
 
----
-
-## AWS Console Tour
-
-This section explores the AWS Management Console and the different types of services available within AWS. It introduces the concept of **global services**, **region-scoped services**, and how the console acts as the central location for managing cloud infrastructure.
-
-Understanding how the console is organised is important because almost every AWS service is managed and configured through this interface.
-
 ## Contents
 
 * [AWS Management Console](#aws-management-console)
