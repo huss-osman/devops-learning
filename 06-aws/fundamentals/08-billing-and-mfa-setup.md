@@ -2,14 +2,9 @@
 
 ## Overview
 
-Before creating AWS resources, it is important to secure the account and implement cost controls.
+Before creating AWS resources, it is important to secure the account and implement cost controls. This section focuses on two essential AWS account setup tasks: configuring **Multi-Factor Authentication (MFA)** and setting a **AWS Budget**.
 
-This section covers two essential AWS account setup tasks:
-
-* Configuring **Multi-Factor Authentication (MFA)** to improve account security
-* Creating an **AWS Budget** to monitor spending and receive alerts when costs exceed defined thresholds
-
-These configurations help protect AWS accounts from unauthorised access while reducing the risk of unexpected cloud charges.
+These configurations help protect AWS accounts from unauthorised access while reducing the risk of unexpected charges. Establishing security and billing controls early is considered a cloud best practice and provides a safer foundation for deploying AWS services.
 
 ---
 
