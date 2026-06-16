@@ -6,14 +6,6 @@ This section explores common **AWS cloud use cases** and how organisations use A
 
 It helps build an understanding of how AWS is used across different industries, making it essential for **application hosting**, **data analytics**, **cloud storage**, **gaming platforms**, and modern **DevOps workflows**.
 
----
-
-## AWS Cloud Use Cases
-
-This section explores how AWS is used across different industries and workloads. It introduces common cloud adoption scenarios and demonstrates how organisations use AWS services to improve **scalability**, **availability**, **performance**, and **operational efficiency**.
-
-Understanding these use cases helps connect AWS services to real-world business requirements and highlights why cloud platforms have become essential across modern technology environments.
-
 ## Contents
 
 * [Enterprise IT](#enterprise-it)
