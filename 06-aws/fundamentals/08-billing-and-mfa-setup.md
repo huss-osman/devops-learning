@@ -198,7 +198,7 @@ If spending exceeds configured thresholds, AWS sends email notifications to the 
 
 The following walkthrough demonstrates how to configure an AWS IAM environment and apply foundational access management concepts.
 
-https://github.com/user-attachments/assets/29b1c189-9896-48c7-9136-d6a93ea06939
+https://github.com/user-attachments/assets/302790e3-02cc-47bd-b420-e5bcecf44bda
 
 > [!NOTE]
 > This walkthrough covers:
