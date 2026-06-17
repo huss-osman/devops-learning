@@ -13,6 +13,7 @@ These configurations help protect AWS accounts from unauthorised access while re
 * [Verifying MFA Configuration](#verifying-mfa-configuration)
 * [Creating an AWS Budget](#creating-an-aws-budget)
 * [Verifying Budget Creation](#verifying-budget-creation)
+* [IAM Setup Walkthrough](#iam-setup-walkthrough)
 
 ---
 
@@ -190,6 +191,28 @@ If spending exceeds configured thresholds, AWS sends email notifications to the 
 
 > [!IMPORTANT]
 > Budgets do not automatically stop AWS resources. They provide alerts so action can be taken before costs increase further.
+
+---
+
+### IAM Setup Walkthrough
+
+The following walkthrough demonstrates how to configure an AWS IAM environment and apply foundational access management concepts.
+
+
+
+
+
+> [!NOTE]
+> This walkthrough covers:
+>
+> * Creating IAM users
+> * Creating IAM groups
+> * Assigning permissions
+> * Applying IAM policies
+> * Understanding IAM roles
+> * Following the principle of least privilege
+>
+> These are foundational concepts used to manage access and security within AWS environments.
 
 ---
 
