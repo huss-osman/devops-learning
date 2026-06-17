@@ -28,45 +28,21 @@ You'll learn how AWS manages identities, how permissions are assigned, how polic
 
 This module is structured to build IAM knowledge step by step.
 
-### Identity Management
-
 Topics include:
 
 * IAM Introduction
 * Users and Groups
 * Permissions
 * IAM Policies
-
-➡️ [View Identity Management](./)
-
----
-
-### Authentication & Security
-
-Topics include:
-
-* Password Policies
-* Multi-Factor Authentication (MFA)
+* Password Policies & MFA
 * Access Keys
+* IAM Roles
 * Security Best Practices
 
-➡️ [View Authentication & Security](./)
-
----
-
-### Authorisation & Access Control
-
-Topics include:
-
-* IAM Roles
-* Temporary Credentials
-* Service Permissions
-* Cross-Service Access
-
-➡️ [View Access Control](./)
+➡️ [View IAM](../iam)
 
 > [!IMPORTANT]
-> IAM sits at the centre of AWS security. Every AWS service relies on IAM to determine who can access resources and what actions they are authorised to perform.
+> IAM sits at the centre of AWS security. Every AWS service relies on IAM to determine who can access resources and what actions they are authorised to perform. Understanding IAM is fundamental when working with AWS, cloud infrastructure, and DevOps environments.
 
 ---
 
