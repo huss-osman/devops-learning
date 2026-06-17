@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section introduces **AWS Identity and Access Management (IAM)**, the AWS service responsible for controlling authentication and authorisation across AWS environments. It focuses on how IAM enables organisations to securely manage users, groups, permissions, and access to AWS resources.
+This section introduces **AWS Identity and Access Management (IAM)**, the service responsible for controlling authentication and authorisation across AWS environments. It focuses on how IAM enables organisations to manage users, permissions, and access to resources.
 
 IAM is one of the most important services in AWS because every action performed within an AWS account is governed by permissions. Understanding IAM is essential for securing cloud environments and implementing access control following security best practices.
 
