@@ -141,14 +141,18 @@ Official installation guide:
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
+### Installation Walkthrough
+
+https://github.com/user-attachments/assets/12bff37f-653e-4a89-be62-85dd2b0e341e
+
 After installation, verify the CLI is installed successfully:
 
 ```bash
 aws --version
 ```
 
-<p align="center"> 
-<img width="1200" alt="AWS CLI Version" src="../../images/AWS_CLI_Command(1).png" /> 
+<p align="center">
+  <img width="1200" alt="AWS CLI Version" src="../../images/AWS_CLI_Command(1).png" />
 </p>
 
 ---
@@ -174,6 +178,10 @@ Configure the CLI using:
 ```bash
 aws configure
 ```
+
+### Configuration Walkthrough
+
+https://github.com/user-attachments/assets/0f18ec3c-f529-40e9-9679-db1ae21f9790
 
 AWS prompts for:
 
