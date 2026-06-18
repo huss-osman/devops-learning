@@ -54,8 +54,24 @@ Policies can be attached to:
 
 This allows administrators to control access centrally and consistently across AWS environments.
 
-> [!IMPORTANT]
-> Policies are the foundation of AWS authorisation and determine what actions identities can perform.
+<p align="center">
+  <img width="700" alt="IAM Policy Example" src="../../images/AWS_IAM_json.png" />
+</p>
+
+The example policy above allows read-only actions against several AWS services, including:
+
+* EC2 instance information
+* Elastic Load Balancer information
+* CloudWatch metrics and statistics
+
+Each policy statement contains:
+
+* **Effect** – Whether the action is allowed or denied
+* **Action** – The AWS API operations being controlled
+* **Resource** – The AWS resources the permissions apply to
+
+> [!NOTE]
+> IAM policies are written in JSON and provide granular control over access to AWS resources.
 
 ---
 
