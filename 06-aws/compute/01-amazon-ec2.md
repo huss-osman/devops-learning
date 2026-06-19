@@ -65,27 +65,33 @@ Amazon EC2 (**Elastic Compute Cloud**) is AWS's virtual machine service and one 
 
 EC2 is part of AWS's **Infrastructure as a Service (IaaS)** offering, allowing users to rent virtual servers in the cloud instead of purchasing and maintaining physical hardware. Its flexibility and scalability make it suitable for both small applications and large production environments.
 
-### What EC2 Provides
+---
 
-#### Virtual Machines
+### Virtual Machines
 
 The primary purpose of EC2 is to provide virtual machines known as **instances**.
 
 Users can launch instances, select operating systems, configure resources, install software, and manage servers based on application requirements.
 
-#### Elastic Block Store (EBS)
+---
+
+### Elastic Block Store (EBS)
 
 EC2 instances commonly use **Elastic Block Store (EBS)** volumes for storage.
 
 EBS acts like a virtual hard drive attached to an EC2 instance and stores operating systems, applications, and data.
 
-#### Elastic Load Balancers (ELB)
+---
+
+### Elastic Load Balancers (ELB)
 
 When multiple EC2 instances are running, **Elastic Load Balancers (ELB)** distribute incoming traffic across them.
 
 This improves availability and prevents individual instances from becoming overloaded while other instances remain underutilised.
 
-#### Auto Scaling Groups (ASG)
+---
+
+### Auto Scaling Groups (ASG)
 
 **Auto Scaling Groups (ASG)** automatically adjust the number of EC2 instances based on application demand.
 
