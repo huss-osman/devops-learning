@@ -108,7 +108,7 @@ Select **Launch Instances** to begin creating a new EC2 instance.
 
 The full EC2 creation walkthrough is available below:
 
-🎥 `AWS_EC2_Walkthrough(1).mp4`
+https://github.com/user-attachments/assets/07531f43-f325-44fb-9ae5-44b1b1bec916
 
 The demonstration covers:
 
