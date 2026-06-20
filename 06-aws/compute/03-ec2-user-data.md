@@ -12,7 +12,6 @@ Automating instance setup reduces manual effort, improves consistency across dep
 * [Common Use Cases](#common-use-cases)
 * [User Data and Bootstrapping](#user-data-and-bootstrapping)
 * [EC2 Launch Walkthrough](#ec2-launch-walkthrough)
-* [Connecting via SSH](#connecting-via-ssh)
 
 ---
 
