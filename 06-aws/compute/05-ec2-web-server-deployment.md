@@ -89,4 +89,4 @@ http://<public-ip>
 
 Deploying a web server on Amazon EC2 helped me understand how cloud infrastructure can be provisioned and made accessible over the internet. Rather than manually configuring servers from scratch, AWS provides the tools needed to launch, configure, and manage virtual machines quickly and efficiently.
 
-I also learned how Security Groups, public IP addresses, SSH access, and EC2 User Data work together to support application depl
+I also learned how Security Groups, public IP addresses, SSH access, and EC2 User Data work together to support application deployment. Understanding these services provides a strong foundation for cloud infrastructure, networking, automation, and modern DevOps practices.
