@@ -15,6 +15,7 @@ Understanding these purchasing options is important because selecting the approp
 * [Dedicated Hosts](#dedicated-hosts)
 * [Dedicated Instances](#dedicated-instances)
 * [Capacity Reservations](#capacity-reservations)
+* [AWS Console Walkthrough](#aws-console-walkthrough)
 
 ---
 
@@ -171,6 +172,40 @@ Common use cases include:
 
 ---
 
+## AWS Console Walkthrough
+
+This demo explores where EC2 purchasing options can be viewed and configured within the AWS Management Console. AWS provides several purchasing models that help organisations optimise costs while maintaining flexibility and availability.
+
+The walkthrough demonstrates how Spot Requests, Reserved Instances, Savings Plans, Dedicated Hosts, Capacity Reservations, and EC2 Instance Types can be accessed directly through the EC2 Console.
+
+### Step 1: Navigate to Spot Requests
+
+From the EC2 dashboard, select **Spot Requests** from the left-hand navigation menu.
+
+<p align="center">
+  <img width="1200" alt="Navigate to Spot Requests" src="../../images/AWS_EC2_Spot_Request(1).png" />
+</p>
+
+---
+
+### Step 2: Create a Spot Fleet Request
+
+Select **Create Spot Fleet Request** to configure Spot capacity requirements, networking settings, instance types, and allocation strategies.
+
+<p align="center">
+  <img width="1200" alt="Create Spot Fleet Request" src="../../images/AWS_EC2_Spot_Request(2).png" />
+</p>
+
+---
+
+### Demo Video
+
+The following walkthrough demonstrates how EC2 purchasing options can be explored through the AWS Console, including Spot Requests, Reserved Instances, Savings Plans, Dedicated Hosts, Capacity Reservations, and EC2 Instance Types.
+
+https://github.com/user-attachments/assets/2f24f473-5731-4b0f-a0eb-1a57140132a1
+
+---
+
 ## Key Takeaways
 
 * AWS provides multiple EC2 purchasing models for different workload requirements
@@ -181,6 +216,7 @@ Common use cases include:
 * Dedicated Hosts provide exclusive access to physical hardware
 * Dedicated Instances provide isolated infrastructure
 * Capacity Reservations guarantee EC2 capacity within a specific Availability Zone
+* Purchasing options can be viewed and configured directly through the AWS Console
 * Selecting the correct purchasing option can significantly reduce infrastructure costs
 
 ---
@@ -189,4 +225,4 @@ Common use cases include:
 
 Learning about EC2 purchasing options helped me understand that cloud cost optimisation is not only about selecting the right instance type, but also choosing the most appropriate pricing model for a workload.
 
-I learned that AWS provides different purchasing options depending on whether workloads are temporary, predictable, long-term, fault-tolerant, or require dedicated infrastructure. Understanding these options is important for balancing flexibility, availability, performance, and cost within cloud environments.
+I also learned how AWS exposes these purchasing models through the EC2 Console, allowing engineers to compare options, manage capacity, and balance flexibility, availability, and cost based on application requirements.
