@@ -87,4 +87,6 @@ http://<public-ip>
 
 ## Reflection
 
-This demo provided hands-on experience with launching and managing EC2 instances while demonstrating how web applications can be deployed in the cloud. It also reinforced the importance of Security Groups, public IP addresses, and EC2 User Data when deploying and accessing services on AWS.
+Deploying a web server on Amazon EC2 helped me understand how quickly cloud infrastructure can be provisioned and made accessible over the internet. Rather than manually configuring physical hardware, AWS allows virtual servers to be launched, configured, and managed within minutes.
+
+I also learned how Security Groups, public IP addresses, SSH access, and EC2 User Data work together to support application deployment. Understanding these concepts provides a strong foundation for cloud infrastructure, server administration, and modern DevOps practices.
