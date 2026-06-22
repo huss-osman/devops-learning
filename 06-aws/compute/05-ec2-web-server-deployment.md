@@ -51,7 +51,7 @@ Select **Launch Instances** to begin creating a new EC2 instance.
 
 ## EC2 Web Server Demo
 
-https://github.com/user-attachments/assets/85627feb-34bd-4156-99c8-f38c1c76e6a0
+https://github.com/user-attachments/assets/dfad2b5e-4ef2-47a4-b3f9-1e4e357ffe25
 
 This walkthrough covers:
 
