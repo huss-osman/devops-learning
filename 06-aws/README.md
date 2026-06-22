@@ -117,14 +117,14 @@ By working through this module, I aimed to:
 - [EC2 User Data](./compute/03-ec2-user-data.md)  
   Bootstrapping instances automatically during launch.
 
-- [EC2 Web Server Deployment](./compute/04-ec2-web-server-deployment.md)
-  Deploying and accessing a web server on an EC2 instance.
-
 - [EC2 Instance Types](./compute/05-ec2-instance-types.md)  
   Understanding different instance families and use cases.
 
 - [EC2 Purchasing Options](./compute/06-ec2-purchasing-options.md)  
   On-Demand, Reserved, Spot, and other pricing models.
+
+- [EC2 Web Server Deployment](./compute/04-ec2-web-server-deployment.md)
+  Deploying and accessing a web server on an EC2 instance.
   
 ---
 
