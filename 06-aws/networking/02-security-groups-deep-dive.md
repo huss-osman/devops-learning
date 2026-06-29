@@ -13,6 +13,7 @@ Understanding these concepts is essential for securing cloud infrastructure, tro
 * [Inbound and Outbound Traffic](#inbound-and-outbound-traffic)
 * [Security Group Behaviour](#security-group-behaviour)
 * [Referencing Other Security Groups](#referencing-other-security-groups)
+* [Security Groups Walkthroughs](#security-groups-walkthroughs)
 
 ---
 
@@ -147,6 +148,53 @@ This approach is especially useful for:
 
 ---
 
+## Security Groups Walkthroughs
+
+### Security Groups Demo
+
+This walkthrough demonstrates how Security Groups are attached to EC2 instances and how inbound rules control access to applications and services.
+
+Topics covered include:
+
+* Viewing Security Groups attached to an EC2 instance
+* Inspecting Security Group IDs and configurations
+* Reviewing inbound rules
+* Adding HTTP and HTTPS rules
+* Testing application accessibility
+* Troubleshooting timeout issues caused by missing Security Group rules
+
+A key takeaway from the demo is that if an application continuously loads or times out, the cause is often a missing or incorrect Security Group rule.
+
+#### Walkthrough Resources
+
+https://github.com/user-attachments/assets/8c0503cf-ac9c-48d1-9513-603b264e8747
+
+---
+
+### Outbound and Inbound Rules Demo
+
+This walkthrough focuses on how inbound and outbound Security Group rules affect communication to and from EC2 instances.
+
+Topics covered include:
+
+* Reviewing default outbound rules
+* Understanding why EC2 instances require outbound internet access
+* Creating custom outbound rules
+* Allowing DNS traffic on port 53
+* Restricting inbound traffic to required ports only
+* Limiting access to trusted IP addresses using **My IP**
+
+The demo also reinforces the principle of least privilege by showing why inbound rules should remain tightly restricted while outbound access should be configured based on application requirements.
+
+> [!NOTE]
+> Allowing `0.0.0.0/0` for inbound traffic should only be used when necessary. Administrative access such as SSH should ideally be restricted to trusted IP addresses.
+
+#### Walkthrough Resources
+
+https://github.com/user-attachments/assets/24f80677-f315-4440-8ea6-569b6fa332cb
+
+---
+
 ## Key Takeaways
 
 * Security Groups control access using ports, protocols, and IP addresses
@@ -160,6 +208,8 @@ This approach is especially useful for:
 * Connection refused errors often indicate application issues
 * Security Groups can reference other Security Groups
 * Referencing Security Groups simplifies management in dynamic environments
+* Restricting access to trusted IP addresses improves security posture
+* Security Groups are one of the first areas to investigate when troubleshooting connectivity issues
 
 ---
 
