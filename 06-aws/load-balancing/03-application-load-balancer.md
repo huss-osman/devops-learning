@@ -13,7 +13,8 @@ This makes ALBs particularly useful for modern applications built using **micros
 * [Routing Capabilities](#routing-capabilities)
 * [Target Groups](#target-groups)
 * [Health Checks](#health-checks)
-* [ALB Hostnames and Client IPs](#alb-hostnames-and-client-ips)
+* [ALB Hostnames](#alb-hostnames)
+* [X-Forwarded Headers](#x-forwarded-headers)
 
 ---
 
@@ -158,7 +159,7 @@ Health checks are one of the key features that enable highly available architect
 
 ---
 
-## ALB Hostnames and Client IPs
+## ALB Hostnames
 
 Every ALB receives an AWS-generated DNS name:
 
@@ -170,7 +171,7 @@ This hostname can be mapped to custom domains using DNS services such as Route 5
 
 ---
 
-### X-Forwarded Headers
+## X-Forwarded Headers
 
 Because client connections terminate at the ALB, backend applications do not see the client's original IP address directly.
 
@@ -199,12 +200,15 @@ These headers are commonly used for:
 * ALBs support HTTP/2 and WebSockets
 * Path-based routing enables microservice architectures
 * Host-based routing allows multiple domains on one ALB
+* Query strings and headers can be used for routing decisions
 * Target Groups define where traffic is sent
 * ALBs support EC2, ECS, Lambda, and private IP targets
 * Health checks automatically remove unhealthy targets
+* ALBs support container environments and ECS port mapping
 * ALBs provide AWS-managed DNS hostnames
 * Client IP information is forwarded using HTTP headers
-
+* A single ALB can replace multiple Classic Load Balancers
+  
 ---
 
 ## Reflection
