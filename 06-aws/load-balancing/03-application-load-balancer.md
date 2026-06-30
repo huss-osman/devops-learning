@@ -88,6 +88,8 @@ api.example.com   → API Service
 shop.example.com  → Shopping Service
 ```
 
+---
+
 ### Query String Routing
 
 Traffic can be routed based on query parameters.
