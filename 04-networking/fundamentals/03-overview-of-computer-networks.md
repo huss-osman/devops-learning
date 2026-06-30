@@ -8,6 +8,56 @@ This is useful in real-world environments where understanding how applications c
 
 ---
 
+## Concepts Covered
+
+### Computer Networks
+
+A **computer network** is a collection of devices connected together to share information, resources, and services. Networks allow systems to communicate regardless of whether they are located in the same building or on opposite sides of the world.
+
+---
+
+### Communication Between Devices
+
+Devices communicate across networks by sending and receiving data using agreed standards known as **protocols**. This allows applications and services running on different systems to exchange information reliably.
+
+---
+
+### Resource Sharing
+
+Networks enable devices to share resources such as files, printers, storage, databases, and applications without requiring everything to exist on a single machine.
+
+---
+
+### Local Area Networks (LAN)
+
+A **Local Area Network (LAN)** connects devices within a small geographical area such as a home, office, school, or data centre. LANs typically provide high-speed communication between nearby devices.
+
+---
+
+### Wide Area Networks (WAN)
+
+A **Wide Area Network (WAN)** connects multiple local networks over large geographical distances. The internet is the largest example of a WAN, allowing devices worldwide to communicate with one another.
+
+---
+
+### Network Infrastructure
+
+Network infrastructure refers to the hardware and technologies that make communication possible, including cables, routers, switches, and wireless access points.
+
+---
+
+### Internet Connectivity
+
+The internet allows networks across the world to connect and exchange information. Most modern applications and cloud services rely on internet connectivity to function.
+
+---
+
+### Application Communication
+
+Applications rarely operate in isolation and often communicate with databases, APIs, and external services across networks. Understanding these interactions is essential when troubleshooting and building distributed systems.
+
+---
+
 ## Commands
 
 This section is concept-focused, but these tools will later be used to apply your knowledge:
