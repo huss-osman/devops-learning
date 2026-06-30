@@ -2,17 +2,21 @@
 
 ## Overview
 
-This section introduces **IPv4 and IPv6 addressing**, the two primary Internet Protocol versions used to identify and communicate with devices across networks.
+This section introduces **IPv4 and IPv6 addressing**, as well as the differences between **public** and **private IP addresses** used throughout modern networks and cloud environments.
 
-Understanding the differences between IPv4 and IPv6 is important when working with cloud environments, networking, and modern infrastructure, as both protocols are used to route traffic between systems and services.
+Understanding how IP addresses are assigned and translated is fundamental when working with networking, AWS infrastructure, routing, internet connectivity, and cloud architectures.
 
-Although IPv6 adoption continues to grow, IPv4 remains the most commonly used protocol within many environments and will be the primary focus throughout this module.
+Although IPv6 adoption continues to increase, IPv4 remains the most commonly used addressing scheme and will be the primary focus throughout this module.
 
 ## Contents
 
 * [IPv4](#ipv4)
 * [IPv6](#ipv6)
 * [IPv4 vs IPv6](#ipv4-vs-ipv6)
+* [Public IP Addresses](#public-ip-addresses)
+* [Private IP Addresses](#private-ip-addresses)
+* [Network Address Translation (NAT)](#network-address-translation-nat)
+* [Public vs Private IP Comparison](#public-vs-private-ip-comparison)
 
 ---
 
@@ -81,6 +85,110 @@ IPv6 provides an extremely large address space capable of supporting the continu
 
 ---
 
+## Public IP Addresses
+
+A public IP address allows a device to be directly reachable from the internet.
+
+Examples include:
+
+* Web servers
+* Public APIs
+* Home routers
+* Internet-facing applications
+
+Characteristics of public IP addresses:
+
+* Globally unique
+* Routable across the internet
+* Can often be geographically located
+* Required for internet-facing services
+
+Examples:
+
+```text
+3.10.50.100
+52.56.120.20
+```
+
+---
+
+## Private IP Addresses
+
+Private IP addresses are used within internal networks and cannot be reached directly from the public internet.
+
+Common examples include:
+
+```text
+192.168.x.x
+172.16.x.x
+10.x.x.x
+```
+
+Characteristics of private IP addresses:
+
+* Only unique within a private network
+* Not directly accessible from the internet
+* Can be reused across different organisations and networks
+* Commonly used within homes, offices, and cloud environments
+
+For example, two separate companies can both use:
+
+```text
+192.168.1.10
+```
+
+without causing conflicts because the networks are isolated from each other.
+
+---
+
+## Network Address Translation (NAT)
+
+Private IP addresses cannot communicate directly with the internet.
+
+Instead, traffic passes through a router, firewall, or internet gateway that performs **Network Address Translation (NAT)**.
+
+NAT translates:
+
+```text
+Private IP → Public IP
+```
+
+and returns responses back to the original device.
+
+This is exactly how home routers operate:
+
+```text
+Laptop (192.168.1.20)
+        ↓
+Home Router
+        ↓
+Public IP (81.x.x.x)
+        ↓
+Internet
+```
+
+AWS uses the same principle through services such as:
+
+* Internet Gateways
+* NAT Gateways
+
+Without NAT, private networks would remain isolated and unable to access external services or websites.
+
+---
+
+## Public vs Private IP Comparison
+
+| Feature              | Public IP            | Private IP       |
+| -------------------- | -------------------- | ---------------- |
+| Internet Accessible  | Yes                  | No               |
+| Globally Unique      | Yes                  | No               |
+| Routable on Internet | Yes                  | No               |
+| Can Be Reused        | No                   | Yes              |
+| Typical Usage        | Web Servers, Routers | Internal Devices |
+| Example              | 52.95.110.1          | 192.168.1.10     |
+
+---
+
 ## Key Takeaways
 
 * IPv4 and IPv6 are the two major Internet Protocol versions
@@ -88,13 +196,17 @@ IPv6 provides an extremely large address space capable of supporting the continu
 * IPv6 uses 128-bit addressing
 * IPv4 remains the most widely used addressing format
 * IPv6 was introduced to solve IPv4 address exhaustion
-* IPv6 adoption continues to increase with cloud and IoT growth
+* Public IP addresses are globally unique and internet routable
+* Private IP addresses are used within internal networks
+* NAT allows private devices to communicate with the internet
+* Internet Gateways and routers perform address translation
+* Private IP ranges can be reused across multiple networks
 * Understanding IP addressing is fundamental for networking and cloud engineering
 
 ---
 
 ## Reflection
 
-Learning about IPv4 and IPv6 helped me understand how devices are uniquely identified and communicate across networks and cloud environments.
+Learning about IPv4, IPv6, public IPs, and private IPs helped me understand how devices communicate both within local networks and across the internet.
 
-I also learned why IPv6 was introduced and how its significantly larger address space supports the continued growth of internet-connected devices, cloud platforms, and modern infrastructure.
+I also learned how routers, Internet Gateways, and Network Address Translation enable private devices to securely access external services while conserving public IP addresses. Understanding these concepts provides a strong foundation for networking, cloud infrastructure, and AWS architecture.
