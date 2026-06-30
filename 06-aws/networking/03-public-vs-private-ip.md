@@ -81,36 +81,6 @@ IPv6 provides an extremely large address space capable of supporting the continu
 
 ---
 
-## Commands
-
-Useful networking commands when working with IP addressing include:
-
-```bash
-ip addr
-```
-
-Display network interfaces and IP addresses.
-
-```bash
-hostname -I
-```
-
-Display assigned IP addresses.
-
-```bash
-ping
-```
-
-Test network connectivity to another host.
-
-```bash
-traceroute
-```
-
-Trace the route packets take through a network.
-
----
-
 ## Key Takeaways
 
 * IPv4 and IPv6 are the two major Internet Protocol versions
