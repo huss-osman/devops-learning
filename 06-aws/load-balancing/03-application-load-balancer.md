@@ -142,6 +142,22 @@ ALBs can also route traffic to multiple applications running on the same EC2 ins
 
 ---
 
+## Health Checks
+
+ALBs continuously perform health checks against targets.
+
+Health checks are performed at the **Target Group level** to ensure resources are healthy and able to serve requests.
+
+If a target fails health checks:
+
+* Traffic stops being sent to that target
+* Requests are automatically redirected to healthy resources
+* Availability is maintained without manual intervention
+
+Health checks are one of the key features that enable highly available architectures.
+
+---
+
 ## ALB Hostnames and Client IPs
 
 Every ALB receives an AWS-generated DNS name:
