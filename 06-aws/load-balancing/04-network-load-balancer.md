@@ -6,8 +6,6 @@ This section introduces the **Network Load Balancer (NLB)**, AWS's high-performa
 
 Unlike Application Load Balancers that inspect HTTP requests, Network Load Balancers operate at the transport layer and forward TCP and UDP traffic directly to backend resources with minimal processing overhead.
 
-This makes NLBs ideal for workloads that require millions of requests per second, predictable performance, and static IP addresses.
-
 ## Contents
 
 * [What is a Network Load Balancer?](#what-is-a-network-load-balancer)
