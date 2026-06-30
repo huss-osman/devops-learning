@@ -8,6 +8,56 @@ This is useful in real-world environments where understanding how traffic flows 
 
 ---
 
+## Concepts Covered
+
+### Switches
+
+A **switch** connects devices within the same local network (LAN) and forwards traffic only to the intended destination device. This improves network efficiency by reducing unnecessary traffic between systems.
+
+---
+
+### Routers
+
+A **router** connects different networks together and determines the best path for data to travel between them. Routers are responsible for allowing local networks to communicate with external networks such as the internet.
+
+---
+
+### Firewalls
+
+A **firewall** is a security device or software solution that monitors and filters incoming and outgoing traffic based on predefined rules. Firewalls help protect systems from unauthorised access and malicious traffic.
+
+---
+
+### Traffic Forwarding
+
+Network devices inspect incoming traffic and decide where it should be sent next. Switches forward traffic within a network, while routers forward traffic between different networks.
+
+---
+
+### Network Segmentation
+
+Routers and firewalls can be used to separate networks into smaller sections or subnets. This improves security, reduces broadcast traffic, and helps isolate systems from one another.
+
+---
+
+### Routing Decisions
+
+Routers use routing tables to determine the most appropriate path for traffic to reach its destination. These decisions allow communication between local networks, remote offices, and cloud environments.
+
+---
+
+### Access Control and Security
+
+Firewalls enforce security policies by allowing or denying traffic based on criteria such as IP addresses, ports, and protocols. This helps organisations control access to services and resources.
+
+---
+
+### Enterprise and Cloud Networking
+
+Switches, routers, and firewalls are fundamental components in modern data centres and cloud environments. Understanding their roles is essential when designing, securing, and troubleshooting production infrastructure.
+
+---
+
 ## Commands
 
 This section is concept-focused, but these tools will later be used to observe network behaviour:
