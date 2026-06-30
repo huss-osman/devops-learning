@@ -136,19 +136,9 @@ Examples:
 * Search Service Target Group
 * Authentication Service Target Group
 
----
+Target Groups allow different parts of an application to scale independently while remaining behind a single load balancer.
 
-## Health Checks
-
-ALBs continuously perform health checks against targets.
-
-If a target fails health checks:
-
-* Traffic stops being sent to that target
-* Requests are automatically redirected to healthy resources
-* Availability is maintained without manual intervention
-
-Health checks are one of the key features that enable highly available architectures.
+ALBs can also route traffic to multiple applications running on the same EC2 instance or ECS host by using ports and routing rules.
 
 ---
 
@@ -173,6 +163,8 @@ AWS forwards this information using HTTP headers:
 * X-Forwarded-For
 * X-Forwarded-Port
 * X-Forwarded-Proto
+
+These headers allow applications to determine the original client details even though connections terminate at the load balancer.
 
 These headers are commonly used for:
 
