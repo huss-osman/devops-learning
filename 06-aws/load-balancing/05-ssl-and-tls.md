@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section introduces **SSL and TLS certificates**, which are used to secure communication between clients and servers across the internet.
+This section introduces **SSL and TLS certificates**, which are used to secure communication between clients and servers across the internet. It plays a critical role in protecting sensitive information by encrypting data as it travels between browsers, applications, and backend services.
 
 SSL/TLS provides **encryption in transit**, ensuring that sensitive information such as passwords, payment details, and personal information cannot be intercepted while travelling across networks.
 
