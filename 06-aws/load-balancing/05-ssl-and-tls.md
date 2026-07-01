@@ -6,8 +6,6 @@ This section introduces **SSL and TLS certificates**, which are used to secure c
 
 SSL/TLS provides **encryption in transit**, ensuring that sensitive information such as passwords, payment details, and personal information cannot be intercepted while travelling across networks.
 
-Although the term SSL is still commonly used today, modern secure communication relies on **TLS (Transport Layer Security)**, the successor to SSL.
-
 ## Contents
 
 * [What is SSL?](#what-is-ssl)
