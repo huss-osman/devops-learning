@@ -14,6 +14,7 @@ Load balancing is a fundamental component of modern cloud architectures because 
 * [Scalability](#scalability)
 * [High Availability](#high-availability)
 * [Load Balancer Types](#load-balancer-types)
+* [SSL and Load Balancers](#ssl-and-load-balancers)
 
 ---
 
@@ -134,6 +135,48 @@ Designed for:
 
 ---
 
+## SSL and Load Balancers
+
+Elastic Load Balancers can also manage SSL/TLS certificates and HTTPS traffic.
+
+This allows encryption to be terminated at the Load Balancer rather than individual backend instances, simplifying certificate management and reducing operational overhead.
+
+### Classic Load Balancer (CLB)
+
+Classic Load Balancers support:
+
+* One SSL certificate per Load Balancer
+
+If multiple domains require different certificates, multiple CLBs are required.
+
+---
+
+### Application Load Balancer (ALB)
+
+Application Load Balancers support:
+
+* Multiple SSL certificates
+* Multiple HTTPS listeners
+* Server Name Indication (SNI)
+
+This allows a single ALB to serve multiple domains using different SSL certificates.
+
+---
+
+### Network Load Balancer (NLB)
+
+Network Load Balancers also support:
+
+* Multiple SSL certificates
+* Multiple TLS listeners
+* Server Name Indication (SNI)
+
+This allows a single NLB to serve multiple domains while maintaining high performance and low latency.
+
+NLBs are commonly used when applications require both TLS encryption and Layer 4 performance characteristics.
+
+---
+
 ## Key Takeaways
 
 * Elastic Load Balancing distributes traffic across multiple resources
@@ -144,6 +187,10 @@ Designed for:
 * Load Balancers support highly available architectures
 * AWS provides ALB, NLB, and GWLB services
 * Load balancing is a core component of modern cloud environments
+* Load Balancers can terminate SSL/TLS connections
+* ALBs and NLBs support multiple SSL certificates using SNI
+* Classic Load Balancers support only a single SSL certificate
+* SSL termination simplifies certificate management for backend services
 
 ---
 
