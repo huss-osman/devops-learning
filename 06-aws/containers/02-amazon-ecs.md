@@ -6,8 +6,6 @@ This section introduces **Amazon Elastic Container Service (Amazon ECS)**, AWS's
 
 Amazon ECS removes much of the operational complexity associated with running containers by handling scheduling, orchestration, health monitoring, and scaling while integrating closely with other AWS services.
 
-One of the key decisions when using ECS is choosing the appropriate **launch type**, which determines who is responsible for managing the underlying infrastructure that runs the containers.
-
 ## Contents
 
 * [What is Amazon ECS?](#what-is-amazon-ecs)
