@@ -6,8 +6,6 @@ This section introduces how Amazon ECS integrates with AWS Load Balancers to dis
 
 Load Balancers play a critical role in container orchestration by improving scalability, high availability, fault tolerance, and traffic distribution across running services.
 
-Choosing the correct Load Balancer type is important because different applications have different networking, performance, and routing requirements.
-
 ## Contents
 
 * [Application Load Balancer (ALB)](#application-load-balancer-alb)
