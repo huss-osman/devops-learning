@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section introduces the two primary IAM roles used by Amazon ECS: the **EC2 Instance Profile** and the **ECS Task Role**.
+This section introduces the two primary IAM roles used by Amazon ECS to securely manage permissions between ECS infrastructure, AWS services, and the containers running within a cluster: the **EC2 Instance Profile** and the **ECS Task Role**.
 
 These roles allow ECS infrastructure and running containers to securely interact with AWS services without requiring hardcoded credentials or access keys.
 
