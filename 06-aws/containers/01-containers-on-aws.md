@@ -6,8 +6,6 @@ This section introduces **containers and Docker**, two technologies that have fu
 
 Containers package an application together with its dependencies, libraries, configuration files, and runtime environment into a single portable unit that can run consistently across development, testing, and production environments.
 
-This solves the classic **"it works on my machine"** problem by ensuring applications behave the same way regardless of where they are deployed.
-
 ## Contents
 
 * [What is Docker?](#what-is-docker)
