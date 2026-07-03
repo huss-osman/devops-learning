@@ -7,17 +7,12 @@
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
 <p align="center">
-  <img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/Website_NGINX_Image.png" />
+  <img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/aws-ec2-nginx-cloudflare-diagram.png" />
 </p>
 
----
+This project is a production-style web server deployment built from scratch using AWS and Cloudflare. It runs inside an AWS VPC with an Internet Gateway, a public subnet, and an Ubuntu EC2 instance hosting an NGINX web server exposed securely to the internet through Cloudflare DNS and proxy services.
 
-## Overview
-
-This assignment brings together core networking concepts including IP addressing, DNS resolution, ports, and routing.
-
-The objective is to deploy a web server on an EC2 instance and expose it to the internet using a custom domain name.
-
+The goal was to understand how real-world web applications are delivered end-to-end, covering networking concepts such as DNS resolution, public IP addressing, routing, ports, security groups, and web server management in a cloud environment.
 By completing this project, the setup simulates how real-world services are hosted and accessed across cloud infrastructure.
 
 ---
@@ -33,26 +28,6 @@ The goal of this project was to:
 - Route traffic from a custom domain to an EC2 instance
 - Build foundational cloud and networking knowledge
 - Practice real-world troubleshooting and deployment workflows
-
----
-
-# Architecture 
-
-<p align="center">
-<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture_Diagram.png" />
-</p>
-
-> [!NOTE]
-> The EC2 instance was deployed inside a **public subnet** with a public IPv4 address enabled.
->
-> Cloudflare DNS was used to route traffic from `nginx.osmanhus.co.uk` to the EC2 instance hosting the NGINX web server.
-
-> [!IMPORTANT]
-> Security Groups acted as the primary firewall layer for the instance:
->
-> - `SSH (22)` restricted to **My IP only**
-> - `HTTP (80)` allowed publicly
-> - `HTTPS (443)` allowed publicly
 
 ---
 
