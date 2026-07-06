@@ -6,18 +6,12 @@
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
 <p align="center">
-<img width="1000" alt="App_Preview (1)" src="https://github.com/user-attachments/assets/f49106b2-3f5e-49e9-8eb5-e8d2d87cae17" />
+  <img width="1000" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/b1c1a3e8-2d8c-46c9-b2bf-12e184b820c6" />
 </p>
 
----
+This project is a production-style containerised application built from scratch using Docker, NGINX, Flask, and Redis. It runs inside a Docker Compose environment where multiple containers communicate over an internal network, with NGINX routing traffic to Flask application containers and Redis providing persistent data storage.
 
-## Overview
-
-This project brings together containerisation, reverse proxying, service communication, load balancing, and workflows.
-
-The objective is to deploy a scalable Flask application using Docker, NGINX, and Redis across container services.
-
-By completing this project, the setup simulates how modern containerised applications are orchestrated at scale.
+The goal was to learn how modern applications are deployed and orchestrated end-to-end, covering containerisation, reverse proxying, service communication, Docker networking, load balancing, persistent storage, and multi-container workflows.
 
 ---
 
@@ -33,37 +27,6 @@ The goal of this project was to:
 - Configure persistent storage using Docker volumes
 - Manage Redis connection details using environment variables
 - Practice real-world container networking and troubleshooting workflows
-
----
-
-## Architecture
-
-Requests flow through the stack like this:
-
-```bash
-User → Nginx → Flask → Redis
-```
-
-Nginx acts as a reverse proxy, receiving incoming requests and forwarding them to the Flask app. Flask handles the routing and business logic, and reads from or writes to Redis when it needs to store or retrieve the visit count. Redis persists the count using a named Docker volume, so the data survives container restarts.
-
-<p align="center">
-  <img width="700" alt="Flask Application" src="https://github.com/huss-osman/nginx-flask-redis-app/blob/main/app/static/images/Architecture%20Diagram.png" />
-</p>
-
-> [!NOTE]
-> The application is built as a multi-container environment using Docker Compose.
->
-> NGINX routes incoming traffic to Flask application containers, while Redis stores and retrieves the visit count data.
-
-> [!IMPORTANT]
-> Docker Compose manages:
->
-> - Flask application containers
-> - Redis service
-> - NGINX reverse proxy
-> - Container networking
-> - Service communication
-> - Persistent Redis storage
 
 ---
 
