@@ -12,6 +12,7 @@ Rather than provisioning, maintaining, or scaling servers manually, serverless s
 * [Function as a Service (FaaS)](#function-as-a-service-faas)
 * [Beyond Functions](#eyond-functions)
 * [AWS Serverless Services](#aws-serverless-services)
+* [Serverless Architecture Example](#serverless-architecture-example)
 * [Benefits of Serverless](#benefits-of-serverless)
 
 ---
@@ -126,6 +127,72 @@ Because AWS manages the underlying infrastructure for each service, developers c
 
 ---
 
+## Serverless Architecture Example
+
+One of the biggest advantages of serverless is how AWS services can work together automatically using events.
+
+### Image Processing Workflow
+
+A common serverless architecture is automatic image thumbnail generation.
+
+```text
+User
+   │
+   ▼
+Amazon S3 (Image Upload)
+   │
+   │ Upload Event
+   ▼
+AWS Lambda
+   │
+   ├────────► Generate Thumbnail
+   │
+   ├────────► Store Thumbnail in Amazon S3
+   │
+   └────────► Store Metadata in Amazon DynamoDB
+```
+
+Workflow:
+
+1. A user uploads an image to an Amazon S3 bucket.
+2. The upload automatically triggers an AWS Lambda function.
+3. Lambda generates a thumbnail version of the image.
+4. The thumbnail is stored in an S3 bucket.
+5. Image metadata, such as the filename and size, is stored in Amazon DynamoDB.
+
+Because the entire workflow is event-driven, no servers need to be running continuously. Lambda only executes when an image is uploaded, making the solution both scalable and cost-efficient.
+
+---
+
+### Scheduled Automation
+
+Serverless applications can also perform scheduled tasks without dedicated servers.
+
+```text
+Amazon EventBridge
+        │
+ Scheduled Event
+        ▼
+   AWS Lambda
+        │
+        ▼
+Backup • Cleanup • Reports • Notifications
+```
+
+Amazon EventBridge can trigger Lambda functions on a schedule using cron or rate expressions.
+
+Common scheduled tasks include:
+
+* Running backups
+* Cleaning temporary files
+* Sending notifications
+* Generating reports
+* Performing maintenance jobs
+
+Since Lambda only runs when the scheduled event occurs, there is no need to keep a server running 24/7.
+
+---
+
 ## Benefits of Serverless
 
 Serverless provides several advantages for modern cloud applications.
@@ -153,6 +220,8 @@ This allows development teams to spend more time building applications rather th
 * AWS Lambda is AWS's serverless compute service
 * Serverless applications commonly use event-driven architectures
 * AWS provides many serverless services including Lambda, API Gateway, DynamoDB, S3, Cognito, SNS, SQS, Step Functions, Fargate, and Aurora Serverless
+* AWS services can work together to build fully automated serverless workflows
+* EventBridge enables scheduled serverless automation
 * Serverless services automatically scale based on demand
 * Billing is typically based on actual usage
 * Serverless reduces operational complexity and infrastructure management
