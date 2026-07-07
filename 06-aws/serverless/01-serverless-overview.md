@@ -111,6 +111,6 @@ This allows development teams to spend more time building applications rather th
 
 ## Reflection
 
-Learning about serverless computing helped me understand how modern cloud applications can be built without managing servers directly.
+Learning about serverless computing helped me understand how modern cloud applications can be built and scaled without manually provisioning, maintaining, or managing servers, allowing developers to focus on writing application code rather than managing infrastructure.
 
 I also learned that serverless extends beyond compute services such as AWS Lambda to include fully managed services like Amazon S3, DynamoDB, and SQS, allowing developers to focus on building applications while AWS manages the underlying infrastructure.
