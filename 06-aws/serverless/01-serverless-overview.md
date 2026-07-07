@@ -11,6 +11,7 @@ Rather than provisioning, maintaining, or scaling servers manually, serverless s
 * [What is Serverless?](#what-is-serverless)
 * [Function as a Service (FaaS)](#function-as-a-service-faas)
 * [Beyond Functions](#eyond-functions)
+* [AWS Serverless Services](#aws-serverless-services)
 * [Benefits of Serverless](#benefits-of-serverless)
 
 ---
@@ -76,6 +77,55 @@ These services allow developers to build complete applications without managing 
 
 ---
 
+## AWS Serverless Services
+
+AWS provides a wide range of fully managed serverless services that allow developers to build scalable applications without managing infrastructure.
+
+Some of the most commonly used services include:
+
+| Service | Purpose |
+|---------|---------|
+| AWS Lambda | Run application code in response to events |
+| Amazon API Gateway | Create and manage APIs that invoke backend services |
+| Amazon DynamoDB | Fully managed NoSQL database |
+| Amazon S3 | Object storage for files and static content |
+| Amazon Cognito | User authentication and identity management |
+| Amazon SNS | Publish notifications to subscribers |
+| Amazon SQS | Queue messages between distributed services |
+| AWS Step Functions | Orchestrate workflows across multiple services |
+| AWS Fargate | Run containers without managing EC2 instances |
+| Amazon Kinesis Data Firehose | Stream data into AWS storage and analytics services |
+| Amazon Aurora Serverless | Automatically scaling relational database |
+
+These services can be combined to build complete event-driven applications.
+
+A common architecture might look like:
+
+```text
+User
+   │
+   ▼
+Amazon Cognito
+   │
+   ▼
+Amazon API Gateway
+   │
+   ▼
+AWS Lambda
+   │
+   ├────────► Amazon DynamoDB
+   │
+   ├────────► Amazon S3
+   │
+   ├────────► Amazon SQS / SNS
+   │
+   └────────► AWS Step Functions
+```
+
+Because AWS manages the underlying infrastructure for each service, developers can focus on application logic while benefiting from automatic scaling, high availability, and reduced operational overhead.
+
+---
+
 ## Benefits of Serverless
 
 Serverless provides several advantages for modern cloud applications.
@@ -102,8 +152,8 @@ This allows development teams to spend more time building applications rather th
 * Function as a Service (FaaS) is a core serverless model
 * AWS Lambda is AWS's serverless compute service
 * Serverless applications commonly use event-driven architectures
-* Many AWS managed services are considered serverless
-* Serverless provides automatic scaling and high availability
+* AWS provides many serverless services including Lambda, API Gateway, DynamoDB, S3, Cognito, SNS, SQS, Step Functions, Fargate, and Aurora Serverless
+* Serverless services automatically scale based on demand
 * Billing is typically based on actual usage
 * Serverless reduces operational complexity and infrastructure management
 
