@@ -6,8 +6,6 @@ This section introduces **serverless computing**, a cloud computing model where 
 
 Rather than provisioning, maintaining, or scaling servers manually, serverless services automatically handle infrastructure management, scaling, availability, and resource allocation.
 
-Serverless computing enables faster application development, reduced operational overhead, and a pay-for-use pricing model.
-
 ## Contents
 
 * [What is Serverless?](#what-is-serverless)
