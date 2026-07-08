@@ -6,8 +6,6 @@ This section introduces **IPv4 and IPv6 addressing**, as well as the differences
 
 Understanding how IP addresses are assigned and translated is fundamental when working with networking, AWS infrastructure, routing, internet connectivity, and cloud architectures.
 
-Although IPv6 adoption continues to increase, IPv4 remains the most commonly used addressing scheme and will be the primary focus throughout this module.
-
 ## Contents
 
 * [IPv4](#ipv4)
