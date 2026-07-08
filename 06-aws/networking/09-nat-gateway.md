@@ -12,6 +12,8 @@ NAT Gateways are commonly used to allow private EC2 instances to download softwa
 * [How a NAT Gateway Works](#how-a-nat-gateway-works)
 * [Key Features](#key-features)
 * [Design Considerations](#design-considerations)
+* [High Availability](#high-availability)
+* [NAT Gateway vs NAT Instance](#nat-gateway-vs-nat-instance)
 
 ---
 
@@ -91,6 +93,53 @@ These considerations are important when designing secure, scalable, and cost-eff
 
 ---
 
+## High Availability
+
+A NAT Gateway is **highly available**, but only **within a single Availability Zone (AZ)**.
+
+If multiple Availability Zones share a single NAT Gateway and that AZ becomes unavailable, resources in the other Availability Zones lose outbound internet access.
+
+To build a highly available architecture:
+
+* Deploy one NAT Gateway per Availability Zone
+* Configure each private subnet to use the NAT Gateway in its own AZ
+* Avoid routing traffic across AZs for internet access
+
+Example architecture:
+
+<p align="center">
+  <img width="900" alt="NAT Gateway High Availability" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_NATGW_Diagram_Example.png" />
+</p>
+
+This design ensures that if one Availability Zone fails, private resources in the remaining Availability Zones continue to access the internet.
+
+---
+
+## NAT Gateway vs NAT Instance
+
+AWS provides two methods for allowing private subnet resources to access the internet.
+
+| Feature | NAT Gateway | NAT Instance |
+|---------|-------------|--------------|
+| Managed by AWS | ✅ Yes | ❌ No |
+| High Availability | ✅ Within one AZ | ❌ Manual failover required |
+| Automatic Scaling | ✅ Up to 100 Gbps | ❌ Depends on EC2 instance type |
+| Maintenance | None | Customer managed |
+| Security Groups | Not Supported | Supported |
+| Elastic IP | Required | Required |
+| Can act as Bastion Host | ❌ No | ✅ Yes |
+| Pricing | Hourly + Data Processed | EC2 Instance Pricing |
+
+In most production environments, **NAT Gateways are the recommended solution** because they provide automatic scaling, higher availability, and significantly lower operational overhead.
+
+NAT Instances remain useful when greater control, custom configuration, or additional functionality such as acting as a Bastion Host is required.
+
+For a detailed AWS comparison:
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
+
+---
+
 ## Key Takeaways
 
 * NAT stands for Network Address Translation
@@ -99,9 +148,12 @@ These considerations are important when designing secure, scalable, and cost-eff
 * NAT Gateways are fully managed AWS services
 * NAT Gateways require an Internet Gateway
 * NAT Gateways use an Elastic IP Address
-* NAT Gateways automatically scale with demand
+* NAT Gateways automatically scale up to 100 Gbps
 * NAT Gateways are deployed in public subnets
-* One NAT Gateway is recommended per Availability Zone for high availability
+* One NAT Gateway per Availability Zone is recommended for high availability
+* Route Tables direct private subnet traffic to the NAT Gateway
+* NAT Gateways require minimal maintenance compared to NAT Instances
+* NAT Instances provide greater flexibility but require manual management and scaling
 * Billing is based on hourly usage and data processed
 
 ---
