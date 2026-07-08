@@ -213,6 +213,6 @@ Without NAT, private networks would remain isolated and unable to access externa
 
 ## Reflection
 
-Learning about IPv4, IPv6, public IPs, and private IPs helped me understand how devices communicate both within local networks and across the internet.
+Learning about IPv4, IPv6, public IPs, and private IPs helped me understand how IP addressing enables communication between devices across local networks, the internet, and cloud environments.
 
-I also learned how routers, Internet Gateways, and Network Address Translation enable private devices to securely access external services while conserving public IP addresses. Understanding these concepts provides a strong foundation for networking, cloud infrastructure, and AWS architecture.
+I also learned how routers, Internet Gateways, and Network Address Translation allow private devices to access external services while conserving public IP addresses, providing a strong foundation for networking and AWS architecture.
