@@ -116,13 +116,17 @@ Examples:
 
 Private IP addresses are used within internal networks and cannot be reached directly from the public internet.
 
-Common examples include:
+The Internet Assigned Numbers Authority (IANA) has reserved three IPv4 address ranges specifically for private networks.
+
+These ranges are:
 
 ```text
-192.168.x.x
-172.16.x.x
-10.x.x.x
+10.0.0.0      → 10.255.255.255
+172.16.0.0    → 172.31.255.255
+192.168.0.0   → 192.168.255.255
 ```
+
+Any IPv4 address outside these reserved ranges is generally considered a public IP address.
 
 Characteristics of private IP addresses:
 
@@ -138,6 +142,9 @@ For example, two separate companies can both use:
 ```
 
 without causing conflicts because the networks are isolated from each other.
+
+> [!NOTE]
+> The address **127.0.0.1** is a special loopback address used by a device to communicate with itself and is not considered part of the private IP ranges.
 
 ---
 
@@ -196,6 +203,7 @@ Without NAT, private networks would remain isolated and unable to access externa
 * IPv6 uses 128-bit addressing
 * IPv4 remains the most widely used addressing format
 * IPv6 was introduced to solve IPv4 address exhaustion
+* IANA reserves three IPv4 ranges for private networks
 * Public IP addresses are globally unique and internet routable
 * Private IP addresses are used within internal networks
 * NAT allows private devices to communicate with the internet
