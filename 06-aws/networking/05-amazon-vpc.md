@@ -14,6 +14,7 @@ It covers the purpose of default and custom VPCs, CIDR blocks, subnets, internet
 * [Subnets](#subnets)
 * [Public and Private Subnets](#public-and-private-subnets)
 * [Internet Gateway](#internet-gateway)
+* [IPv6 in a VPC](#ipv6-in-a-vpc)
 * [AWS Reserved IP Addresses](#aws-reserved-ip-addresses)
 
 ---
@@ -157,6 +158,30 @@ The Default VPC automatically includes an attached Internet Gateway.
 
 ---
 
+## IPv6 in a VPC
+
+AWS VPCs support **dual-stack networking**, allowing resources to use both IPv4 and IPv6 simultaneously.
+
+IPv4 cannot be disabled within a VPC. Instead, when IPv6 is enabled, both protocols operate together, providing compatibility with existing IPv4 infrastructure while supporting modern IPv6 networking.
+
+<p align="center">
+  <img width="500" alt="IPv6 in VPC" src="https://github.com/user-attachments/assets/bcc797a8-166a-45e8-a532-5e4a9a38684d" /> 
+
+</p>
+
+Key characteristics include:
+
+* IPv4 always remains enabled
+* IPv6 operates alongside IPv4 (Dual Stack)
+* EC2 instances receive a private IPv4 address
+* EC2 instances can also receive a publicly routable IPv6 address
+* Internet Gateways support both IPv4 and IPv6 traffic
+* Resources can communicate using either protocol
+
+Dual-stack networking allows applications to support both IPv4 and IPv6 clients while providing a smooth migration path toward IPv6 adoption without disrupting existing workloads.
+
+---
+
 ## AWS Reserved IP Addresses
 
 AWS reserves **five IP addresses** within every subnet.
@@ -200,6 +225,10 @@ Understanding these reserved addresses is important when planning subnet sizes.
 * AWS reserves five IP addresses in every subnet
 * Resources are commonly distributed across multiple Availability Zones for high availability
 * Understanding VPC networking is fundamental for designing secure AWS architectures
+*  AWS supports dual-stack networking using IPv4 and IPv6
+* IPv4 cannot be disabled when IPv6 is enabled
+* Internet Gateways support both IPv4 and IPv6 traffic
+* EC2 instances can communicate using either protocol
 
 ---
 
