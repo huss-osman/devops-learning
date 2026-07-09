@@ -11,6 +11,7 @@ It explains why IPv6 was introduced, how it differs from IPv4, its addressing fo
 * [What is IPv6?](#what-is-ipv6)
 * [IPv6 Address Format](#ipv6-address-format)
 * [IPv6 in AWS](#ipv6-in-aws)
+* [Egress-only Internet Gateway](#egress-only-internet-gateway)
 * [Why IPv6?](#why-ipv6)
 
 ---
@@ -76,6 +77,31 @@ Because IPv6 addresses are internet routable by default, properly configuring se
 
 ---
 
+## Egress-only Internet Gateway
+
+An **Egress-only Internet Gateway (EIGW)** provides outbound internet access for IPv6 resources while preventing inbound connections initiated from the internet.
+
+It performs a similar role to a NAT Gateway for IPv4, but is designed specifically for IPv6 traffic.
+
+<p align="center">
+  <img width="600" alt="Egress-only Internet Gateway" src="https://github.com/user-attachments/assets/7feb766e-98fa-4ca7-9c91-c45451d7a489" /> 
+
+</p>
+
+Key characteristics include:
+
+* Supports IPv6 traffic only
+* Allows outbound internet connections
+* Blocks unsolicited inbound internet connections
+* Designed for private IPv6 workloads
+* Requires Route Table configuration
+
+Unlike a standard Internet Gateway, which allows communication to be initiated from both directions, an Egress-only Internet Gateway only permits connections that originate from resources inside the VPC.
+
+This makes it ideal for private subnets that require outbound internet access while preventing direct inbound IPv6 traffic.
+
+---
+
 ## Why IPv6?
 
 IPv6 was designed to support the continued growth of the internet.
@@ -104,6 +130,8 @@ As cloud adoption and connected devices continue to increase, IPv6 is becoming a
 * AWS does not provide private IPv6 address ranges
 * Security Groups and Network ACLs are essential when using IPv6
 * IPv6 enables future growth of internet-connected devices
+* Egress-only Internet Gateways provide outbound-only IPv6 internet access
+* Route Tables must be configured to use an Egress-only Internet Gateway
 
 ---
 
