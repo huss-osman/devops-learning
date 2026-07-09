@@ -13,7 +13,6 @@ It explains why IPv6 was introduced, how it differs from IPv4, its addressing fo
 * [IPv6 in AWS](#ipv6-in-aws)
 * [Egress-only Internet Gateway](#egress-only-internet-gateway)
 * [IPv6 Routing](#ipv6-Routing)
-* [Dual-Stack Routing](#Dual-Stack-Routing)
 * [Why IPv6?](#why-ipv6)
 
 ---
