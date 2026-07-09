@@ -12,6 +12,8 @@ It explains why IPv6 was introduced, how it differs from IPv4, its addressing fo
 * [IPv6 Address Format](#ipv6-address-format)
 * [IPv6 in AWS](#ipv6-in-aws)
 * [Egress-only Internet Gateway](#egress-only-internet-gateway)
+* [IPv6 Routing](#ipv6-Routing)
+* [Dual-Stack Routing](#Dual-Stack-Routing)
 * [Why IPv6?](#why-ipv6)
 
 ---
@@ -99,6 +101,74 @@ Key characteristics include:
 Unlike a standard Internet Gateway, which allows communication to be initiated from both directions, an Egress-only Internet Gateway only permits connections that originate from resources inside the VPC.
 
 This makes it ideal for private subnets that require outbound internet access while preventing direct inbound IPv6 traffic.
+
+---
+
+## IPv6 Routing 
+
+AWS VPCs commonly operate in **dual-stack mode**, where both IPv4 and IPv6 are enabled simultaneously.
+
+Each VPC and subnet receives both an IPv4 CIDR block and an IPv6 CIDR block, allowing resources to communicate using either protocol.
+
+<p align="center">
+  <img width="900" alt="IPv6 Routing" src="https://github.com/user-attachments/assets/cc4b0736-97d0-446f-b7ea-2224899f93a1" /> 
+
+</p>
+
+### Public Subnet
+
+Resources inside a public subnet can communicate with the internet using both IPv4 and IPv6.
+
+A typical route table looks like:
+
+| Destination | Target |
+|-------------|--------|
+| VPC IPv4 CIDR | Local |
+| VPC IPv6 CIDR | Local |
+| `0.0.0.0/0` | Internet Gateway |
+| `::/0` | Internet Gateway |
+
+Public EC2 instances typically have:
+
+* Private IPv4 address
+* Public Elastic IP (IPv4)
+* Public IPv6 address
+
+This allows direct internet connectivity using both protocols.
+
+---
+
+### Private Subnet
+
+Private subnets route IPv4 and IPv6 traffic differently.
+
+| Destination | Target |
+|-------------|--------|
+| VPC IPv4 CIDR | Local |
+| VPC IPv6 CIDR | Local |
+| `0.0.0.0/0` | NAT Gateway |
+| `::/0` | Egress-only Internet Gateway |
+
+For outbound traffic:
+
+* IPv4 traffic leaves through a **NAT Gateway**
+* IPv6 traffic leaves through an **Egress-only Internet Gateway**
+
+Unlike IPv4, IPv6 does **not** require Network Address Translation (NAT).
+
+---
+
+### Dual-Stack Routing
+
+In a dual-stack VPC:
+
+* Every subnet can contain both IPv4 and IPv6 CIDR blocks.
+* EC2 instances can communicate using either protocol.
+* IPv4 private instances require a NAT Gateway for outbound internet access.
+* IPv6 traffic is routed directly through an Internet Gateway (public subnets) or an Egress-only Internet Gateway (private subnets).
+* Route Tables determine how both IPv4 and IPv6 traffic is forwarded.
+
+This allows AWS environments to support both legacy IPv4 applications and modern IPv6 networking simultaneously.
 
 ---
 
