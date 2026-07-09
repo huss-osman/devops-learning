@@ -15,6 +15,7 @@ It covers the purpose of default and custom VPCs, CIDR blocks, subnets, internet
 * [Public and Private Subnets](#public-and-private-subnets)
 * [Internet Gateway](#internet-gateway)
 * [IPv6 in a VPC](#ipv6-in-a-vpc)
+* [IPv6 Troubleshooting](#IPv6-Troubleshooting)
 * [AWS Reserved IP Addresses](#aws-reserved-ip-addresses)
 
 ---
