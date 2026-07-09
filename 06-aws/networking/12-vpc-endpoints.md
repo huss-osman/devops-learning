@@ -11,6 +11,7 @@ By using VPC Endpoints, applications can securely communicate with AWS services 
 * [What is a VPC Endpoint?](#what-is-a-vpc-endpoint)
 * [How VPC Endpoints Work](#how-vpc-endpoints-work)
 * [Benefits of VPC Endpoints](#benefits-of-vpc-endpoints)
+* [Types of VPC Endpoints](#types-of-vpc-endpoints)
 * [Traditional Access vs VPC Endpoint](#traditional-access-vs-vpc-endpoint)
 * [Troubleshooting](#troubleshooting)
 
@@ -66,6 +67,63 @@ VPC Endpoints provide several advantages:
 * Simplified network architecture
 
 Because traffic never leaves the AWS network, VPC Endpoints are commonly used in security-sensitive and compliance-focused environments.
+
+---
+
+## Types of VPC Endpoints
+
+AWS provides two types of VPC Endpoints depending on the AWS service being accessed.
+
+### Interface Endpoint
+
+Interface Endpoints are powered by **AWS PrivateLink**.
+
+When an Interface Endpoint is created, AWS provisions an **Elastic Network Interface (ENI)** inside your subnet. This ENI provides a private IP address that acts as the entry point for communication with supported AWS services.
+
+<p align="center">
+  <img width="700" alt="Interface Endpoint" src="https://github.com/user-attachments/assets/1fc836a1-f643-4aec-aeff-9325ebba7cca" /> 
+
+</p>
+
+Characteristics include:
+
+* Powered by AWS PrivateLink
+* Creates an Elastic Network Interface (ENI)
+* Supports most AWS services
+* Uses private IP addresses
+* Requires Security Groups
+* Charged per hour and per GB of processed data
+
+Common supported services include:
+
+* Amazon SNS
+* Amazon SQS
+* AWS Systems Manager (SSM)
+* Amazon CloudWatch
+* Amazon EventBridge
+
+---
+
+### Gateway Endpoint
+
+Gateway Endpoints provide private connectivity without creating an ENI.
+
+Instead, AWS creates a gateway that is referenced within the subnet's Route Table. Traffic destined for supported services is automatically routed through the Gateway Endpoint while remaining on the AWS network.
+
+<p align="center">
+  <img width="700" alt="Gateway Endpoint" src="https://github.com/user-attachments/assets/787c0ae1-b2ee-434f-9d02-c2fe881fa1bb" /> 
+
+</p>
+
+Characteristics include:
+
+* No ENI is created
+* Configured through Route Tables
+* No Security Groups required
+* Free of charge
+* Supports only Amazon S3 and Amazon DynamoDB
+
+Gateway Endpoints provide the simplest and most cost-effective method for privately accessing these services.
 
 ---
 
@@ -136,6 +194,10 @@ Misconfigured Route Tables or disabled DNS resolution are common causes of conne
 * Traffic remains on the AWS network
 * Internet Gateways are not required
 * NAT Gateways are not required
+* Interface Endpoints create an Elastic Network Interface (ENI)
+* Interface Endpoints support most AWS services and require Security Groups
+* Gateway Endpoints support only Amazon S3 and Amazon DynamoDB
+* Gateway Endpoints are configured through Route Tables and are free to use
 * VPC Endpoints improve security by avoiding the public internet
 * VPC Endpoints are highly available and horizontally scalable
 * Route Tables and DNS configuration are important for proper operation
