@@ -13,6 +13,7 @@ VPC Peering enables secure communication between VPCs without traversing the pub
 * [Key Characteristics](#key-characteristics)
 * [Route Tables](#route-tables)
 * [Common Use Cases](#common-use-cases)
+* [Advanced Features](#advanced-features)
 
 ---
 
@@ -111,6 +112,46 @@ Because communication remains entirely within the AWS network, VPC Peering provi
 
 ---
 
+## Advanced Features
+
+VPC Peering supports several advanced capabilities that make it suitable for larger AWS environments.
+
+### Cross-Account and Cross-Region Peering
+
+VPC Peering is not limited to VPCs within the same AWS account or Region.
+
+It supports:
+
+* Cross-account VPC Peering
+* Cross-region VPC Peering
+
+This allows organisations to securely connect environments that are managed by different teams or deployed across multiple AWS Regions while keeping traffic on the AWS global network.
+
+---
+
+### Security Group Referencing
+
+When VPCs are peered **within the same AWS Region**, Security Groups can reference Security Groups that belong to another AWS account.
+
+Instead of allowing traffic from specific IP addresses, Security Groups can reference resources dynamically.
+
+Example:
+
+<p align="center">
+  <img width="850" alt="Cross Account Security Group Reference" src="https://github.com/user-attachments/assets/f952f112-0e01-492a-b862-4afa75d5de42" />
+</p>
+
+This approach provides several benefits:
+
+* Simplifies Security Group management
+* Removes the need to hard-code IP addresses
+* Improves security through Security Group references
+* Makes cross-account communication easier to manage
+
+This feature is commonly used when organisations separate environments into different AWS accounts, such as development, staging, and production, while still allowing controlled communication between specific resources.
+
+---
+
 ## Key Takeaways
 
 * VPC Peering privately connects two VPCs
@@ -122,6 +163,7 @@ Because communication remains entirely within the AWS network, VPC Peering provi
 * Security Groups and Network ACLs must allow the traffic
 * VPC Peering is non-transitive
 * VPC Peering supports communication across AWS accounts and Regions
+* Security Groups can reference peered Security Groups across AWS accounts within the same Region
 * VPC Peering is commonly used to connect environments and applications securely
 
 ---
