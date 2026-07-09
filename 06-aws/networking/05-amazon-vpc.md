@@ -182,6 +182,29 @@ Dual-stack networking allows applications to support both IPv4 and IPv6 clients 
 
 ---
 
+## IPv6 Troubleshooting
+
+One common issue when working with dual-stack VPCs is assuming that running out of IPv4 addresses can be solved by enabling IPv6.
+
+Although IPv6 provides an enormous address space, AWS still requires IPv4 addressing for VPCs and subnets. If a subnet has exhausted its available IPv4 addresses, new EC2 instances cannot be launched even if plenty of IPv6 addresses remain.
+
+<p align="center">
+  <img width="500" alt="IPv4 Address Exhaustion" src="https://github.com/user-attachments/assets/1e3f6684-4d9d-43a1-a1ff-2a1e416fb696" />
+
+</p>
+
+For example, a subnet may still have an available IPv6 CIDR block, but if its IPv4 CIDR range has no remaining addresses, instance creation will fail.
+
+To resolve this issue:
+
+* Add an additional IPv4 CIDR block to the VPC
+* Create a new subnet with available IPv4 addresses
+* Launch new instances into the new subnet
+
+IPv6 address exhaustion is extremely unlikely due to its vast address space, whereas IPv4 exhaustion is a common consideration when designing VPC networks.
+
+---
+
 ## AWS Reserved IP Addresses
 
 AWS reserves **five IP addresses** within every subnet.
@@ -229,6 +252,7 @@ Understanding these reserved addresses is important when planning subnet sizes.
 * IPv4 cannot be disabled when IPv6 is enabled
 * Internet Gateways support both IPv4 and IPv6 traffic
 * EC2 instances can communicate using either protocol
+* Sufficient IPv4 address space is still required even when using IPv6
 
 ---
 
