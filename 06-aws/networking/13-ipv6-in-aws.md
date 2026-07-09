@@ -13,6 +13,7 @@ It explains why IPv6 was introduced, how it differs from IPv4, its addressing fo
 * [IPv6 in AWS](#ipv6-in-aws)
 * [Egress-only Internet Gateway](#egress-only-internet-gateway)
 * [IPv6 Routing](#ipv6-Routing)
+* [IPv6 Routing Architecture](#ipv6-routing-architecture)
 * [Why IPv6?](#why-ipv6)
 
 ---
@@ -168,6 +169,134 @@ In a dual-stack VPC:
 * Route Tables determine how both IPv4 and IPv6 traffic is forwarded.
 
 This allows AWS environments to support both legacy IPv4 applications and modern IPv6 networking simultaneously.
+
+---
+
+## IPv6 Routing Architecture
+
+The following architecture demonstrates how IPv4 and IPv6 traffic flow within a **dual-stack Amazon VPC**, where both protocols are enabled simultaneously.
+
+<p align="center">
+  <img width="900" alt="IPv6 Routing Architecture" src="https://github.com/user-attachments/assets/6b3650b8-474e-49d7-907c-8e5b23c048e4" /> 
+
+</p>
+
+In this architecture:
+
+* The VPC contains both an IPv4 CIDR block and an IPv6 CIDR block.
+* Each subnet is configured with both IPv4 and IPv6 address ranges.
+* Public resources can communicate with the internet using both IPv4 and IPv6.
+* Private resources route IPv4 and IPv6 traffic differently depending on the protocol.
+
+---
+
+### Public Subnet
+
+The public subnet contains resources that are internet accessible.
+
+Each EC2 instance typically has:
+
+* Private IPv4 address
+* Elastic IP (IPv4)
+* Public IPv6 address
+
+Traffic is routed as follows:
+
+* IPv4 → Internet Gateway
+* IPv6 → Internet Gateway
+
+This allows public instances to communicate directly with the internet using either protocol.
+
+---
+
+### Private Subnet
+
+Instances inside the private subnet are not directly accessible from the internet.
+
+They typically have:
+
+* Private IPv4 address
+* IPv6 address
+
+Outbound traffic is handled differently:
+
+* IPv4 traffic is routed through the NAT Gateway.
+* IPv6 traffic is routed through the Egress-only Internet Gateway.
+
+This allows outbound connectivity while preventing unsolicited inbound IPv6 connections.
+
+---
+
+### NAT Gateway
+
+The NAT Gateway provides outbound internet access for IPv4 resources located in private subnets.
+
+It performs Network Address Translation by translating private IPv4 addresses to its associated Elastic IP before forwarding traffic to the Internet Gateway.
+
+Key points:
+
+* Supports IPv4 only
+* Provides outbound internet access
+* Uses an Elastic IP
+* Located inside a public subnet
+
+---
+
+### Egress-only Internet Gateway
+
+The Egress-only Internet Gateway provides outbound internet connectivity for IPv6 resources inside private subnets.
+
+Unlike a standard Internet Gateway, it blocks inbound connections initiated from the internet while allowing outbound traffic.
+
+Key points:
+
+* Supports IPv6 only
+* Outbound traffic only
+* No Network Address Translation (NAT)
+* Protects private IPv6 resources
+
+---
+
+### Route Tables
+
+The route tables determine where IPv4 and IPv6 traffic is forwarded.
+
+#### Public Subnet Route Table
+
+| Destination | Target |
+|-------------|--------|
+| `10.0.0.0/16` | Local |
+| `2001:db8:1234:1a00::/56` | Local |
+| `0.0.0.0/0` | Internet Gateway (`igw-id`) |
+| `::/0` | Internet Gateway (`igw-id`) |
+
+Both IPv4 and IPv6 internet traffic are routed directly through the Internet Gateway.
+
+---
+
+#### Private Subnet Route Table
+
+| Destination | Target |
+|-------------|--------|
+| `10.0.0.0/16` | Local |
+| `2001:db8:1234:1a00::/56` | Local |
+| `0.0.0.0/0` | NAT Gateway (`nat-gateway-id`) |
+| `::/0` | Egress-only Internet Gateway (`eigw-id`) |
+
+IPv4 traffic is forwarded through the NAT Gateway, while IPv6 traffic is forwarded through the Egress-only Internet Gateway.
+
+---
+
+### Summary
+
+This architecture illustrates how dual-stack VPCs handle IPv4 and IPv6 independently.
+
+* Public instances communicate directly with the internet using both IPv4 and IPv6 through the Internet Gateway.
+* Private IPv4 traffic is translated through a NAT Gateway.
+* Private IPv6 traffic is routed through an Egress-only Internet Gateway.
+* Route Tables determine how both protocols are forwarded throughout the VPC.
+
+This design enables AWS environments to support modern IPv6 networking while maintaining compatibility with existing IPv4 workloads.
 
 ---
 
