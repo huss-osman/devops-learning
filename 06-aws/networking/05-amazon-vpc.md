@@ -240,75 +240,23 @@ Understanding these reserved addresses is important when planning subnet sizes.
 
 ## VPC Section Summary
 
-Throughout this section, several core AWS networking concepts were introduced that form the foundation of designing secure, scalable, and highly available cloud architectures.
-
-### CIDR Blocks
-
-CIDR (Classless Inter-Domain Routing) defines the IPv4 and IPv6 address ranges assigned to a VPC and its subnets. These ranges determine how many IP addresses are available for AWS resources.
-
-### Virtual Private Cloud (VPC)
-
-A VPC is a logically isolated virtual network within AWS where networking components such as subnets, route tables, gateways, and security controls are configured.
-
-### Subnets
-
-Subnets divide a VPC into smaller networks that are deployed across Availability Zones. Resources can be separated into public and private subnets depending on their internet connectivity requirements.
-
-### Internet Gateway (IGW)
-
-An Internet Gateway enables communication between a VPC and the public internet for both IPv4 and IPv6 traffic.
-
-### Route Tables
-
-Route Tables determine how network traffic is forwarded throughout the VPC.
-
-Routes can direct traffic to destinations such as:
-
-* Internet Gateways
-* NAT Gateways
-* VPC Peering Connections
-* VPC Endpoints
-* Egress-only Internet Gateways
-
-### Bastion Hosts
-
-A Bastion Host is an EC2 instance located in a public subnet that provides secure administrative access to instances located inside private subnets.
-
-### NAT Instance
-
-A NAT Instance is the traditional method of providing outbound IPv4 internet access for private instances. Unlike NAT Gateways, NAT Instances require manual configuration, maintenance, and management.
-
-### NAT Gateway
-
-A NAT Gateway is the AWS-managed replacement for NAT Instances, providing scalable, highly available outbound IPv4 internet access for private subnets.
-
-### Network ACLs (NACLs)
-
-Network ACLs operate at the subnet level and are **stateless**, requiring both inbound and outbound rules to allow traffic.
-
-### Security Groups
-
-Security Groups operate at the instance level and are **stateful**, automatically allowing return traffic for established connections.
-
-### VPC Peering
-
-VPC Peering enables private communication between two VPCs using the AWS internal network. Peering connections require non-overlapping CIDR blocks and are **non-transitive**.
-
-### VPC Endpoints
-
-VPC Endpoints provide private connectivity between a VPC and supported AWS services without requiring internet access or NAT Gateways.
-
-### AWS PrivateLink
-
-AWS PrivateLink allows private connectivity between service providers and consumers across different VPCs without requiring VPC Peering or exposing traffic to the public internet.
-
-### Egress-only Internet Gateway
-
-An Egress-only Internet Gateway provides outbound-only IPv6 internet connectivity for private subnets while blocking unsolicited inbound IPv6 connections.
-
-### Transit Gateway
-
-A Transit Gateway acts as a central networking hub that connects multiple VPCs, VPNs, and Direct Connect links. Unlike VPC Peering, Transit Gateway supports **transitive routing**, making it more suitable for large-scale AWS environments.
+| Component | Summary |
+|-----------|---------|
+| **CIDR Blocks** | Define the IPv4 and IPv6 address ranges assigned to a VPC and its subnets, determining the available IP address space for AWS resources. |
+| **Virtual Private Cloud (VPC)** | A logically isolated virtual network within AWS where networking resources, IP ranges, routing, and security are configured. |
+| **Subnets** | Divide a VPC into smaller networks that are deployed across Availability Zones. Resources can be placed in public or private subnets depending on connectivity requirements. |
+| **Internet Gateway (IGW)** | Enables communication between a VPC and the public internet for both IPv4 and IPv6 traffic. |
+| **Route Tables** | Control how network traffic is routed throughout the VPC. Routes can direct traffic to Internet Gateways, NAT Gateways, VPC Peering connections, VPC Endpoints, and Egress-only Internet Gateways. |
+| **Bastion Host** | An EC2 instance deployed in a public subnet that provides secure administrative access to EC2 instances located within private subnets. |
+| **NAT Instance** | A traditional EC2-based solution that provides outbound IPv4 internet access for private instances but requires manual configuration and maintenance. |
+| **NAT Gateway** | An AWS-managed service that provides scalable and highly available outbound IPv4 internet access for resources in private subnets. |
+| **Network ACLs (NACLs)** | Stateless firewalls that operate at the subnet level, requiring both inbound and outbound rules to explicitly allow traffic. |
+| **Security Groups** | Stateful virtual firewalls that operate at the instance level, automatically allowing return traffic for established connections. |
+| **VPC Peering** | Privately connects two VPCs over the AWS network. Requires non-overlapping CIDR blocks and supports only non-transitive communication. |
+| **VPC Endpoints** | Enable private connectivity between a VPC and supported AWS services without requiring an Internet Gateway or NAT Gateway. |
+| **AWS PrivateLink** | Provides private connectivity between service providers and consumers across different VPCs without requiring VPC Peering or exposing traffic to the public internet. |
+| **Egress-only Internet Gateway** | Allows outbound-only IPv6 internet access for private subnets while blocking unsolicited inbound IPv6 connections. |
+| **Transit Gateway** | A central networking hub that connects multiple VPCs, VPNs, and Direct Connect connections while supporting transitive routing for large-scale AWS environments. |
 
 ---
 
