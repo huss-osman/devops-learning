@@ -108,7 +108,8 @@ To build a highly available architecture:
 Example architecture:
 
 <p align="center">
-  <img width="900" alt="NAT Gateway High Availability" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_NATGW_Diagram_Example.png" />
+  <img width="900" alt="NAT Gateway High Availability" src="https://github.com/user-attachments/assets/a3bf6a6a-325f-4070-a2df-b54fe2ca1e55" />
+
 </p>
 
 This design ensures that if one Availability Zone fails, private resources in the remaining Availability Zones continue to access the internet.
