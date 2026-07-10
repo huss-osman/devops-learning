@@ -191,7 +191,8 @@ One common issue when working with dual-stack VPCs is assuming that running out 
 Although IPv6 provides an enormous address space, AWS still requires IPv4 addressing for VPCs and subnets. If a subnet has exhausted its available IPv4 addresses, new EC2 instances cannot be launched even if plenty of IPv6 addresses remain.
 
 <p align="center">
-  <img width="500" alt="IPv4 Address Exhaustion" src="https://github.com/user-attachments/assets/1e3f6684-4d9d-43a1-a1ff-2a1e416fb696" />
+  <img width="500" alt="IPv4 Address Exhaustion" src="https://github.com/user-attachments/assets/bbf4bdd6-1244-49fe-8945-84695756d06b" />
+
 
 </p>
 
