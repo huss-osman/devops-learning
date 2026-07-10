@@ -4,8 +4,6 @@
   <img width="1000" alt="EKS Diagram Example" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS_EKS_Diagram_Example.png" />
 </p>
 
-## Overview
-
 This section introduces **Amazon Elastic Kubernetes Service (Amazon EKS)**, AWS's managed Kubernetes platform used to deploy, manage, and scale containerised applications using Kubernetes.
 
 Amazon EKS removes much of the operational complexity associated with running Kubernetes by managing the Kubernetes control plane while allowing teams to focus on deploying and operating applications.
