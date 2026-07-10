@@ -108,7 +108,8 @@ To build a highly available architecture:
 Example architecture:
 
 <p align="center">
-  <img width="900" alt="NAT Gateway High Availability" src="https://github.com/user-attachments/assets/a3bf6a6a-325f-4070-a2df-b54fe2ca1e55" />
+  <img width="900" alt="NAT Gateway High Availability" src="https://github.com/user-attachments/assets/35c9afc5-6803-40e1-958d-7725e2ddf096" /> 
+
 
 </p>
 
