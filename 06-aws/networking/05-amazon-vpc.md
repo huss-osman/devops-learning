@@ -167,7 +167,7 @@ AWS VPCs support **dual-stack networking**, allowing resources to use both IPv4 
 IPv4 cannot be disabled within a VPC. Instead, when IPv6 is enabled, both protocols operate together, providing compatibility with existing IPv4 infrastructure while supporting modern IPv6 networking.
 
 <p align="center">
-  <img width="500" alt="IPv6 in VPC" src="https://github.com/user-attachments/assets/bcc797a8-166a-45e8-a532-5e4a9a38684d" /> 
+  <img width="500" alt="IPv6 in VPC" src="https://github.com/user-attachments/assets/b52e0a12-a6c2-4906-8a69-dcd51a9baa55" /> 
 
 </p>
 
