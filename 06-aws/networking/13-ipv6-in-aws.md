@@ -86,8 +86,7 @@ An **Egress-only Internet Gateway (EIGW)** provides outbound internet access for
 It performs a similar role to a NAT Gateway for IPv4, but is designed specifically for IPv6 traffic.
 
 <p align="center">
-  <img width="600" alt="Egress-only Internet Gateway" src="https://github.com/user-attachments/assets/7feb766e-98fa-4ca7-9c91-c45451d7a489" /> 
-
+  <img width="700" alt="Egress-only Internet Gateway" src="https://github.com/user-attachments/assets/bce7cac7-2b2e-4e01-b1b8-956e5f1d764b" /> 
 </p>
 
 Key characteristics include:
@@ -111,8 +110,7 @@ AWS VPCs commonly operate in **dual-stack mode**, where both IPv4 and IPv6 are e
 Each VPC and subnet receives both an IPv4 CIDR block and an IPv6 CIDR block, allowing resources to communicate using either protocol.
 
 <p align="center">
-  <img width="900" alt="IPv6 Routing" src="https://github.com/user-attachments/assets/cc4b0736-97d0-446f-b7ea-2224899f93a1" /> 
-
+  <img width="1000" alt="IPv6 Routing" src="https://github.com/user-attachments/assets/bc11008c-112b-4585-b504-f19c9455ca00" /> 
 </p>
 
 ### Public Subnet
@@ -177,8 +175,7 @@ This allows AWS environments to support both legacy IPv4 applications and modern
 The following architecture demonstrates how IPv4 and IPv6 traffic flow within a **dual-stack Amazon VPC**, where both protocols are enabled simultaneously.
 
 <p align="center">
-  <img width="900" alt="IPv6 Routing Architecture" src="https://github.com/user-attachments/assets/6b3650b8-474e-49d7-907c-8e5b23c048e4" /> 
-
+  <img width="1000" alt="IPv6 Routing Architecture" src="https://github.com/user-attachments/assets/6f461878-8384-4fe6-9e8f-489aca21eec4" />  
 </p>
 
 In this architecture:
