@@ -44,7 +44,7 @@ With a VPC Endpoint, traffic remains entirely within the AWS network.
 Example architecture:
 
 <p align="center">
-  <img width="900" alt="VPC Endpoint Architecture" src="https://github.com/user-attachments/assets/8b6b95ce-a786-4121-baf1-8b1e6430dde5" /> 
+  <img width="600" alt="VPC Endpoint Architecture" src="https://github.com/user-attachments/assets/8b6b95ce-a786-4121-baf1-8b1e6430dde5" /> 
 
 </p>
 
