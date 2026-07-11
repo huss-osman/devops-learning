@@ -45,7 +45,6 @@ Example architecture:
 
 <p align="center">
   <img width="600" alt="VPC Endpoint Architecture" src="https://github.com/user-attachments/assets/8b6b95ce-a786-4121-baf1-8b1e6430dde5" /> 
-
 </p>
 
 This approach improves security by eliminating unnecessary internet exposure.
@@ -81,8 +80,7 @@ Interface Endpoints are powered by **AWS PrivateLink**.
 When an Interface Endpoint is created, AWS provisions an **Elastic Network Interface (ENI)** inside your subnet. This ENI provides a private IP address that acts as the entry point for communication with supported AWS services.
 
 <p align="center">
-  <img width="700" alt="Interface Endpoint" src="https://github.com/user-attachments/assets/1fc836a1-f643-4aec-aeff-9325ebba7cca" /> 
-
+  <img width="700" alt="Interface Endpoint" src="https://github.com/user-attachments/assets/aed01eb0-6633-4246-b129-e6a12c74156a" /> 
 </p>
 
 Characteristics include:
