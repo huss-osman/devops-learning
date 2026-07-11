@@ -109,8 +109,7 @@ Gateway Endpoints provide private connectivity without creating an ENI.
 Instead, AWS creates a gateway that is referenced within the subnet's Route Table. Traffic destined for supported services is automatically routed through the Gateway Endpoint while remaining on the AWS network.
 
 <p align="center">
-  <img width="700" alt="Gateway Endpoint" src="https://github.com/user-attachments/assets/787c0ae1-b2ee-434f-9d02-c2fe881fa1bb" /> 
-
+  <img width="700" alt="Gateway Endpoint" src="https://github.com/user-attachments/assets/14c460cc-9e0d-49e8-b400-5bc4e518f12b" /> 
 </p>
 
 Characteristics include:
