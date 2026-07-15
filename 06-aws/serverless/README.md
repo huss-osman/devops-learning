@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Serverless-blue)
 ![Compute](https://img.shields.io/badge/Compute-Lambda-green)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains AWS Serverless notes focused on event-driven computing, managed services, and application development.
 
