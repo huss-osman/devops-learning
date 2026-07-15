@@ -2,7 +2,7 @@
   <img width="500" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/d895ac83-81ad-4d36-b1ca-59fa959f406dd" />
 </p>
 
-# CloudFront
+# Amazon CloudFront
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-CloudFront-blue?logo=amazonaws&logoColor=white)
