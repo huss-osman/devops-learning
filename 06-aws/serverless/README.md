@@ -9,7 +9,7 @@
 ![Compute](https://img.shields.io/badge/Compute-Lambda-green)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains my core **AWS Serverless** notes focused on event-driven computing, managed services, and modern cloud application development.
+This folder contains AWS Serverless notes focused on event-driven computing, managed services, and application development.
 
 Each topic focuses on understanding how serverless services work, not memorising configuration or deployment processes.
 
