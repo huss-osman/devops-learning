@@ -6,11 +6,11 @@
 ![Focus](https://img.shields.io/badge/Focus-Cloud%20Infrastructure-purple?logo=amazonaws&logoColor=white)
 ![Projects](https://img.shields.io/badge/Assignments-4-darkgreen)
 
-This repository documents my hands-on AWS assignments covering cloud infrastructure, networking, security, scalability, and modern deployment workflows.
+This repository documents my hands-on AWS assignments covering cloud infrastructure, networking, security, scalability, and workflows.
 
-Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, and production-style environments.
+Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, production-style environments, and industry-standard cloud engineering practices.
 
-The focus throughout this repository is understanding how AWS services integrate to build secure, scalable, and highly available cloud infrastructure through practical hands-on projects.
+The focus throughout this repository is understanding how AWS services integrate to build secure cloud infrastructure through projects.
 
 ---
 
