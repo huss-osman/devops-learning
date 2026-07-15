@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-IAM-blue)
 ![Focus](https://img.shields.io/badge/Focus-Identity%20%26%20Access%20Management-purple)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **AWS Identity and Access Management (IAM)** notes focused on authentication, authorization, and cloud security.
 
