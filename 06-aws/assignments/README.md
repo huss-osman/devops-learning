@@ -7,6 +7,7 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Cloud%20Infrastructure-purple?logo=amazonaws&logoColor=white)
 ![Projects](https://img.shields.io/badge/Assignments-4-darkgreen)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This repository documents my hands-on AWS assignments covering cloud infrastructure, networking, security, scalability, and workflows.
 
