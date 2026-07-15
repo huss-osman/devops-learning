@@ -8,7 +8,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Container%20Platforms-blue)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 Examples are practical, infrastructure-focused, and tied to container platforms, deployments, and DevOps workflows.
 
