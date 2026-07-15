@@ -2,7 +2,7 @@
   <img width="500" style="margin-left: 40px;" alt="Route 53 Banner" src="https://github.com/user-attachments/assets/bec4857d-ac04-4565-b41d-19d09dc8652a" />
 </p>
 
-# AWS Route 53
+# Amazon Route 53
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-Route%2053-blue)
