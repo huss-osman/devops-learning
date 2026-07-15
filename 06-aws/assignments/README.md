@@ -27,7 +27,7 @@ By working through these assignments, I aim to:
 
 ---
 
-## Projects
+## Assignments
 
 ### **[Assignment 1 - VPC & Networking](./01-vpc-and-networking.md)**
 
