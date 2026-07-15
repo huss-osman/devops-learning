@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-Elastic%20Load%20Balancing-blue)
 ![Focus](https://img.shields.io/badge/Focus-High%20Availability-purple)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my Elastic Load Balancing (ELB) notes focused on traffic distribution, scalability, and highly available cloud applications.
 
