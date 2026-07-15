@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Networking-blue)
 ![Infrastructure](https://img.shields.io/badge/Infrastructure-VPC-green)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **AWS Networking** notes focused on cloud networking, connectivity, and secure infrastructure design.
 
