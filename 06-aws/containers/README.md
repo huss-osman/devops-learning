@@ -3,7 +3,7 @@
 </p> 
 
 
-# AWS Elastic Container Service (ECS)
+# Amazon Elastic Container Service (ECS)
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
