@@ -2,7 +2,7 @@
   <img width="500" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/81dc6753-5313-4368-8521-f7d549b8fba5" />
 </p>
 
-# Amazon EC2
+# AWS EC2
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-EC2-orange?logo=amazonaws&logoColor=white)
