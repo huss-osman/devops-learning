@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-CloudFront-blue?logo=amazonaws&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Content%20Delivery-purple?logo=amazonaws&logoColor=white)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **Amazon CloudFront** notes focused on content delivery, caching, and global application performance.
 
