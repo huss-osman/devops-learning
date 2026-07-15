@@ -8,7 +8,7 @@
 
 This folder contains my core **AWS fundamentals** notes focused on cloud computing concepts and core AWS services.
 
-Each topic focuses on understanding **how AWS services and cloud infrastructure actually work**, not just memorising terminology or navigating the AWS Console.
+Each topic focuses on understanding how services and infrastructure work, not memorising terminology or navigating the AWS Console.
 
 Examples are practical, architecture-focused, and tied to real-world cloud infrastructure and DevOps workflows.
 
