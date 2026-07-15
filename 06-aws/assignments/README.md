@@ -1,4 +1,6 @@
-<img width="1000" alt="AWS Banner" src="https://github.com/user-attachments/assets/c4b6605b-8908-4985-89a5-f475e19e9900" />
+<p align="center">
+  <img width="450" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/3b7a9e4e-cfc4-4ef2-a748-e86bfca18e22" />
+</p>
 
 # AWS Assignments
 
