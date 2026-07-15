@@ -4,7 +4,6 @@
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Cloud%20Fundamentals-blue?logo=amazonaws&logoColor=white)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **AWS fundamentals** notes focused on cloud computing concepts and core AWS services.
 
