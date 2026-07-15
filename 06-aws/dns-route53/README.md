@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-Route%2053-blue)
 ![Focus](https://img.shields.io/badge/Focus-DNS-purple)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **Amazon Route 53** notes focused on DNS management, domain routing, and cloud networking.
 
