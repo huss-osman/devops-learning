@@ -7,7 +7,6 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-EC2-orange?logo=amazonaws&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Compute-blue?logo=amazonaws&logoColor=white)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **Amazon EC2** notes focused on virtual machines, compute services, and cloud infrastructure.
 
