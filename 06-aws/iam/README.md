@@ -2,7 +2,7 @@
   <img width="500" style="margin-left: 40px;" alt="IAM Banner" src="https://github.com/user-attachments/assets/f253d414-a96a-4003-998e-66f1ed6334d6" /> 
 </p>
 
-# Amazon Identity and Access Management (IAM)
+# AWS Identity and Access Management (IAM)
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![Service](https://img.shields.io/badge/Service-IAM-blue)
