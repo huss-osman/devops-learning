@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="450" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/3b7a9e4e-cfc4-4ef2-a748-e86bfca18e22" />
+  <img width="350" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/3b7a9e4e-cfc4-4ef2-a748-e86bfca18e22" />
 </p>
 
 # AWS Assignments
