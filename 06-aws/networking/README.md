@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="AWS Networking Banner" src="YOUR_NETWORKING_BANNER_HERE" />
-</p>
+  <img width="1000" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/a3f21e5c-b467-4609-84a8-78858bd58005" />
+</p> 
 
 # AWS Networking
 
