@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="AWS Storage Banner" src="YOUR_STORAGE_BANNER_HERE" />
+  <img width="1000" style="margin-left: 40px;" alt="AWS Storage Banner" src="https://github.com/user-attachments/assets/ce68011f-8266-4b32-9cdf-91763fcab5c1" /> 
 </p>
 
 # AWS Storage
