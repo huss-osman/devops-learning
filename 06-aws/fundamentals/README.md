@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="AWS Fundamentals Banner" src="YOUR_AWS_BANNER_HERE" />
+<p align="center">
+  <img width="1000" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/28af3337-6a99-4c7b-a962-1b2c4cebb5ff" />
+</p> 
 
 # AWS Fundamentals
 
