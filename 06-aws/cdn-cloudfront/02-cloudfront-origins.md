@@ -60,6 +60,6 @@ This ensures users can only access S3 content through CloudFront, adding an extr
 
 ## Reflection
 
-Learning about CloudFront origins helped me understand how content is retrieved and distributed through AWS's global edge network. I also learned the differences between using Amazon S3, Application Load Balancers, and Amazon EC2 as origins depending on the type of application being delivered.
+Learning about CloudFront origins helped me understand how content is retrieved and distributed through AWS's global edge network. I also learned the differences between using Amazon S3, Application Load Balancers, and Amazon EC2 as origins depending on the application.
 
 Understanding how origins and Origin Access Control work provides a strong foundation for building secure, scalable, and high-performance content delivery solutions with Amazon CloudFront.
