@@ -6,7 +6,7 @@
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
 <p align="center">
-  <img width="1000" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/b1c1a3e8-2d8c-46c9-b2bf-12e184b820c6" />
+  <img width="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/b1c1a3e8-2d8c-46c9-b2bf-12e184b820c6" />
 </p>
 
 This project is a production-style containerised application built from scratch using Docker, NGINX, Flask, and Redis. It runs inside a Docker Compose environment where multiple containers communicate over an internal network, with NGINX routing traffic to Flask application containers and Redis providing persistent data storage.
