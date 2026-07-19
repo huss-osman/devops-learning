@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section introduces **Amazon CloudFront**, AWS's Content Delivery Network (CDN) service that delivers content with low latency by caching it at edge locations around the world. Instead of every request reaching the origin server, CloudFront serves cached content from the location closest to the user.
+This section introduces **Amazon CloudFront**, AWS's Content Delivery Network (CDN) service that delivers content with low latency by caching it at edge locations worldwide. Instead of requests reaching origin servers, CloudFront serves cached content from the closest location to users.
 
 CloudFront also improves security by integrating with AWS services such as AWS Shield and AWS WAF, while reducing the load on origin servers and providing a faster experience for users worldwide.
 
@@ -69,4 +69,4 @@ If the content is cached, it is returned immediately. If not, CloudFront retriev
 
 Learning about Amazon CloudFront helped me understand how CDNs improve application performance by caching content closer to users. I also learned how CloudFront reduces latency, lowers the load on origin servers, and provides additional security through AWS integrations.
 
-Understanding how CloudFront delivers content globally provides a strong foundation for designing fast, scalable, and highly available web applications on AWS.
+Understanding how CloudFront delivers content globally provides a strong foundation for designing fast, scalable, and highly available web applications on AWS that deliver a better user experience.
