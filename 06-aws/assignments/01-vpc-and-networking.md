@@ -33,19 +33,6 @@ The goal of this project was to:
 
 ---
 
-## Architecture
-
-The deployment follows a common production networking pattern:
-
-1. A custom Amazon VPC provides an isolated private network.
-2. The public subnet connects directly to the Internet through an Internet Gateway.
-3. The private subnet reaches the internet using a NAT Gateway while remaining inaccessible from outside the VPC.
-4. A Bastion Host provides the only SSH entry point into the private subnet.
-5. Security Groups restrict communication using least-privilege principles.
-6. CloudWatch monitors both EC2 instances for infrastructure visibility.
-
----
-
 ## What It Deploys
 
 The project provisions a secure AWS networking environment using production-style networking components.
