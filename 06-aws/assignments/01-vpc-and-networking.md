@@ -1,4 +1,4 @@
-# AWS VPC & Networking: A Custom Cloud Network From Scratch
+# AWS VPC & Networking: Deploying a Secure AWS Environment
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-VPC-orange)
