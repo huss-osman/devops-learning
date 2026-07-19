@@ -34,9 +34,9 @@ By working through these assignments, I aim to:
 
 ### **[Assignment 1 - VPC & Networking](./01-vpc-and-networking.md)**
 
-Designed and deployed a custom AWS VPC with public and private subnets, Internet and NAT Gateways, route tables, Security Groups, a Bastion Host, and EC2 instances.
-Configured secure network segmentation, controlled internet access, SSH connectivity through a Bastion Host, and monitored infrastructure using Amazon CloudWatch.
-Built through hands-on cloud networking, infrastructure design, routing configuration, secure access management, and AWS deployment practices.
+Designed and deployed a AWS VPC with public and private subnets, Internet and NAT Gateways, route tables, Security Groups, a Bastion Host, and EC2 instances.
+Configured secure network segmentation, internet access, SSH connectivity through a Bastion Host, and monitored infrastructure using CloudWatch.
+Built through hands-on cloud networking, infrastructure design, routing configuration, access management, and AWS deployment practices.
 
 <br>
 
