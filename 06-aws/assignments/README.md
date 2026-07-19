@@ -41,7 +41,7 @@ Built through hands-on cloud networking, infrastructure design, routing configur
 <br>
 
 <p align="center">
-  <img width="850" alt="VPC Architecture" src="images/vpc-networking-diagram.png" />
+  <img width="850" alt="VPC Architecture" src="https://github.com/user-attachments/assets/d327b58f-9f4b-4de3-92b0-102a066b8196" />
 </p>
 
 <br>
