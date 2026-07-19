@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section introduces **Amazon Route 53 Routing Policies**, which determine how DNS queries are answered and how traffic is distributed across resources. Rather than always returning the same destination, Route 53 can intelligently route users based on factors such as latency, location, health, or assigned weights.
+This section introduces **Route 53 Routing Policies**, which determine how DNS queries are answered and how traffic is distributed. Rather than always returning the same destination, Route 53 routes users based on factors such as latency, location, health, or assigned weights.
 
 Choosing the appropriate routing policy helps improve application availability, performance, fault tolerance, and the overall user experience by directing traffic to the most suitable resources.
 
@@ -96,6 +96,6 @@ If one resource becomes unhealthy, Route 53 automatically removes it from DNS re
 
 ## Reflection
 
-Learning about Route 53 Routing Policies helped me understand how DNS can intelligently direct traffic instead of simply resolving domain names. I also learned that different routing policies are designed to improve performance, availability, and user experience depending on application requirements.
+Learning about Route 53 Routing Policies helped me understand how DNS intelligently directs traffic instead of resolving domain names. I learned different routing policies improve performance, availability, and user experience depending on application requirements.
 
 Understanding these routing strategies provides a strong foundation for designing scalable and resilient cloud architectures while ensuring users are directed to the most appropriate resources in different scenarios.
