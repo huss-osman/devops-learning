@@ -7,7 +7,7 @@
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
 <p align="center">
-  <img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/aws-ec2-nginx-cloudflare-diagram.png" />
+  <img width="800" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/aws-ec2-nginx-cloudflare-diagram.png" />
 </p>
 
 This project is a production-style web server deployment built from scratch using AWS and Cloudflare. It runs inside an AWS VPC with an Internet Gateway, a public subnet, and an Ubuntu EC2 instance hosting an NGINX web server exposed securely to the internet through Cloudflare DNS and proxy services.
