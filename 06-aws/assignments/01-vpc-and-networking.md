@@ -7,7 +7,7 @@
 ![Amazon Linux](https://img.shields.io/badge/OS-Amazon%20Linux-blue?logo=linux)
 
 <p align="center">
-<img width="1000" alt="Architecture Diagram" src="images/aws-vpc-networking-diagram.png" />
+<img width="1000" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d327b58f-9f4b-4de3-92b0-102a066b8196" /> 
 </p>
 
 This project demonstrates how to build a **production-style AWS network** completely from scratch. It includes a custom Amazon VPC, public and private subnets, Internet and NAT Gateways, route tables, security groups, EC2 instances, a bastion host, and CloudWatch monitoring.
