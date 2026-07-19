@@ -94,4 +94,6 @@ This reflects the service's primary responsibility of handling DNS queries and r
 
 ## Reflection
 
-Learning about Amazon Route 53 helped me understand how internet traffic reaches applications through DNS. I also learned how Route 53 combines domain registration, DNS management, health checks, and intelligent routing into a single managed service, making it easier to build highly available and scalable cloud applications.
+Learning about Amazon Route 53 helped me understand how DNS directs users to applications by translating domain names into IP addresses. I also learned how Route 53 acts as an authoritative DNS service, giving administrators full control over DNS records and traffic routing.
+
+I now have a better understanding of how Route 53 improves application availability through health checks, intelligent routing, and seamless integration with AWS services, making it a key component of building scalable and resilient cloud architectures.
