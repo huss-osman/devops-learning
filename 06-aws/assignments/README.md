@@ -41,7 +41,7 @@ Built through hands-on cloud networking, infrastructure design, routing configur
 <br>
 
 <p align="center">
-<img width="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/aa1100d8-28dd-481e-84b0-69120c33adb9" /> 
+<img width="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/4c233bac-f9fc-4731-815e-01ae852d64df" />
 </p>
 
 <br>
