@@ -7,7 +7,7 @@
 ![Amazon Linux](https://img.shields.io/badge/OS-Amazon%20Linux-blue?logo=linux)
 
 <p align="center">
-<img width="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d327b58f-9f4b-4de3-92b0-102a066b8196" /> 
+<img width="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/4c233bac-f9fc-4731-815e-01ae852d64df" />
 </p>
 
 This project demonstrates how to build a **production-style AWS network** completely from scratch. It includes a custom Amazon VPC, public and private subnets, Internet and NAT Gateways, route tables, security groups, EC2 instances, a bastion host, and CloudWatch monitoring.
@@ -67,7 +67,7 @@ A custom Amazon VPC was created using the CIDR block **10.0.0.0/16**, providing 
 DNS Resolution and DNS Hostnames were enabled so that instances launched inside the VPC could resolve DNS names and receive public DNS hostnames where required.
 
 <p align="center">
-<img width="1000" alt="VPC" src="images/01-vpc.png" />
+<img width="1000" alt="VPC" src="https://github.com/user-attachments/assets/f9f3ff86-e68e-435f-999a-c8ab2199bbcf" /> 
 </p>
 
 ---
@@ -84,7 +84,7 @@ Configuration:
 Each subnet provides **251 usable IP addresses**, with AWS reserving five addresses in every subnet for internal networking purposes.
 
 <p align="center">
-<img width="1000" alt="Subnets" src="images/02-subnets.png" />
+<img width="1000" alt="Subnets" src="https://github.com/user-attachments/assets/677f6dc5-5d61-4333-ac74-4625044f0757" />
 </p>
 
 > [!NOTE]
@@ -99,7 +99,7 @@ An Internet Gateway was created and attached to the VPC to allow communication b
 Without an Internet Gateway, resources inside the VPC would remain isolated and unable to receive or send internet traffic.
 
 <p align="center">
-<img width="1000" alt="Internet Gateway" src="images/03-internet-gateway.png" />
+<img width="1000" alt="Internet Gateway" src="https://github.com/user-attachments/assets/1f53042b-5021-4f59-a765-4a12297907fe" /> 
 </p>
 
 ---
@@ -111,7 +111,7 @@ A NAT Gateway was deployed inside the public subnet and associated with an Elast
 This allows instances in the private subnet to initiate outbound internet connections for tasks such as package installation and software updates while preventing inbound connections from the internet.
 
 <p align="center">
-<img width="1000" alt="NAT Gateway" src="images/04-nat-gateway.png" />
+<img width="1000" alt="NAT Gateway" src="https://github.com/user-attachments/assets/287bc8f8-118e-4633-9b3a-f3bd1a12eb43" /> 
 </p>
 
 > [!IMPORTANT]
@@ -126,7 +126,11 @@ Separate route tables were created for the public and private subnets.
 The public route table directs internet-bound traffic to the Internet Gateway, while the private route table forwards outbound traffic through the NAT Gateway.
 
 <p align="center">
-<img width="1000" alt="Route Tables" src="images/05-route-tables.png" />
+<img width="1000" alt="Route Tables" src="https://github.com/user-attachments/assets/a4cb6603-455a-498e-8ce1-802defc8f053" /> 
+</p>
+
+<p align="center">
+<img width="1000" alt="Route Tables" src="https://github.com/user-attachments/assets/d2c7233c-f7c0-46fe-9363-564dc414995b" />
 </p>
 
 The routing configuration provides:
@@ -151,7 +155,11 @@ The private EC2 instance allows:
 - SSH (22) → Public EC2 Security Group only
 
 <p align="center">
-<img width="1000" alt="Security Groups" src="images/06-security-groups.png" />
+<img width="1000" alt="Security Groups" src="https://github.com/user-attachments/assets/c1ce1bc3-e50d-4ad8-8216-88492153e3d4"" /> 
+</p>
+
+<p align="center">
+<img width="1000" alt="Security Groups" src="https://github.com/user-attachments/assets/6be364c9-22ee-4043-967d-672217f1ca2e"" /> 
 </p>
 
 > [!IMPORTANT]
@@ -168,7 +176,7 @@ The first instance resides in the public subnet and acts as both the web server 
 The second instance resides entirely inside the private subnet without a public IPv4 address.
 
 <p align="center">
-<img width="1000" alt="EC2 Instances" src="images/07-ec2-instances.png" />
+<img width="1000" alt="EC2 Instances" src="https://github.com/user-attachments/assets/eec1a047-091d-49a9-b7f3-22d311714794" />
 </p>
 
 Configuration included:
@@ -185,17 +193,11 @@ Configuration included:
 
 The public EC2 instance was accessed securely using SSH.
 
-```bash
-ssh -i "assignment-key.pem" ec2-user@<public-dns>
-```
-
 <p align="center">
-<img width="1000" alt="SSH Bastion" src="images/08-ssh-bastion.png" />
+<img width="1000" alt="SSH Bastion" src="https://github.com/user-attachments/assets/185482e9-fcbb-4d0f-86df-7a300970146f" /> 
 </p>
 
 The Bastion Host acts as the single secure entry point into the private subnet, preventing direct internet access to internal resources.
-
----
 
 ---
 
@@ -210,7 +212,7 @@ echo "AWS Assignment 1 Works!" | sudo tee /var/www/html/index.html
 ```
 
 <p align="center">
-<img width="1000" alt="Apache Running" src="images/09-apache-running.png" />
+<img width="1000" alt="Apache Running" src="https://github.com/user-attachments/assets/bbf395c2-9db2-4c9e-8f99-ab36210a6347" /> 
 </p>
 
 The commands:
@@ -222,6 +224,18 @@ The commands:
 
 ---
 
+## Verifying the Web Server Locally
+
+A local `curl` request confirms the server is responding on the EC2 instance itself before involving the Internet Gateway, Route Tables, or Security Groups.
+
+<p align="center">
+<img width="750" alt="Local Apache Test" src="https://github.com/user-attachments/assets/2535ce7c-f0f5-4bd0-a5b6-0cdf2a51ac45" /> 
+</p>
+
+A successful response confirms that Apache is correctly installed, running, and serving content locally before validating external HTTP connectivity.
+
+---
+
 # Verifying HTTP Connectivity
 
 Once Apache was running, the web server became publicly accessible through the EC2 instance's public IPv4 address.
@@ -229,7 +243,7 @@ Once Apache was running, the web server became publicly accessible through the E
 Opening the address in a browser confirmed that traffic successfully reached the public subnet through the Internet Gateway before being served by Apache.
 
 <p align="center">
-<img width="1000" alt="Browser Test" src="images/10-browser-test.png" />
+<img width="550" alt="Browser Test" src="https://github.com/user-attachments/assets/125c17d1-e6b0-468c-8961-ac8ce3131517" /> 
 </p>
 
 This verified that:
@@ -245,12 +259,8 @@ This verified that:
 
 After connecting to the Bastion Host, SSH was used to access the private EC2 instance using its private IP address.
 
-```bash
-ssh -i assignment-key.pem ec2-user@10.0.1.xxx
-```
-
 <p align="center">
-<img width="1000" alt="Private SSH" src="images/11-private-ec2-ssh.png" />
+<img width="800" alt="Private SSH" src="https://github.com/user-attachments/assets/7c2993b2-9ffc-4e38-ab23-adafe0cd961a" />
 </p>
 
 Because the private instance has no public IP address, it cannot be accessed directly from the internet. All administration is performed through the Bastion Host.
@@ -264,12 +274,8 @@ Because the private instance has no public IP address, it cannot be accessed dir
 
 The private EC2 instance was tested to confirm it could reach the internet through the NAT Gateway.
 
-```bash
-ping 8.8.8.8
-```
-
 <p align="center">
-<img width="1000" alt="NAT Connectivity" src="images/12-nat-connectivity.png" />
+<img width="750" alt="NAT Connectivity" src="https://github.com/user-attachments/assets/b974af3a-c2fe-439c-a29f-60e4f9c513cd" />
 </p>
 
 The successful responses confirmed that:
@@ -282,52 +288,46 @@ The successful responses confirmed that:
 
 # Configuring CloudWatch Monitoring
 
-Detailed monitoring was enabled for both EC2 instances, and the CloudWatch Agent was configured to publish memory and disk metrics.
+Detailed monitoring is already enabled on both instances, but the default EC2 metrics don't include memory or disk-space usage - the hypervisor can't see inside the guest OS, so those need the CloudWatch Agent.
 
-An IAM Role was attached to each instance, granting permission to send metrics securely to Amazon CloudWatch.
-
-<p align="center">
-<img width="1000" alt="CloudWatch IAM Role" src="images/13-cloudwatch-role.png" />
-</p>
-
----
-
-# Monitoring the Infrastructure
-
-After the CloudWatch Agent was configured, both EC2 instances began publishing additional operating system metrics.
-
-These included memory utilisation and disk usage, providing greater visibility into instance health beyond the default EC2 metrics.
+First, an IAM role (`Assignment-EC2-Cloudwatch`) with `CloudWatchAgentServerPolicy` (lets the agent push metrics) and `AmazonSSMManagedInstanceCore` (enables Session Manager), attached to both instances:
 
 <p align="center">
-<img width="1000" alt="CloudWatch Metrics" src="images/14-cloudwatch-metrics.png" />
+<img width="1000" alt="CloudWatch IAM Role" src="https://github.com/user-attachments/assets/fe4f8601-e8ef-4d86-86b0-381aedbd90af" /> 
 </p>
 
----
+Then the agent is installed and started on each instance:
 
-# Final Architecture
+```bash
+sudo dnf install -y amazon-cloudwatch-agent
 
-The completed deployment demonstrates a secure AWS networking architecture following common production design principles.
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 
-The public EC2 instance acts as both the web server and Bastion Host, while the private EC2 instance remains isolated from the internet. Outbound internet access is provided through the NAT Gateway, and CloudWatch provides continuous monitoring for both instances.
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl \
+  -a fetch-config -m ec2 -s \
+  -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json
+```
+
+Both instances then report into the `CWAgent` namespace:
 
 <p align="center">
-<img width="1000" alt="Architecture" src="images/aws-vpc-networking-diagram.png" />
+<img width="1000" alt="CloudWatch Metrics" src="https://github.com/user-attachments/assets/79868940-e173-40fb-aaad-edecfc3d3754" /> 
 </p>
+
+The neat detail: the private instance's metrics still land in CloudWatch despite it having no public IP - that traffic egresses through the NAT Gateway, the exact same path proven in step 12.
 
 ---
 
 # Cleaning Up the Infrastructure
 
-After completing the deployment and testing the networking configuration, the AWS resources were removed to avoid unnecessary charges.
+A NAT Gateway and its Elastic IP bill by the hour whether you use them or not, so teardown matters. In order:
 
-<p align="center">
-<img width="1000" alt="Resource Cleanup" src="images/15-cleanup.png" />
-</p>
+- **Delete the NAT Gateway** (`Assignment-NAT`) - the main meter running.
+- **Release the Elastic IP** - an unattached EIP is also chargeable.
+- **Terminate both EC2 instances** - this also stops the detailed-monitoring and public-IPv4 charges.
+- **Delete the VPC** - this cleans up the subnets and route tables; detach and delete the Internet Gateway as part of it.
 
-The cleanup process included terminating both EC2 instances, deleting the NAT Gateway and releasing its Elastic IP, detaching and removing the Internet Gateway, and finally deleting the subnets and VPC.
-
-> [!NOTE]
-> The NAT Gateway and Elastic IP continue to incur charges while allocated, making them the highest-priority resources to remove after completing the project.
+Leaving the VPC, subnets, route tables, IGW, and security groups in place is free while idle - only the NAT Gateway, the EIP, the running instances, and detailed monitoring actually cost anything.
 
 ---
 
