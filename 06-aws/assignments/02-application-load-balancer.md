@@ -145,7 +145,7 @@ Accessing the Application Load Balancer DNS name and refreshing the page causes 
 This confirms that the Application Load Balancer is successfully distributing requests across both healthy targets.
 
 <p align="center">
-<img width="650" alt="Load Balancing Test" src="https://github.com/user-attachments/assets/b3db9785-1975-4ba5-910a-5ce535be6f21" /> 
+<img width="650" alt="Load Balancing Test" src="https://github.com/user-attachments/assets/11a4c255-eda2-42c8-ba4e-71c85479ee10" /> 
 </p>
 
 ---
