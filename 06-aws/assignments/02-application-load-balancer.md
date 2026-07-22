@@ -9,9 +9,9 @@
   <img width="850" alt="Application Load Balancer Architecture" src="https://github.com/user-attachments/assets/025ca542-343f-45ed-8b71-e1146bdfeb90" /> 
 </p>
 
-This project demonstrates how to deploy a **highly available web application using an AWS Application Load Balancer**. It includes multiple EC2 instances distributed across different Availability Zones, a Target Group with health checks, an HTTP listener, and Security Groups configured to ensure traffic is routed securely through the load balancer.
+This project demonstrates how to build a **production-style AWS network** completely from scratch. It includes a custom Amazon VPC, public and private subnets, Internet and NAT Gateways, route tables, Security Groups, EC2 instances, a Bastion Host, and CloudWatch monitoring, providing a secure and segmented network architecture similar to those used in real-world cloud environments.
 
-The objective was to understand how AWS distributes incoming traffic across healthy backend instances while improving availability, fault tolerance, and scalability. The project also demonstrates how to isolate EC2 instances from direct internet access by allowing inbound traffic only from the Application Load Balancer, following a common production-style architecture used for modern web applications.
+The objective was to understand how real-world AWS networking is designed, how traffic flows between public and private resources, and how secure architectures are built using network segmentation, least-privilege access, and monitoring. The project also demonstrates how public and private workloads communicate while restricting direct access through controlled routing and network security.
 
 ---
 
