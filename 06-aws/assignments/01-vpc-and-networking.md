@@ -10,9 +10,9 @@
 <img width="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/4c233bac-f9fc-4731-815e-01ae852d64df" />
 </p>
 
-This project demonstrates how to build a **production-style AWS network** completely from scratch. It includes a custom Amazon VPC, public and private subnets, Internet and NAT Gateways, route tables, security groups, EC2 instances, a bastion host, and CloudWatch monitoring.
+This project demonstrates how to build a **production-style AWS network** completely from scratch. It includes a custom Amazon VPC, public and private subnets, Internet and NAT Gateways, route tables, Security Groups, EC2 instances, a Bastion Host, and CloudWatch monitoring, providing a secure and segmented network architecture similar to those used in real-world cloud environments.
 
-The objective was to understand how real-world AWS networking is designed, how traffic flows between public and private resources, and how secure architectures are built using network segmentation, least-privilege access, and monitoring.
+The objective was to understand how real-world AWS networking is designed, how traffic flows between public and private resources, and how secure architectures are built using network segmentation, least-privilege access, and monitoring. The project also demonstrates how public and private workloads communicate while restricting direct access through controlled routing and network security.
 
 ---
 
