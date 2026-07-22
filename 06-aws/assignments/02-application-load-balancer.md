@@ -6,7 +6,7 @@
 ![Amazon Linux](https://img.shields.io/badge/OS-Amazon%20Linux-blue?logo=linux)
 
 <p align="center">
-<img width="750" alt="Architecture Diagram" src="images/ALB_Architecture.png" />
+  <img width="850" alt="Application Load Balancer Architecture" src="https://github.com/user-attachments/assets/025ca542-343f-45ed-8b71-e1146bdfeb90" /> 
 </p>
 
 This project demonstrates how to deploy a **highly available web application** using an AWS Application Load Balancer.
