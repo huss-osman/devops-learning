@@ -66,10 +66,6 @@ Each instance was deployed into a different Availability Zone (**eu-west-2a** an
 
 Apache was automatically installed using EC2 User Data so no manual server configuration was required after launch.
 
-<p align="center">
-<img width="1000" alt="EC2 Instances" src="images/ec2-instances.png" />
-</p>
-
 ```bash
 #!/bin/bash
 
@@ -83,7 +79,11 @@ echo "<h1>Assignment 2 - EC2 instance 1 online</h1>" > /var/www/html/index.html
 ```
 
 <p align="center">
-<img width="1000" alt="EC2 User Data" src="images/ec2-user-data.png" />
+<img width="1000" alt="EC2 Instances" src="https://github.com/user-attachments/assets/afdb86b0-796e-414a-ad01-a3309f8fee24" />
+</p>
+
+<p align="center">
+<img width="1000" alt="EC2 User Data" src="https://github.com/user-attachments/assets/5b1c12f3-68d5-40ce-bc15-f70bbdb8904e" /> 
 </p>
 
 The second instance uses the same user-data with different HTML content, allowing each server to return a unique response during testing.
@@ -97,23 +97,11 @@ An internet-facing **Application Load Balancer** was created across both public 
 This allows AWS to deploy a load balancer node into each Availability Zone, improving availability if one zone becomes unavailable.
 
 <p align="center">
-<img width="1000" alt="Application Load Balancer" src="images/alb.png" />
+<img width="1000" alt="Application Load Balancer" src="https://github.com/user-attachments/assets/2239877e-c0ed-433c-9246-66186d28728e" /> 
 </p>
 
 > [!IMPORTANT]
 > Application Load Balancers must span at least two Availability Zones to provide high availability.
-
----
-
-# Configuring the HTTP Listener
-
-An HTTP listener was created on **port 80** with the default action configured to forward requests to the target group.
-
-The listener continuously waits for incoming HTTP requests before passing them to healthy backend instances.
-
-<p align="center">
-<img width="1000" alt="HTTP Listener" src="images/http-listener.png" />
-</p>
 
 ---
 
@@ -124,19 +112,7 @@ A Target Group named **A2-TargetGroup** was created using the **Instance** targe
 Both EC2 instances were registered on **HTTP port 80** and configured with a health check using the root path (`/`).
 
 <p align="center">
-<img width="1000" alt="Target Group" src="images/target-group.png" />
-</p>
-
----
-
-# Configuring Health Checks
-
-Health checks continuously verify that each EC2 instance is responding correctly.
-
-Only healthy instances remain eligible to receive traffic from the Application Load Balancer.
-
-<p align="center">
-<img width="1000" alt="Health Checks" src="images/health-checks.png" />
+<img width="1000" alt="Target Group" src="https://github.com/user-attachments/assets/7640b847-fc51-490d-9531-961b40cf45c3" />
 </p>
 
 ---
@@ -150,11 +126,11 @@ The **ALB Security Group** allows inbound HTTP traffic from anywhere.
 The **EC2 Security Group** only allows inbound HTTP traffic from the ALB Security Group.
 
 <p align="center">
-<img width="1000" alt="ALB Security Group" src="images/alb-sg.png" />
+<img width="1000" alt="ALB Security Group" src="https://github.com/user-attachments/assets/952bb402-e551-4561-be0a-33b2bd40ef4b" /> 
 </p>
 
 <p align="center">
-<img width="1000" alt="EC2 Security Group" src="images/ec2-sg.png" />
+<img width="1000" alt="EC2 Security Group" src="https://github.com/user-attachments/assets/603483e2-23de-4973-b1dd-2430cd5f838f" /> 
 </p>
 
 > [!IMPORTANT]
@@ -169,7 +145,7 @@ Accessing the Application Load Balancer DNS name and refreshing the page causes 
 This confirms that the Application Load Balancer is successfully distributing requests across both healthy targets.
 
 <p align="center">
-<img width="700" alt="Load Balancing Test" src="images/load-balancing-test.png" />
+<img width="650" alt="Load Balancing Test" src="https://github.com/user-attachments/assets/b3db9785-1975-4ba5-910a-5ce535be6f21" /> 
 </p>
 
 ---
@@ -180,12 +156,8 @@ Although both EC2 instances have public IP addresses, they cannot be accessed di
 
 Attempting to connect directly to an instance results in a timeout.
 
-```bash
-curl http://18.xxx.xxx.xxx
-```
-
 <p align="center">
-<img width="700" alt="Direct Access Blocked" src="images/direct-access-blocked.png" />
+<img width="800" alt="Direct Access Blocked" src="https://github.com/user-attachments/assets/0859d586-8eb7-49ec-b1ff-674bc6b34759" /> 
 </p>
 
 This confirms that:
@@ -193,6 +165,22 @@ This confirms that:
 - The Application Load Balancer is the only public entry point.
 - The EC2 Security Group is correctly configured.
 - Backend instances remain isolated from direct internet traffic.
+
+---
+
+# Cleaning Up the Infrastructure
+
+Application Load Balancers and running EC2 instances incur charges while active, so it's important to remove the resources once testing is complete.
+
+To clean up the deployment:
+
+- **Delete the Application Load Balancer** (`A2-ALB`) - this also removes the associated load balancer nodes.
+- **Delete the Target Group** (`A2-TargetGroup`) after the load balancer has been removed.
+- **Terminate both EC2 instances** (`A2-EC2-1` and `A2-EC2-2`) to stop compute charges.
+- **Delete the Security Groups** (`A2-ALB-SG` and `A2-EC2-SG`) if they are no longer required.
+- **Delete the VPC** - this also removes the public subnets, route table, and Internet Gateway once all dependent resources have been deleted.
+
+Leaving the VPC, subnets, route table, Internet Gateway, and Security Groups in place does not incur charges while idle. The Application Load Balancer and running EC2 instances are the primary resources that generate ongoing costs in this project.
 
 ---
 
