@@ -9,9 +9,9 @@
   <img width="850" alt="Application Load Balancer Architecture" src="https://github.com/user-attachments/assets/025ca542-343f-45ed-8b71-e1146bdfeb90" /> 
 </p>
 
-This project demonstrates how to deploy a **highly available web application** using an AWS Application Load Balancer.
+This project demonstrates how to deploy a **highly available web application using an AWS Application Load Balancer**. It includes multiple EC2 instances distributed across different Availability Zones, a Target Group with health checks, an HTTP listener, and Security Groups configured to ensure traffic is routed securely through the load balancer.
 
-The objective was to distribute traffic across multiple EC2 instances running in different Availability Zones while ensuring only the Application Load Balancer is publicly accessible. This follows a common production architecture used to improve availability, fault tolerance, and security.
+The objective was to understand how AWS distributes incoming traffic across healthy backend instances while improving availability, fault tolerance, and scalability. The project also demonstrates how to isolate EC2 instances from direct internet access by allowing inbound traffic only from the Application Load Balancer, following a common production-style architecture used for modern web applications.
 
 ---
 
