@@ -285,16 +285,16 @@ By working through this module, I aimed to:
 
 ### Assignments
 
-- [VPC](./assignments/01-vpc-and-networking.md)  
-  Building a custom VPC from scratch with public/private subnets, routing, Internet Gateway, NAT Gateway, EC2 instances, and security groups.
+- [VPC & Networking](./assignments/01-vpc-and-networking.md)  
+  Building a custom VPC with public/private subnets, an Internet Gateway, NAT Gateway, EC2 instances, and security groups.
 
 - [Application Load Balancer](./assignments/02-application-load-balancer.md)  
   Deploying two EC2 instances behind an ALB with health checks, target groups, listener rules, and security group isolation.
 
-- [S3 Static Website](./assignments/03-s3-static-website-cloudfront.md)  
-  Hosting a static website using Amazon S3 and delivering content globally through CloudFront with HTTPS, edge caching, and cache invalidation.
+- [S3 Static Website + CloudFront CDN](./assignments/03-s3-static-website-cloudfront.md)  
+  Hosting a static website using S3, serving it through CloudFront with HTTPS, edge caching, and cache invalidation.
 
-- [Serverless API](./assignments/04-serverless-api-lambda-api-gateway.md)  
+- [Serverless API with Lambda, IAM, and API Gateway](./assignments/04-serverless-api-lambda-api-gateway.md)  
   Building a REST API using API Gateway, Lambda, DynamoDB, IAM permissions, and CloudWatch logs.
   
 ---
