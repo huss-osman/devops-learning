@@ -166,8 +166,6 @@ The distribution was configured with:
 - Object Compression
 - Managed **CachingOptimized** cache policy
 - HTTP to HTTPS redirection
-- Alternate Domain Name *(Bonus)*
-- ACM Certificate *(Bonus)*
 
 <p align="center">
 <img width="1000" alt="CloudFront Distribution" src="YOUR-CLOUDFRONT-DISTRIBUTION-SCREENSHOT" />
@@ -209,33 +207,6 @@ Once deployed, the website was successfully accessed using the CloudFront distri
 </p>
 
 Unlike the S3 website endpoint, CloudFront provides HTTPS support, global caching, and improved performance by serving cached content from AWS edge locations.
-
----
-
-# Verifying HTTPS
-
-After DNS propagation completed, the website became available over HTTPS using the custom domain.
-
-<p align="center">
-<img width="1000" alt="HTTPS Website" src="YOUR-CUSTOM-DOMAIN-SCREENSHOT" />
-</p>
-
-The final request flow is:
-
-```
-User
-   │
-   ▼
-Route 53
-   │
-   ▼
-CloudFront
-   │
-   ▼
-Amazon S3
-```
-
-CloudFront terminates HTTPS using the ACM certificate before retrieving content from Amazon S3.
 
 ---
 
