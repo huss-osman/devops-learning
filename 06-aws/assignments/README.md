@@ -81,7 +81,7 @@ Built through hands-on cloud hosting, CDN configuration, DNS management, and mod
 <br>
 
 <p align="center">
-  <img width="850" alt="S3 CloudFront Architecture" src="https://github.com/user-attachments/assets/44125921-ec6d-4172-b79e-49606cfc519f" /> 
+  <img width="850" alt="S3 CloudFront Architecture" src="https://github.com/user-attachments/assets/a2c49a8c-b02e-46e6-8672-827050682321" />
 </p>
 
 <br>
