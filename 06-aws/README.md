@@ -291,10 +291,10 @@ By working through this module, I aimed to:
 - [Application Load Balancer](./assignments/02-application-load-balancer.md)  
   Deploying two EC2 instances behind an ALB with health checks, target groups, listener rules, and security group isolation.
 
-- [S3 Static Website + CloudFront CDN](./assignments/03-s3-static-website-cloudfront.md)  
-  Hosting a static website using Amazon S3 and delivering it globally through CloudFront with HTTPS, edge caching, and cache invalidation.
+- [S3 Static Website](./assignments/03-s3-static-website-cloudfront.md)  
+  Hosting a static website using Amazon S3 and delivering content globally through CloudFront with HTTPS, edge caching, and cache invalidation.
 
-- [Serverless API with Lambda, IAM, and API Gateway](./assignments/04-serverless-api-lambda-api-gateway.md)  
+- [Serverless API](./assignments/04-serverless-api-lambda-api-gateway.md)  
   Building a REST API using API Gateway, Lambda, DynamoDB, IAM permissions, and CloudWatch logs.
 
 ---
