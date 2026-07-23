@@ -610,10 +610,12 @@ Assignments include:
 - Building custom VPC architectures
 - Deploying EC2 instances and networking components
 - Configuring Application Load Balancers
-- Hosting websites with S3, CloudFront, and Route 53
+- Hosting static websites with Amazon S3 and CloudFront
 - Building serverless APIs with Lambda and API Gateway
-- Applying IAM, security, monitoring, and cloud best practices
+- Applying IAM, security, monitoring, and AWS best practices
 
-These assignments simulate how AWS services are deployed, connected, and managed in real cloud environments.
+These assignments simulate how AWS services are designed, deployed, secured, and managed in production-style cloud environments.
+
+➡️ [View Assignments](./assignments)
 
 ➡️ [View Assignments](./assignments)
