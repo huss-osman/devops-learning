@@ -1,4 +1,4 @@
-# # AWS S3 Static Website + CloudFront CDN
+# AWS S3 Static Website + CloudFront CDN
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-S3-orange)
