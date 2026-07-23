@@ -58,7 +58,7 @@ Infrastructure deployed:
 An Amazon S3 bucket named **husosman-static-site** was created in the **eu-west-2 (London)** region.
 
 <p align="center">
-<img width="1000" alt="S3 Bucket" src="YOUR-S3-BUCKET-SCREENSHOT" />
+<img width="1000" alt="S3 Bucket" src="https://github.com/user-attachments/assets/6dd854b9-3ffd-42f7-8968-76b9882c3ef8" /> 
 </p>
 
 Amazon S3 provides highly durable object storage and is commonly used to host static websites because it can store and serve HTML, CSS, JavaScript, images, and other static assets without requiring a web server.
@@ -70,7 +70,7 @@ Amazon S3 provides highly durable object storage and is commonly used to host st
 By default, Amazon S3 blocks all public access. Since this project hosts a public website directly from the S3 website endpoint, Block Public Access was disabled for the bucket.
 
 <p align="center">
-<img width="1000" alt="Block Public Access" src="YOUR-BLOCK-PUBLIC-ACCESS-SCREENSHOT" />
+<img width="1000" alt="Block Public Access" src="https://github.com/user-attachments/assets/5fe03196-2573-41a6-a964-6b3d693feb4b" />
 </p>
 
 > [!IMPORTANT]
@@ -86,7 +86,7 @@ Static Website Hosting was enabled with:
 - **Error document:** `error.html`
 
 <p align="center">
-<img width="1000" alt="Static Website Hosting" src="YOUR-STATIC-WEBSITE-SCREENSHOT" />
+<img width="1000" alt="Static Website Hosting" src="https://github.com/user-attachments/assets/8029f21f-b128-4567-9115-09ba765b06d0" /> 
 </p>
 
 Enabling Static Website Hosting creates a dedicated website endpoint capable of serving web pages rather than returning individual objects from the bucket.
@@ -113,7 +113,7 @@ A bucket policy was added to allow public read access to every object stored ins
 ```
 
 <p align="center">
-<img width="1000" alt="Bucket Policy" src="YOUR-BUCKET-POLICY-SCREENSHOT" />
+<img width="1000" alt="Bucket Policy" src="https://github.com/user-attachments/assets/e3953192-a6e8-43b9-a553-b9444fe333f3" /> 
 </p>
 
 The bucket policy grants anyone permission to retrieve objects stored in the bucket. The policy only allows read access (`s3:GetObject`), making the website files publicly accessible while preventing users from modifying bucket contents.
@@ -130,7 +130,7 @@ The deployment includes:
 - `error.html`
 
 <p align="center">
-<img width="1000" alt="Website Files" src="YOUR-UPLOADED-FILES-SCREENSHOT" />
+<img width="1000" alt="Website Files" src="https://github.com/user-attachments/assets/cadffe58-2ff6-444f-83a3-f10fd94f050a" /> 
 </p>
 
 These files make up the static website hosted by Amazon S3. Since there is no application server, every request simply returns the stored files directly from the bucket.
@@ -142,7 +142,7 @@ These files make up the static website hosted by Amazon S3. Since there is no ap
 The website was tested using the Amazon S3 Static Website endpoint.
 
 <p align="center">
-<img width="1000" alt="S3 Website Endpoint" src="YOUR-S3-WEBSITE-ENDPOINT-SCREENSHOT" />
+<img width="1000" alt="S3 Website Endpoint" src="https://github.com/user-attachments/assets/83b8c8cd-cd74-40f0-a7c1-dd694a92f4dc" />
 </p>
 
 At this stage the website is successfully hosted by Amazon S3 and accessible over **HTTP** using the generated website endpoint.
@@ -168,7 +168,11 @@ The distribution was configured with:
 - HTTP to HTTPS redirection
 
 <p align="center">
-<img width="1000" alt="CloudFront Distribution" src="YOUR-CLOUDFRONT-DISTRIBUTION-SCREENSHOT" />
+<img width="1000" alt="CloudFront Distribution" src="https://github.com/user-attachments/assets/09f47dc0-fdca-40c1-89fe-17cfb12dd4bf" /> 
+</p>
+
+<p align="center">
+<img width="1000" alt="CloudFront Distribution" src="https://github.com/user-attachments/assets/265c9712-89e3-46d2-9f60-bef0cf211a7d" /> 
 </p>
 
 CloudFront caches website content across AWS edge locations around the world, reducing latency while improving website performance, scalability, and availability.
@@ -191,7 +195,7 @@ Configuration included:
 - Default Root Object (`index.html`)
 
 <p align="center">
-<img width="1000" alt="CloudFront Behaviour" src="YOUR-CLOUDFRONT-BEHAVIOUR-SCREENSHOT" />
+<img width="1000" alt="CloudFront Behaviour" src="https://github.com/user-attachments/assets/8aa1477b-db2b-40c9-8faf-b056320c1ced" />  
 </p>
 
 These settings ensure visitors are automatically redirected to HTTPS while allowing CloudFront to efficiently cache website content across AWS edge locations.
@@ -203,7 +207,7 @@ These settings ensure visitors are automatically redirected to HTTPS while allow
 Once deployed, the website was successfully accessed using the CloudFront distribution domain.
 
 <p align="center">
-<img width="1000" alt="CloudFront Website" src="YOUR-CLOUDFRONT-DOMAIN-SCREENSHOT" />
+<img width="1000" alt="CloudFront Website" src="https://github.com/user-attachments/assets/dfcbcbd5-f1c6-41cb-a6a3-af6f953de251" /> 
 </p>
 
 Unlike the S3 website endpoint, CloudFront provides HTTPS support, global caching, and improved performance by serving cached content from AWS edge locations.
@@ -215,11 +219,11 @@ Unlike the S3 website endpoint, CloudFront provides HTTPS support, global cachin
 CloudFront caching was verified using:
 
 ```bash
-curl -I https://YOUR-CLOUDFRONT-DOMAIN
+curl -I https://d1ayc0d3603lp2.cloudfront.net
 ```
 
 <p align="center">
-<img width="1000" alt="CloudFront Cache" src="YOUR-CURL-SCREENSHOT" />
+<img width="1000" alt="CloudFront Cache" src="https://github.com/user-attachments/assets/74520114-87d2-4634-be94-b090d627e6a2" /> 
 </p>
 
 The response headers included:
@@ -241,7 +245,7 @@ The contents of `index.html` were modified and uploaded to Amazon S3.
 Immediately after uploading, CloudFront continued serving the previous version because the object was still cached.
 
 <p align="center">
-<img width="1000" alt="Old Cached Content" src="YOUR-OLD-CACHE-SCREENSHOT" />
+<img width="1000" alt="CloudFront Website" src="https://github.com/user-attachments/assets/dfcbcbd5-f1c6-41cb-a6a3-af6f953de251" /> 
 </p>
 
 A CloudFront invalidation was then created for:
@@ -251,13 +255,13 @@ A CloudFront invalidation was then created for:
 ```
 
 <p align="center">
-<img width="1000" alt="CloudFront Invalidation" src="YOUR-INVALIDATION-SCREENSHOT" />
+<img width="1000" alt="CloudFront Invalidation" src="https://github.com/user-attachments/assets/a128e6f3-5417-4b2b-b54f-3b3ef15be384" /> 
 </p>
 
 Once the invalidation completed, CloudFront retrieved the updated files from the S3 origin.
 
 <p align="center">
-<img width="1000" alt="Updated Website" src="YOUR-UPDATED-WEBSITE-SCREENSHOT" />
+<img width="1000" alt="Updated Website" src="https://github.com/user-attachments/assets/349c648d-7307-418f-84a2-e89f5e547708" /> 
 </p>
 
 This demonstrates one of the core concepts of a CDN: changes made at the origin are not immediately visible until cached content expires or an invalidation forces CloudFront to fetch the latest version.
