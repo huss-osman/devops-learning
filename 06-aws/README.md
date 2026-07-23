@@ -291,7 +291,7 @@ By working through this module, I aimed to:
 - [Application Load Balancer](./assignments/02-application-load-balancer.md)  
   Deploying two EC2 instances behind an ALB with health checks, target groups, listener rules, and security group isolation.
 
-- [S3 Static Website + CloudFront CDN + Route53](./assignments/03-s3-cloudfront-route53.md)  
+- [S3 Static Website + CloudFront CDN + Route53](./assignments/03-s3-static-website-cloudfront.md)  
   Hosting a static website using S3, serving it through CloudFront, and routing traffic with Route53.
 
 - [Serverless API with Lambda, IAM, and API Gateway](./assignments/04-serverless-api-lambda-api-gateway.md)  
