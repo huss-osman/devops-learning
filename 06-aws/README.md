@@ -285,7 +285,7 @@ By working through this module, I aimed to:
 
 ### Assignments
 
-- [VPC & Networking](./assignments/01-vpc-and-networking.md)  
+- [VPC](./assignments/01-vpc-and-networking.md)  
   Building a custom VPC from scratch with public/private subnets, routing, Internet Gateway, NAT Gateway, EC2 instances, and security groups.
 
 - [Application Load Balancer](./assignments/02-application-load-balancer.md)  
@@ -296,7 +296,7 @@ By working through this module, I aimed to:
 
 - [Serverless API](./assignments/04-serverless-api-lambda-api-gateway.md)  
   Building a REST API using API Gateway, Lambda, DynamoDB, IAM permissions, and CloudWatch logs.
-
+  
 ---
 
 ## Learning Approach
