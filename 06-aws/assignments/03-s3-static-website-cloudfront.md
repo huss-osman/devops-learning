@@ -5,7 +5,7 @@
 ![CloudFront](https://img.shields.io/badge/AWS-CloudFront-orange)
 
 <p align="center">
-  <img width="850" alt="S3 CloudFront Architecture" src="https://github.com/user-attachments/assets/44125921-ec6d-4172-b79e-49606cfc519f" /> 
+  <img width="850" alt="S3 CloudFront Architecture" src="https://github.com/user-attachments/assets/a2c49a8c-b02e-46e6-8672-827050682321" />
 </p>
 
 This project demonstrates how to deploy a **production-style static website** using Amazon S3 and Amazon CloudFront. The website is hosted in an S3 bucket and delivered globally through CloudFront's edge network over HTTPS using the default CloudFront domain.
