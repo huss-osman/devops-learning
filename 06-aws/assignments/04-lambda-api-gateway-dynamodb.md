@@ -9,11 +9,9 @@
   <img width="850" alt="Serverless API Architecture" src="YOUR-ARCHITECTURE-DIAGRAM" />
 </p>
 
-This project demonstrates how to build a **production-style serverless REST API** using Amazon API Gateway, AWS Lambda, IAM, and Amazon DynamoDB.
+This project demonstrates how to build a **production-style serverless REST API** using Amazon API Gateway, AWS Lambda, and Amazon DynamoDB. The API accepts HTTP POST requests through Amazon API Gateway, processes them using an AWS Lambda function, and stores the submitted data in an Amazon DynamoDB table.
 
-The API accepts HTTP POST requests through Amazon API Gateway, invokes an AWS Lambda function to process the request, stores the submitted data in Amazon DynamoDB, and returns a structured JSON response to the client.
-
-The objective was to understand how modern serverless applications are built on AWS while following least-privilege security practices, event-driven architecture, and managed cloud services.
+The objective was to understand how serverless applications are built using AWS managed services. The project covers API Gateway, AWS Lambda, DynamoDB, IAM permissions, and CloudWatch Logs to demonstrate how event-driven applications can be securely deployed and managed without provisioning servers.
 
 ---
 
