@@ -52,7 +52,7 @@ Built through hands-on cloud networking, infrastructure design, routing configur
 
 ---
 
-### **[Assignment 2 - Application Load Balancer](./02-application-load-balancer.md)**
+### **[Assignment 2 - AWS Application Load Balancer: High Availability with an ALB](./02-application-load-balancer.md)**
 
 Provisioned an Application Load Balancer with multiple Amazon EC2 instances distributed across Availability Zones using AWS networking services.
 Implemented load balancing, target groups, health checks, Security Groups, and scalable traffic distribution across web servers.
