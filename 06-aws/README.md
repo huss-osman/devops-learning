@@ -294,8 +294,8 @@ By working through this module, I aimed to:
 - [S3 Static Website + CloudFront CDN](./assignments/03-s3-static-website-cloudfront.md)  
   Hosting a static website using S3, serving it through CloudFront with HTTPS, edge caching, and cache invalidation.
 
-- [Serverless API with Lambda, IAM & API Gateway](./assignments/04-lambda-api-gateway-dynamodb.md)  
-  Building a REST API using API Gateway, Lambda, DynamoDB, IAM permissions, and CloudWatch logs.
+- [Serverless API with Lambda, IAM & API Gateway](./assignments/04-serverless-api.md)  
+  Building a serverless REST API using API Gateway, Lambda, DynamoDB, IAM, and CloudWatch Logs.
   
 ---
 
@@ -603,17 +603,17 @@ These concepts help improve performance, availability, and user experience world
 
 ## Assignments
 
-The Assignments section focuses on applying AWS knowledge through hands-on cloud engineering projects.
+The Assignments section focuses on applying AWS concepts through hands-on cloud engineering projects.
 
 Assignments include:
 
 - Building custom VPC architectures
-- Deploying EC2 instances and networking components
-- Configuring Application Load Balancers
+- Deploying Amazon EC2 instances and networking infrastructure
+- Configuring Application Load Balancers (ALBs)
 - Hosting static websites with Amazon S3 and CloudFront
-- Building serverless APIs with Lambda and API Gateway
-- Applying IAM, security, monitoring, and AWS best practices
+- Building serverless REST APIs using Amazon API Gateway, AWS Lambda, and Amazon DynamoDB
+- Applying IAM, monitoring, security, and AWS best practices
 
-These assignments simulate how AWS services are designed, deployed, secured, and managed in production-style cloud environments.
+These projects simulate how AWS infrastructure is designed, deployed, secured, and managed in production-style cloud environments.
 
 ➡️ [View Assignments](./assignments)
