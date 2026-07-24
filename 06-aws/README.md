@@ -294,7 +294,7 @@ By working through this module, I aimed to:
 - [S3 Static Website + CloudFront CDN](./assignments/03-s3-static-website-cloudfront.md)  
   Hosting a static website using S3, serving it through CloudFront with HTTPS, edge caching, and cache invalidation.
 
-- [Serverless API with Lambda, IAM & API Gateway](./assignments/04-serverless-api.md)  
+- [Serverless API with Lambda, IAM & API Gateway](./assignments/04-lambda-api-gateway-dynamodb.md)  
   Building a serverless REST API using API Gateway, Lambda, DynamoDB, IAM, and CloudWatch Logs.
   
 ---
