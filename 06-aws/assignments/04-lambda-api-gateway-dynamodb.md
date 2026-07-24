@@ -64,7 +64,8 @@ An Amazon DynamoDB table named **students** was created using the following conf
 - **Sort key:** None
 
 <p align="center">
-<img width="1000" alt="DynamoDB Table" src="YOUR-DYNAMODB-TABLE-SCREENSHOT" />
+<img width="1000" alt="DynamoDB Table" src="https://github.com/user-attachments/assets/c0012a24-4b12-41db-9014-a339bf818787" /> 
+
 </p>
 
 Amazon DynamoDB is a fully managed NoSQL database designed for low-latency, high-performance workloads.
@@ -79,77 +80,66 @@ Using **On-demand** capacity mode means AWS automatically scales read and write 
 
 # Creating the Lambda Function
 
-A Lambda function named **submit-student** was created using the **Python 3.13** runtime.
-
-The function performs the following tasks:
-
-- Accepts JSON data from API Gateway
-- Generates a unique UUID
-- Creates a UTC timestamp
-- Stores the submitted payload in DynamoDB
-- Returns a structured JSON response
-- Handles errors and writes them to CloudWatch Logs
+`submit-student`, on the **Python 3.13** runtime. It generates a UUID, stores `{ id, timestamp, payload }`, and returns a structured JSON response, with error handling that logs to CloudWatch.
 
 ```python
 import json
 import uuid
 from datetime import datetime, timezone
-
 import boto3
 
-dynamodb = boto3.resource("dynamodb")
-table = dynamodb.Table("students")
+# boto3 is the AWS SDK for Python - it lets the code talk to AWS.
+# It's pre-installed in Lambda, so there's nothing to package.
+dynamodb = boto3.resource('dynamodb')
+table = dynamodb.Table('students')
 
 def lambda_handler(event, context):
     try:
-        body = json.loads(event.get("body") or "{}")
+        # API Gateway passes the request body as a text string in event['body'].
+        # json.loads() turns that text into a Python dictionary.
+        body = json.loads(event.get('body') or '{}')
 
         item = {
-            "id": str(uuid.uuid4()),
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "payload": body,
+            'id': str(uuid.uuid4()),                              # unique record ID
+            'timestamp': datetime.now(timezone.utc).isoformat(),  # when it arrived
+            'payload': body                                       # whatever the user sent
         }
 
-        table.put_item(Item=item)
+        table.put_item(Item=item)   # the single DynamoDB write - the PutItem action
 
         return {
-            "statusCode": 200,
-            "headers": {
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*"
+            'statusCode': 200,
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'   # CORS header for browsers
             },
-            "body": json.dumps({
-                "message": "Student stored successfully",
-                "id": item["id"]
+            'body': json.dumps({
+                'message': 'Student stored successfully',
+                'id': item['id']
             })
         }
 
-    except Exception as error:
-        print(f"Error: {error}")
-
+    except Exception as e:
+        print(f"Error: {e}")   # print() goes straight to CloudWatch logs
         return {
-            "statusCode": 500,
-            "headers": {
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*"
+            'statusCode': 500,
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
             },
-            "body": json.dumps({
-                "message": "Something went wrong"
-            })
+            'body': json.dumps({'message': 'Something went wrong'})
         }
 ```
 
 <p align="center">
-<img width="1000" alt="Lambda Function" src="YOUR-LAMBDA-CODE-SCREENSHOT" />
+<img width="1000" alt="Lambda Function" src="https://github.com/user-attachments/assets/5de6facf-9cba-49c1-bee2-6024813f5f74" /> 
 </p>
 
-AWS Lambda is a serverless compute service that automatically runs code in response to events without requiring any server management.
+<p align="center">
+<img width="1000" alt="Lambda Function" src="https://github.com/user-attachments/assets/96e43323-4607-4167-9530-1651cadf1e0f" /> 
+</p>
 
-When a request reaches the function from API Gateway, the JSON request body is extracted, a unique UUID and timestamp are generated, and the data is written into the DynamoDB table.
-
-Because Lambda proxy integration is used, the function returns a response containing a `statusCode`, `headers`, and `body`, allowing API Gateway to pass the response directly back to the client.
-
-Basic error handling is implemented using a `try` and `except` block. Any exceptions are written to Amazon CloudWatch Logs while returning a controlled HTTP 500 response to the client.
+Lambda is **serverless** compute - code that runs only when something calls it, with no servers to manage and billing by the millisecond. The `lambda_handler` is the entry point AWS calls; the `event` is the incoming request from API Gateway. The response has a specific `statusCode` / `headers` / `body` shape because of **proxy integration** (set up in step 4) - the function writes its reply in the exact format API Gateway passes straight back to the caller. The `try / except` is the error handling: any failure is printed to CloudWatch and returned as a clean `500`.
 
 ---
 
@@ -170,21 +160,21 @@ The role includes:
     {
       "Effect": "Allow",
       "Action": "dynamodb:PutItem",
-      "Resource": "arn:aws:dynamodb:us-east-1:YOUR_AWS_ACCOUNT_ID:table/students"
+      "Resource": "arn:aws:dynamodb:eu-west-2:606349121896:table/students"
     }
   ]
 }
 ```
 
 <p align="center">
-<img width="1000" alt="IAM Execution Role" src="YOUR-IAM-ROLE-SCREENSHOT" />
+<img width="1000" alt="IAM Execution Role" src="https://github.com/user-attachments/assets/268ed926-4067-4feb-a0b3-15d484b5ec68" />
 </p>
 
-The execution role is the identity that AWS Lambda assumes whenever the function runs.
+TThe execution role is the identity that AWS Lambda assumes whenever the function runs.
 
-Rather than granting broad administrative access, the role was configured with a single DynamoDB permission allowing only the `PutItem` action against the `students` table. This follows the principle of least privilege by granting only the permissions required for the function to operate.
+The role was configured with the `dynamodb:PutItem` permission for the `students` table, following the principle of least privilege by granting only the permissions required.
 
-Alongside the custom DynamoDB policy, the Lambda execution role also includes the basic CloudWatch logging policy, allowing execution logs and errors to be written automatically to Amazon CloudWatch Logs for monitoring and troubleshooting.
+The role also includes the basic CloudWatch logging policy, allowing execution logs and errors to be written automatically to `Amazon CloudWatch Logs`.
 
 ---
 
@@ -202,13 +192,13 @@ The API was configured with:
 - Deployment stage: `prod`
 
 <p align="center">
-<img width="1000" alt="API Gateway REST API" src="YOUR-API-GATEWAY-SCREENSHOT" />
+<img width="1000" alt="API Gateway REST API" src="https://github.com/user-attachments/assets/d8f6be1f-d927-4892-b262-4527aed392fb" />
 </p>
 
 The deployed endpoint follows the format:
 
 ```text
-https://API_ID.execute-api.us-east-1.amazonaws.com/prod/submit
+https://rvz10flafl.execute-api.eu-west-2.amazonaws.com/prod
 ```
 
 Amazon API Gateway acts as the public entry point for the application.
@@ -226,22 +216,21 @@ Finally, the API was deployed to a stage named **prod**, creating a publicly acc
 The deployed API was tested using `curl` by sending a POST request containing JSON data.
 
 ```bash
-curl -X POST https://API_ID.execute-api.us-east-1.amazonaws.com/prod/submit \
+curl -X POST https://rvz10flafl.execute-api.eu-west-2.amazonaws.com/prod/submit \
   -H "Content-Type: application/json" \
   -d '{"name":"Mo","module":"AWS"}'
 ```
 
-A successful request returned a structured JSON response similar to:
-
-```json
-{
-  "message": "Student stored successfully",
-  "id": "GENERATED_UUID"
-}
-```
+<p align="center">
+<img width="1000" alt="Serverless API Test" src="https://github.com/user-attachments/assets/53ea5eff-75d4-4c5a-a4c5-e63b10077e8b" /> 
+</p>
 
 <p align="center">
-<img width="1000" alt="Serverless API Test" src="YOUR-API-TEST-SCREENSHOT" />
+<img width="1000" alt="Serverless API Test" src="https://github.com/user-attachments/assets/48d8dd26-c65a-447c-aab5-e6bbe6104483" /> 
+</p>
+
+<p align="center">
+<img width="1000" alt="Serverless API Test" src="https://github.com/user-attachments/assets/9f1efc30-abfd-4a71-b779-a084efe15d19" />
 </p>
 
 The completed test confirmed that:
