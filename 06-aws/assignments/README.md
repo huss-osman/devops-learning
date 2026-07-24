@@ -94,20 +94,20 @@ Built through hands-on cloud hosting, CDN configuration, DNS management, and mod
 
 ### **[Assignment 4 - Serverless API with Lambda, IAM & API Gateway](./04-lambda-api-gateway-dynamodb.md)**
 
-Provisioned a serverless REST API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
-Implemented event-driven application workflows, least-privilege IAM permissions, data persistence, monitoring, and API request handling.
-Built through hands-on serverless development, cloud automation, Infrastructure as Code concepts, and AWS deployment practices.
+Built a serverless API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
+Implemented event-driven request processing, least-privilege IAM permissions, data persistence, monitoring, and secure API communication.
+Developed through hands-on serverless architecture, cloud-native development, AWS managed services, and production-style deployment practices.
 
 <br>
 
 <p align="center">
-  <img width="850" alt="Serverless Architecture" src="images/serverless-api-architecture.png" />
+  <img width="850" alt="Serverless API Architecture" src="https://github.com/user-attachments/assets/7ecc4e52-dd91-4941-87f6-62083c3f08ce" /> 
 </p>
 
 <br>
 
 <p align="center">
-  <a href="./04-lambda-api-gateway-dynamodb.md"><strong>➡️ View Project</strong></a>
+  <a href="./04-lambda-api-gateway-dynamodb.md/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
