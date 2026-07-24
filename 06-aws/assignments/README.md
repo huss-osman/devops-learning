@@ -92,7 +92,7 @@ Built through hands-on cloud hosting, CDN configuration, DNS management, and mod
 
 ---
 
-### **[Assignment 4 - Serverless REST API](./04-serverless-api-lambda-api-gateway.md)**
+### **[Assignment 4 - Serverless API with Lambda, IAM & API Gateway](./04-lambda-api-gateway-dynamodb.md)**
 
 Provisioned a serverless REST API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
 Implemented event-driven application workflows, least-privilege IAM permissions, data persistence, monitoring, and API request handling.
