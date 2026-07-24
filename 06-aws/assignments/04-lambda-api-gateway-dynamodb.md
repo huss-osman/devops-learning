@@ -285,8 +285,8 @@ Deleting these resources ensures there are no unnecessary ongoing AWS charges.
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/huss-osman/aws-labs.git
-cd aws-labs/serverless
+git clone https://github.com/huss-osman/devops-learning.git
+cd devops-learning/06-aws/assignments
 ```
 
 #### 2. Open the Lab
@@ -294,7 +294,7 @@ cd aws-labs/serverless
 Open:
 
 ```text
-04-serverless-api-lambda-api-gateway.md
+04-lambda-api-gateway-dynamodb.md
 ```
 
 #### 3. Deploy the Infrastructure
