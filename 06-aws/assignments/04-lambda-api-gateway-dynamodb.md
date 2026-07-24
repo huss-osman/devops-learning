@@ -325,20 +325,24 @@ Delete the deployed AWS resources to avoid unnecessary charges.
 
 Some issues encountered during deployment included:
 
-- Missing IAM permissions preventing DynamoDB writes
-- Lambda execution role misconfiguration
-- API Gateway returning HTTP 500 errors
+- Missing IAM permissions
+- Lambda execution errors
+- API Gateway returning HTTP 500 responses
 - JSON payload formatting issues
-- CORS configuration preventing browser requests
-- Lambda exceptions appearing in CloudWatch Logs
+- CORS configuration issues
 
 ---
 
-## Why I Built It
+# Why I Built It
 
-I wanted a hands-on understanding of how production-style serverless applications are built using fully managed AWS services.
+I wanted a hands-on understanding of:
 
-This project helped me understand API Gateway, AWS Lambda, IAM least-privilege permissions, Amazon DynamoDB, CloudWatch logging, and how event-driven architectures process requests without managing servers.
+- Building serverless applications on AWS
+- Integrating API Gateway with AWS Lambda
+- Storing data in Amazon DynamoDB
+- Applying least-privilege IAM permissions
+- Monitoring applications with CloudWatch Logs
+- Building production-style serverless architectures
 
 ---
 
@@ -346,8 +350,8 @@ This project helped me understand API Gateway, AWS Lambda, IAM least-privilege p
 
 - Built a REST API using Amazon API Gateway
 - Processed requests with AWS Lambda
-- Stored application data in Amazon DynamoDB
-- Configured least-privilege IAM permissions
+- Stored data in Amazon DynamoDB
+- Applied least-privilege IAM permissions
 - Tested the API using curl
-- Verified DynamoDB writes and CloudWatch logs
-- Gained hands-on experience building a production-style serverless application on AWS
+- Verified CloudWatch logs
+- Built a serverless AWS application
