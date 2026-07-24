@@ -6,7 +6,7 @@
 ![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-orange)
 
 <p align="center">
-  <img width="850" alt="Serverless API Architecture" src="YOUR-ARCHITECTURE-DIAGRAM" />
+  <img width="850" alt="Serverless API Architecture" src="https://github.com/user-attachments/assets/7ecc4e52-dd91-4941-87f6-62083c3f08ce" /> 
 </p>
 
 This project demonstrates how to build a **production-style serverless REST API** using Amazon API Gateway, AWS Lambda, and Amazon DynamoDB. The API accepts HTTP POST requests through Amazon API Gateway, processes them using an AWS Lambda function, and stores the submitted data in an Amazon DynamoDB table.
