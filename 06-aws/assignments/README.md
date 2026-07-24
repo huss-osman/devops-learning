@@ -107,7 +107,7 @@ Built through hands-on serverless development, cloud automation, Infrastructure 
 <br>
 
 <p align="center">
-  <a href="./04-serverless-api-lambda-api-gateway.md"><strong>➡️ View Project</strong></a>
+  <a href="./04-lambda-api-gateway-dynamodb.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
