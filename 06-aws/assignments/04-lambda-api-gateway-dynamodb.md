@@ -286,38 +286,20 @@ Deleting these resources ensures there are no unnecessary ongoing AWS charges.
 
 ```bash
 git clone https://github.com/huss-osman/devops-learning.git
-cd devops-learning/06-aws/assignments
+cd devops-learning/06-aws/assignments/04-lambda-api-gateway-dynamodb.md
 ```
 
-#### 2. Open the Lab
+#### 2. Follow the Walkthrough
 
-Open:
-
-```text
-04-lambda-api-gateway-dynamodb.md
-```
+Complete the project by following the deployment steps in this repository.
 
 #### 3. Deploy the Infrastructure
 
-Create:
+Provision the DynamoDB table, Lambda function, IAM execution role, and API Gateway using the AWS Management Console.
 
-- DynamoDB Table
-- Lambda Function
-- IAM Execution Role
-- API Gateway REST API
+#### 4. Clean Up
 
-#### 4. Test the API
-
-Verify:
-
-- API Gateway endpoint
-- Lambda execution
-- DynamoDB item creation
-- CloudWatch logs
-
-#### 5. Clean Up
-
-Delete the deployed AWS resources to avoid unnecessary charges.
+Delete the deployed AWS resources when you have finished to avoid unnecessary charges.
 
 ---
 
