@@ -1,4 +1,4 @@
-# README
+# Cloud Init Ec2 Deployment
 
 ## Overview
 
