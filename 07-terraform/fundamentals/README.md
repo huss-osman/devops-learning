@@ -139,4 +139,4 @@ Examples are practical, cloud-focused, and tied to real-world DevOps and cloud e
 - Understand providers, resources, variables, and state
 - Build reusable and maintainable Terraform configurations
 - Develop safe deployment workflows using init, plan, apply, and destroy
-- Build a strong foundation for Terraform modules, CI/CD pipelines, and production cloud infrastructure
+- Build a strong foundation for Terraform modules and production infrastructure
