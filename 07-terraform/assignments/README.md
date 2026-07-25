@@ -9,11 +9,11 @@
 ![Projects](https://img.shields.io/badge/Assignments-2-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on Terraform assignments covering Infrastructure as Code, cloud provisioning, automation, and production-style AWS deployments.
+This repository documents my hands-on Terraform assignments exploring Infrastructure as Code, cloud automation, and AWS workflows.
 
-Each assignment focuses on designing, provisioning, and automating cloud infrastructure using Terraform through real-world deployment workflows, infrastructure management, and cloud engineering practices.
+Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, production-style environments, industry-standard cloud engineering practices, and Infrastructure as Code implementation.
 
-The focus throughout this repository is understanding how Infrastructure as Code can be used to deploy, manage, and automate AWS infrastructure through practical projects.
+The focus of this repository is understanding how Terraform integrates with AWS to provision and automate cloud infrastructure.
 
 ---
 
