@@ -6,11 +6,11 @@
 ![Debugging](https://img.shields.io/badge/Focus-Infrastructure%20Provisioning-purple)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains **hands-on Terraform labs** focused on Infrastructure as Code, cloud provisioning, Terraform state management, and real AWS deployment workflows.
+This folder contains **hands-on Terraform labs** focused on practical infrastructure deployment and Infrastructure as Code.
 
-The focus is on building infrastructure, understanding Terraform's execution process, and learning how resources are managed throughout their lifecycle.
+The focus is on applying Terraform through cloud provisioning, infrastructure management, and deployment workflows.
 
-Labs emphasise deployment, state management, infrastructure changes, and practical troubleshooting using Terraform.
+Labs emphasise understanding Infrastructure as Code, Terraform state, resource management, and cloud deployment practices.
 
 ---
 
