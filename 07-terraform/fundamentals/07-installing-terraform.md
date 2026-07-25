@@ -1,4 +1,4 @@
-# README
+# Installing Terraform
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# README
+# Terraform Provider Configuration
 
 ## Overview
 
