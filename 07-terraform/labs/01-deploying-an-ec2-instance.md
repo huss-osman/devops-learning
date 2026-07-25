@@ -1,4 +1,4 @@
-# README
+# Deploying An Ec2 Instance
 
 ## Overview
 
