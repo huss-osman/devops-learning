@@ -261,7 +261,7 @@ The goal is long-term understanding that transfers directly into **AWS**, **mult
 
 ## Fundamentals
 
-The Fundamentals section focuses on building a strong understanding of **Terraform** through Infrastructure as Code principles and practical cloud provisioning concepts.
+The Fundamentals section focuses on building Terraform knowledge through **Infrastructure as Code principles and cloud provisioning**.
 
 Rather than memorising syntax, the emphasis is on understanding:
 
