@@ -159,6 +159,26 @@ Covers:
 
 ---
 
+<h3>
+  <img src="https://github.com/user-attachments/assets/121ff656-9f79-4f27-9028-0b0c2642f0bf" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/07-terraform">Terraform</a>
+</h3>
+
+Core Terraform fundamentals and hands-on Infrastructure as Code practice.
+
+Covers:
+- Infrastructure as Code (IaC) principles
+- Terraform providers and resource blocks
+- Variables, outputs, and reusable configurations
+- Terraform state, local state, and remote state
+- Terraform workflows (`init`, `plan`, `apply`, `destroy`)
+- Terraform Registry and provider management
+- Dynamic infrastructure using `count`, `for_each`, and functions
+- AWS infrastructure provisioning and automation
+- Practical Infrastructure as Code labs and production-style projects in [Labs](./07-terraform/labs) and [Assignments](./07-terraform/assignments)
+
+---
+
 ## 🎯 Learning Focus
 
 This repository is designed to:
