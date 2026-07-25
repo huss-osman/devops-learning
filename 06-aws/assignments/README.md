@@ -11,7 +11,7 @@
 
 This repository documents my hands-on AWS assignments covering cloud infrastructure, networking, security, scalability, and workflows.
 
-Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, production-style environments, and industry-standard cloud engineering practices.
+Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, production-style environments, industry-standard cloud engineering practices, and Infrastructure as Code implementation.
 
 The focus throughout this repository is understanding how AWS services integrate to build secure cloud infrastructure through projects.
 
