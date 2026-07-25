@@ -7,11 +7,11 @@
 ![Focus](https://img.shields.io/badge/Focus-Infrastructure%20as%20Code-purple)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on learning of **Terraform** and **Infrastructure as Code (IaC)** through practical infrastructure deployments and real-world cloud provisioning.
+This repository documents learning of **Terraform** and **Infrastructure as Code (IaC)** through infrastructure deployment.
 
-Terraform is a core technology in modern cloud engineering and DevOps. It enables infrastructure to be defined as code, allowing cloud resources to be created, updated, and managed in a consistent, repeatable, and automated way across multiple platforms.
+Terraform is a technology in modern cloud engineering and DevOps. It enables infrastructure to be defined as code, allowing cloud resources to be created, updated, and managed in a consistent, repeatable, and automated way across platforms.
 
-The focus throughout this repository is understanding **how Terraform, Infrastructure as Code, state management, providers, variables, and reusable infrastructure work** through practical learning.
+Repository focus: understanding **Terraform, Infrastructure as Code, state management, providers, variables, and reusable infrastructure**.
 
 ---
 
