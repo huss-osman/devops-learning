@@ -8,7 +8,7 @@ It helps build an understanding of how tools such as **Terraform**, **AWS CloudF
 
 ---
 
-## Orchestration vs Configuration Management
+## Infrastructure Orchestration
 
 **Infrastructure Orchestration**  
 The process of provisioning and organising infrastructure resources in the correct order before applications are configured and deployed.
@@ -25,6 +25,8 @@ Infrastructure orchestration focuses on creating the infrastructure required for
 
 ---
 
+## Configuration Management
+
 **Configuration Management**  
 The process of configuring and maintaining infrastructure after it has been provisioned, ensuring systems are installed, configured, and maintained in their desired state.
 
@@ -37,6 +39,20 @@ The process of configuring and maintaining infrastructure after it has been prov
 - Works alongside infrastructure orchestration tools
 
 Configuration management focuses on preparing provisioned infrastructure by installing applications, configuring services, and maintaining consistency across servers. Tools such as **Ansible**, **Puppet**, and **Chef** automate these tasks, ensuring infrastructure is configured correctly after it has been deployed.
+
+---
+
+## How They Work Together
+
+Infrastructure orchestration and configuration management complement each other throughout the deployment lifecycle.
+
+Infrastructure orchestration provisions the cloud resources required for an application, while configuration management prepares those resources by installing software, configuring services, and maintaining systems in their desired state.
+
+A typical workflow is:
+
+1. Provision infrastructure using **Terraform** or **AWS CloudFormation**.
+2. Configure the provisioned infrastructure using **Ansible**, **Puppet**, or **Chef**.
+3. Deploy and maintain applications on the configured infrastructure.
 
 ---
 
