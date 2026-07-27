@@ -11,6 +11,10 @@ It helps build an understanding of how to navigate the Terraform Registry and co
 </p>
 
 <p align="center">
+<img width="1152" height="648" alt="Untitled design" src="https://github.com/user-attachments/assets/32aa614f-770a-4ae9-a1e8-69fec56104c4" />
+</p>
+
+<p align="center">
   <a href="https://registry.terraform.io/providers/hashicorp/aws/latest">
     Official HashiCorp AWS Provider Documentation
   </a>
