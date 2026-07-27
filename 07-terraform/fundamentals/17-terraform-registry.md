@@ -51,19 +51,19 @@ The AWS provider documentation contains everything required to begin managing AW
 
 The provider documentation provides a ready-to-use configuration that tells Terraform which provider to download and how it should be configured. After adding this configuration to your project, Terraform downloads the provider when `terraform init` is executed.
 
+---
+
+## Terraform 0.13+
+
+Terraform 0.13 introduced the `required_providers` block, allowing Terraform to automatically download providers directly from the Terraform Registry.
+
+The example below configures the **AWS provider**, specifies where Terraform should download it from, and defines the provider version to use.
+
 <p align="center">
   <img width="450" alt="Terraform AWS Provider Configuration" src="https://github.com/user-attachments/assets/8eefba23-867d-4e49-aa17-a67b97804faf" />
 </p>
 
----
-
-## Provider Configuration
-
-The provider configuration copied from the Terraform Registry contains two main blocks: the **Terraform block** and the **provider block**.
-
 ### Terraform Block
-
-The **Terraform block** defines the providers required by the project.
 
 **`required_providers`**  
 Specifies the providers required by the Terraform configuration.
@@ -72,21 +72,22 @@ Specifies the providers required by the Terraform configuration.
 Defines the local name of the provider used throughout the configuration.
 
 **`source = "hashicorp/aws"`**  
-Specifies where Terraform downloads the provider from. In this example, the provider is downloaded from the official **HashiCorp Terraform Registry**.
+Specifies where Terraform downloads the provider from. In this example, the provider is retrieved from the official **HashiCorp Terraform Registry**.
 
-**`version = "6.56.0"`**  
+**`version = "5.62.0"`**  
 Pins the provider to a specific version, ensuring consistent deployments and preventing unexpected behaviour caused by version changes.
 
 ---
 
 ### Provider Block
 
-The **provider block** configures the cloud provider Terraform will communicate with.
-
 **`provider "aws"`**  
-Specifies that Terraform should configure the AWS provider.
+Tells Terraform that the AWS provider should be configured.
 
-This block is where provider-specific settings such as the AWS region, authentication credentials, and other provider options are typically defined.
+This block is where provider-specific configuration options, such as the AWS region and authentication settings, are typically defined.
+
+> [!IMPORTANT]
+> Terraform **0.13 and later** requires providers to be declared using the `required_providers` block. Specifying both the **source** and **version** ensures Terraform downloads the correct provider, improves deployment consistency, and helps avoid compatibility issues across different environments.
 
 ---
 
