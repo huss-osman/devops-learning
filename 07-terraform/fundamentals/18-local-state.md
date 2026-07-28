@@ -10,8 +10,8 @@ It also highlights the characteristics of local state files and why they are bes
 
 ## Local State Files
 
-**Local state files**
-store Terraform's infrastructure state on your local machine.
+**Local state files**  
+The default storage method that saves Terraform's infrastructure state locally within the project directory.
 
 ### Characteristics of Local State Files
 
