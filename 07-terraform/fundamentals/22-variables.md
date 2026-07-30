@@ -24,7 +24,7 @@ This makes infrastructure easier to maintain, reuse, and update across different
 
 ---
 
-## Example
+## Input Variables
 
 ### Resource Configuration
 
