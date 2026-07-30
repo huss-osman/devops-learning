@@ -143,16 +143,106 @@ t2.micro
 
 ---
 
+### Step 9 — Add a Default Value
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/602f2573-2220-4218-98a4-801612ee0f20"> 
+</p>
+
+Add a **`default`** argument to the variable declaration.
+
+```terraform
+variable "instance_type" {
+  type    = string
+  default = "t2.micro"
+}
+```
+
+Terraform now uses the default value automatically, so it no longer prompts for user input.
+
+---
+
+### Step 10 — Verify the Default Value
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/3c6d51b1-6357-4b54-9824-ba6083cd4f98"> 
+</p>
+
+Run Terraform again to verify the configuration.
+
+```bash
+terraform plan
+```
+
+Terraform uses the default value and reports:
+
+```text
+No changes. Your infrastructure matches the configuration.
+```
+
+---
+
+### Step 11 — Create a `terraform.tfvars` File
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/b9470a81-bad2-44b6-ab59-4191cfe5e6c0">  
+</p>
+
+Create a **`terraform.tfvars`** file in the Terraform project directory.
+
+> [!NOTE]
+> Using a `terraform.tfvars` file is considered the recommended way to provide input variable values.
+
+---
+
+### Step 12 — Define the Variable Value
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/4a9d1425-de78-442d-b825-b6eba103b642"> 
+</p>
+
+Move the variable value into the **`terraform.tfvars`** file.
+
+```terraform
+instance_type = "t2.micro"
+```
+
+Terraform automatically loads values from `terraform.tfvars` during execution.
+
+---
+
+### Step 13 — Apply the Configuration
+
+<p align="center"> 
+  <img width="900" src="https://github.com/user-attachments/assets/ed6a9df1-193d-49a3-8151-ca4588bb806b">
+</p>
+
+Apply the Terraform configuration.
+
+```bash
+terraform apply
+```
+
+Terraform reads the value from **`terraform.tfvars`** and confirms the infrastructure already matches the configuration.
+
+```text
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+```
+
+---
+
 ## Key Takeaways
 
-- Input variables make Terraform configurations reusable and easier to maintain.
-- Variables remove hard-coded values from configuration files.
-- A dedicated `variables.tf` file is considered best practice.
+- Input variables remove hard-coded values from Terraform configurations.
+- Variables are commonly stored in a dedicated **`variables.tf`** file.
 - Variables are referenced using the `var.<variable_name>` syntax.
-- Variables support the **DRY (Don't Repeat Yourself)** principle.
+- Default values prevent Terraform from prompting for input.
+- **`terraform.tfvars`** is the recommended way to provide variable values.
+- Terraform automatically loads `terraform.tfvars` during execution.
+- Variables support reusable, flexible, and DRY Infrastructure as Code.
 
 ---
 
 ## Reflection
 
-Input variables demonstrated how Terraform configurations can become more flexible by separating configurable values from infrastructure code. Replacing hard-coded values with variables improves readability, encourages code reuse, and simplifies managing different environments without modifying the core configuration.
+Input variables demonstrated how Terraform configurations can become more flexible by separating configurable values from infrastructure code. Using default values and the **`terraform.tfvars`** file provides a cleaner and more maintainable approach to supplying configuration values, making Infrastructure as Code easier to reuse across different environments.
