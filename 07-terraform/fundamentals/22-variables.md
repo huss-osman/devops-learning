@@ -287,6 +287,68 @@ instance_id = "i-0572e537ceb16bc5f"
 
 ---
 
+## Variable Hierarchy
+
+Terraform supports multiple ways of assigning values to variables. When the same variable is defined in more than one location, Terraform follows a **precedence hierarchy** to determine which value to use.
+
+<p align="center">
+  <img width="850" src="https://github.com/user-attachments/assets/405aaf8e-1590-4440-8868-4d2f0c21704e"> 
+</p>
+
+Terraform evaluates variable values using the following order, from **highest** to **lowest precedence**:
+
+1. Command line flags (`-var`)
+2. TF_VAR environment variables
+3. `.tfvars` files
+4. Default values
+
+### Precedence Order
+
+| Priority | Method | Example |
+|----------:|---------|---------|
+| 1 (Highest) | Command line flag | `terraform apply -var="instance_type=t2.micro"` |
+| 2 | Environment variable | `export TF_VAR_instance_type=t2.micro` |
+| 3 | `.tfvars` file | `terraform.tfvars` |
+| 4 (Lowest) | Default value | `default = "t2.micro"` |
+
+> [!NOTE]
+> If the same variable exists in multiple locations, Terraform always uses the value with the **highest precedence**.
+
+---
+
+## Variable Types
+
+Terraform supports both **primitive** and **complex** variable types.
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/5e656c6c-f28b-42e1-a246-5bcc2696a28d">
+</p>
+
+### Primitive Types
+
+Primitive types store a single value.
+
+| Type | Description | Example |
+|------|-------------|---------|
+| `string` | Text values | `"Hello"` |
+| `number` | Whole or decimal numbers | `42`, `3.14` |
+| `bool` | Boolean values | `true`, `false` |
+
+### Complex Types
+
+Complex types group multiple values together.
+
+| Type | Description | Example |
+|------|-------------|---------|
+| `list` | Ordered collection of values of the same type | `["one","two","three"]` |
+| `map` | Collection of key-value pairs | `{ Name = "Web" }` |
+| `object` | Collection of named attributes with different types | `{ name="John", age=30 }` |
+
+> [!TIP]
+> Primitive types represent individual values, while complex types group multiple values into a single variable.
+
+---
+
 ## Benefits of Variables
 
 - Remove hard-coded values from Terraform configurations.
@@ -296,6 +358,8 @@ instance_id = "i-0572e537ceb16bc5f"
 - Allow values to be changed without modifying resource blocks.
 - Local variables reduce repetition by centralising values used multiple times.
 - Output variables expose useful infrastructure information after deployment.
+- Variable precedence provides flexible configuration across different environments.
+- Multiple variable types support simple and complex Infrastructure as Code.
   
 ---
 
@@ -310,9 +374,11 @@ instance_id = "i-0572e537ceb16bc5f"
 - Variables make Infrastructure as Code more reusable and flexible.
 - Separating variables from resources improves maintainability.
 - Using variables, locals, and outputs reduces duplicated configuration and simplifies automation.
+- Terraform applies variable values using a defined precedence hierarchy.
+- Terraform supports both primitive and complex variable types.
   
 ---
 
 ## Reflection
 
-Terraform variables demonstrated how Infrastructure as Code can become cleaner, more reusable, and easier to maintain. Input variables separate configurable values from infrastructure code, local variables reduce duplication by centralising repeated values, and output variables expose important infrastructure information after deployment for automation and operational use.
+Terraform variables demonstrated how configurable values can be separated from infrastructure code to create cleaner, more reusable Infrastructure as Code. Understanding input variables, local variables, output variables, variable precedence, and variable types reinforced how Terraform promotes maintainability, reduces duplication, and supports flexible infrastructure across different environments.
