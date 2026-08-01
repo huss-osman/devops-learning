@@ -41,7 +41,7 @@ Built through hands-on Infrastructure as Code, cloud provisioning, infrastructur
 <br>
 
 <p align="center">
-<img width="850" alt="WordPress Terraform Architecture" src="images/wordpress-terraform-architecture.png" />
+<img width="850" alt="WordPress Terraform Architecture" src="https://github.com/user-attachments/assets/14b85a56-f173-4112-b7dc-2a7eef4c13bf" /> 
 </p>
 
 <br>
@@ -61,7 +61,7 @@ Built through hands-on infrastructure automation, cloud provisioning, Infrastruc
 <br>
 
 <p align="center">
-<img width="850" alt="Terraform Cloud-Init Architecture" src="images/cloud-init-terraform-architecture.png" />
+<img width="850" alt="Terraform Cloud-Init Architecture" src="https://github.com/user-attachments/assets/d269cbb1-ee15-43ed-a36a-e1e68f597300" /> 
 </p>
 
 <br>
