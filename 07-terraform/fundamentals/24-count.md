@@ -21,6 +21,11 @@ A Terraform meta-argument that creates multiple identical resources from a singl
 - **Supports dynamic naming** – `count.index` can be used to generate unique resource names and tags.
 - **Improves scalability** – Makes it easy to scale infrastructure by adjusting a single value.
 
+
+<p align="center">
+<img width="552" height="332" alt="image" src="https://github.com/user-attachments/assets/054d69ae-0cc2-4d03-b0ff-38334d413891" />
+</p>
+
 ---
 
 ## Key Takeaways
