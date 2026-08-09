@@ -11,9 +11,9 @@
 
 This repository documents my hands-on CI/CD assignments exploring pipeline automation, GitHub Actions, and software delivery workflows.
 
-Each assignment focuses on building practical CI/CD solutions through automated testing, build processes, deployment workflows, troubleshooting, production-style environments, and industry-standard DevOps practices.
+Each assignment focuses on building practical CI/CD solutions through automated testing, build processes, deployment workflows, troubleshooting, production-style environments, industry-standard DevOps practices, scalable automation, and reliability.
 
-The focus of this repository is understanding how CI/CD integrates with GitHub Actions to automate software testing, validation, building, and deployment.
+The focus of this repository is understanding how CI/CD integrates with GitHub Actions to automate testing, validation, and deployment.
 
 ---
 
