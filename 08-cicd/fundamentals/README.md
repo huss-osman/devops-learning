@@ -1,10 +1,10 @@
 # CI/CD Fundamentals
 
-This folder contains **CI/CD fundamentals** focused on understanding pipeline automation, GitHub Actions, and modern software delivery.
+This folder contains my core **CI/CD fundamentals** notes focused on pipeline automation, GitHub Actions, and software delivery workflows.
 
-The focus is on building a strong understanding of Continuous Integration, Continuous Delivery, workflow automation, testing, security, and deployment.
+Each topic focuses on understanding **how CI/CD automates software delivery**, not just memorising commands or syntax.
 
-Fundamentals emphasise understanding how CI/CD pipelines work, how GitHub Actions automates workflows, and how software moves from code changes to production.
+Examples are practical, automation-focused, and tied to real-world DevOps and cloud engineering workflows.
 
 ---
 
