@@ -1,5 +1,9 @@
 # CI/CD Fundamentals
 
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-CI%2FCD%20Fundamentals-purple)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
+
 This folder contains my core **CI/CD fundamentals** notes focused on pipeline automation, GitHub Actions, and software delivery workflows.
 
 Each topic focuses on understanding **how CI/CD automates software delivery**, not just memorising commands or syntax.
