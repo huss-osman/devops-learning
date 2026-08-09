@@ -1,5 +1,9 @@
 # CI/CD Labs
 
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Debugging](https://img.shields.io/badge/Focus-Pipeline%20Automation-purple)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
+
 This folder contains **hands-on CI/CD labs** focused on practical pipeline automation and GitHub Actions.
 
 The focus is on applying CI/CD through automated workflows, testing, builds, security, and deployment processes.
