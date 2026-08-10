@@ -179,6 +179,26 @@ Covers:
 
 ---
 
+<h3>
+  <img src="https://github.com/user-attachments/assets/7a42bebb-31ef-4e23-81ed-006f7d14ba47" width="28" align="center">
+  <a href="https://github.com/huss-osman/devops-learning/tree/main/08-cicd">CI/CD</a>
+</h3>
+
+Core CI/CD fundamentals and hands-on automation workflow practice.
+
+Covers:
+- Continuous Integration (CI) and Continuous Delivery/Deployment (CD)
+- CI/CD within the wider DevOps architecture
+- Source control integration and workflow triggers
+- GitHub Actions and workflow automation
+- YAML-based workflow configuration
+- Automated build and testing processes
+- Jobs, steps, actions, events, and runners
+- Continuous delivery and deployment automation
+- Practical CI/CD labs and production-style projects in [Labs](./08-cicd/labs) and [Assignments](./08-cicd/assignments)
+
+---
+
 ## 🎯 Learning Focus
 
 This repository is designed to:
