@@ -47,7 +47,7 @@ Built through hands-on Infrastructure as Code, cloud provisioning, infrastructur
 <br>
 
 <p align="center">
-  <a href="./wordpress-userdata/REAMDE.md"><strong>➡️ View Project</strong></a>
+  <a href="./wordpress-userdata/README.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
