@@ -253,8 +253,23 @@ The goal is long-term understanding that transfers directly into **AWS**, **mult
 │
 └── assignments/
     ├── README.md
-    ├── 01-wordpress-with-terraform.md
-    └── 02-cloud-init-ec2-deployment.md
+    ├── .gitignore
+    │
+    ├── nginx-cloud-init/
+    │   ├── README.md
+    │   ├── cloud-init.yaml
+    │   ├── main.tf
+    │   ├── outputs.tf
+    │   ├── provider.tf
+    │   └── variables.tf
+    │
+    └── wordpress-userdata/
+        ├── README.md
+        ├── main.tf
+        ├── outputs.tf
+        ├── provider.tf
+        ├── userdata.sh
+        └── variables.tf
 ```
 
 ---
