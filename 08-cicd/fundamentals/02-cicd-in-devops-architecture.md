@@ -11,7 +11,7 @@ I learned how source control, CI/CD, and monitoring work together to create a co
 </p>
 
 <p align="center">
-*DevOps pipeline flow from Source Control → CI/CD → Monitoring and Logging.*
+DevOps pipeline flow from Source Control → CI/CD → Monitoring and Logging.
 </p>
 
 ---
