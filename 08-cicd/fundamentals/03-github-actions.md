@@ -2,9 +2,9 @@
 
 ## Overview
 
-GitHub Actions is an automation platform built into GitHub that allows developers to automate software development tasks directly from their repositories.
+GitHub Actions is an automation platform built into GitHub that allows developers to automate software development tasks directly from repositories while supporting continuous integration, testing, deployment, and reliable software delivery across development teams.
 
-I learned how GitHub Actions integrates with CI/CD by responding to repository events and automatically running processes such as building, testing, packaging, and deploying application code.
+I learned how GitHub Actions integrates with CI/CD by responding to repository events and automatically running workflows for building, testing, packaging, and deploying application code while improving consistency, reliability, and efficiency across development processes.
 
 ---
 
