@@ -52,7 +52,7 @@ Built through hands-on Infrastructure as Code, cloud provisioning, infrastructur
 
 ---
 
-### **[Assignment 2 - EC2 Deployment with Cloud-Init](./02-cloud-init-ec2-deployment.md)**
+### **[Assignment 2 - EC2 Deployment with Cloud-Init](./nginx-cloud-init/README.md)**
 
 Provisioned an Amazon EC2 instance using Terraform and automated server configuration with cloud-init.
 Implemented Infrastructure as Code, cloud-init provisioning, variables, outputs, and fully automated instance configuration without manual intervention after deployment.
@@ -67,7 +67,7 @@ Built through hands-on infrastructure automation, cloud provisioning, Infrastruc
 <br>
 
 <p align="center">
-  <a href="./02-cloud-init-ec2-deployment.md"><strong>➡️ View Project</strong></a>
+  <a href="./nginx-cloud-init/README.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
