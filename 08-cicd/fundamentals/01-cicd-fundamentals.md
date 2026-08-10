@@ -2,7 +2,7 @@
 
 ## Overview
 
-This module introduces the core concepts of **Continuous Integration (CI)** and **Continuous Delivery/Deployment (CD)**, explaining how automated building, testing, delivery, and deployment help teams reliably move code changes through modern software development environments.
+This module introduces the core concepts of **Continuous Integration (CI)** and **Continuous Delivery/Deployment (CD)**, explaining how automated building, testing, delivery, and deployment help teams reliably move code changes through software development environments.
 
 This is useful in real-world environments where **automation**, **continuous feedback**, **consistent testing**, and **reliable software delivery** help teams integrate changes frequently, identify issues earlier, reduce manual processes, and deliver software through automated workflows.
 
