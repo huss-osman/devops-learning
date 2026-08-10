@@ -32,7 +32,7 @@ By working through these assignments, I aim to:
 
 ## Assignments
 
-### **[Assignment 1 - Deploy WordPress Using Terraform](./wordpress-userdata)**
+### **[Assignment 1 - Deploy WordPress Using Terraform](./wordpress-userdata/README.md)**
 
 Provisioned a complete WordPress environment on AWS using Terraform.
 Configured an EC2 instance, Security Groups, variables, outputs, and automated software installation through user data to deploy a fully functional WordPress website.
@@ -47,7 +47,7 @@ Built through hands-on Infrastructure as Code, cloud provisioning, infrastructur
 <br>
 
 <p align="center">
-  <a href="./wordpress-userdata"><strong>➡️ View Project</strong></a>
+  <a href="./wordpress-userdata/REAMDE.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
