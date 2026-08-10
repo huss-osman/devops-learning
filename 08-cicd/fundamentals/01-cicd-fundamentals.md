@@ -2,9 +2,9 @@
 
 ## Overview
 
-This module introduces the core concepts of **Continuous Integration (CI)** and **Continuous Delivery/Deployment (CD)** used in modern DevOps and software engineering environments. It focuses on understanding how code changes move through automated build, testing, delivery, and deployment processes.
+This module introduces the core concepts of **Continuous Integration (CI)** and **Continuous Delivery/Deployment (CD)**, exploring how automated build, testing, delivery, and deployment processes help teams reliably move code changes through modern software development environments.
 
-This is useful in real-world environments where **automation**, **continuous feedback**, **consistent testing**, and **reliable software delivery** are essential. Instead of relying on manual processes, CI/CD pipelines help teams integrate changes frequently, identify problems earlier, and deliver software through repeatable automated workflows.
+This is useful in real-world environments where **automation**, **continuous feedback**, **consistent testing**, and **reliable software delivery** help teams integrate changes frequently, identify problems earlier, reduce manual processes, and deliver software through repeatable automated workflows.
 
 <p align="center">
   <img width="1792" height="340" alt="image" src="https://github.com/user-attachments/assets/00165c2a-407a-4a27-b352-d5c252c0ca6f" />
