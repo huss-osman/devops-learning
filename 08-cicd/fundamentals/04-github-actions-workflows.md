@@ -2,9 +2,9 @@
 
 ## Overview
 
-GitHub Actions workflows define the automated processes that code follows from a repository through building, testing, packaging, deployment, and monitoring.
+GitHub Actions workflows define the automated processes that code follows from a repository through building, testing, packaging, deployment, and monitoring while providing a consistent, reliable approach to delivering software changes across development environments.
 
-I learned how a workflow takes committed code through each stage of the CI/CD pipeline, automatically validating changes before allowing them to progress towards deployment.
+I learned how a workflow takes committed code through each stage of the CI/CD pipeline, automatically validating changes before deployment while improving code quality, reducing manual processes, and creating more consistent software delivery workflows.
 
 <p align="center">
 <img width="1527" height="868" alt="image" src="https://github.com/user-attachments/assets/fdc92cc3-c866-4869-94b3-6ace2d99ec63" />
