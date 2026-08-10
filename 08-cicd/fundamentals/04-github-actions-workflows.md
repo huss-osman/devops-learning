@@ -7,7 +7,7 @@ GitHub Actions workflows define the automated processes that code follows from a
 I learned how a workflow takes committed code through each stage of the CI/CD pipeline, automatically validating changes before allowing them to progress towards deployment.
 
 <p align="center">
-<img width="1462" height="811" alt="image" src="https://github.com/user-attachments/assets/b8a545c1-a933-4cc5-b256-1aebabb5bf55" />
+<img width="1527" height="868" alt="image" src="https://github.com/user-attachments/assets/fdc92cc3-c866-4869-94b3-6ace2d99ec63" />
 </p>
 
 <p align="center">
