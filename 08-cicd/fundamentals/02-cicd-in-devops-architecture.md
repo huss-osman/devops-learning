@@ -2,9 +2,9 @@
 
 ## Overview
 
-CI/CD is a key part of the DevOps architecture, connecting source control with automated build, testing, deployment, monitoring, and logging processes across the entire software development lifecycle efficiently.
+CI/CD is a key part of the DevOps architecture, connecting source control with automated build, testing, deployment, monitoring, and logging processes across the entire software development lifecycle efficiently while improving reliability and consistency across development teams.
 
-I learned how source control, CI/CD, and monitoring work together to create a continuous workflow that allows teams to deliver code reliably while identifying issues and feeding improvements back into development.
+I learned how source control, CI/CD, and monitoring work together to create a continuous workflow that allows teams to deliver code reliably while identifying issues, improving application quality, and feeding valuable feedback back into development processes over time.
 
 <p align="center">
 <img width="1871" height="962" alt="image" src="https://github.com/user-attachments/assets/a5b02a58-be35-40ee-a384-79bb4307855d" />
