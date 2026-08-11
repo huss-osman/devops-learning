@@ -4,7 +4,7 @@
 
 This section explores **matrix builds and parallel testing in GitHub Actions** and how they allow the same workflow job to run across multiple configurations, helping CI/CD pipelines validate applications across different versions and environments simultaneously.
 
-Matrix strategies allow workflows to define multiple configurations, while parallel testing executes each configuration independently, helping teams test different software versions efficiently, reduce testing time, and identify compatibility issues throughout automated CI/CD pipeline execution.
+Matrix strategies allow workflows to define multiple configurations, while parallel testing executes each independently, helping teams test different software versions efficiently, reduce testing time, and identify compatibility issues throughout automated CI/CD pipeline execution.
 
 ---
 
