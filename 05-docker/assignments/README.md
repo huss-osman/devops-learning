@@ -22,7 +22,7 @@ Assignment must:
 ---
 
 ### Assignment — NGINX Flask Redis App  
-**File:** [20-nginx-flask-redis-app.md](./20-nginx-flask-redis-app.md)  
+**Folder:** [nginx-flask-redis-app](./nginx-flask-redis-app/README.md)  
 **Concepts:** Flask, Redis, NGINX, Docker Compose, service communication  
 
 **Focus:** Building a multi-container application with reverse proxying and load balancing using Docker Compose.
