@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section explores **conditions and expressions in GitHub Actions** and how they control workflow behaviour based on specific outcomes or values.
+This section explores **conditions and expressions in GitHub Actions** and how they control workflow behaviour based on specific outcomes, values, and workflow states, allowing automated CI/CD processes to make decisions during execution across different pipeline stages.
 
-Conditions determine whether jobs or steps should execute, while expressions allow workflows to dynamically access information such as branch names, repository data, and GitHub context values during CI/CD execution.
+Conditions determine whether jobs or steps execute, while expressions allow workflows to dynamically access information such as branch names, repository data, event details, workflow results, and GitHub context values throughout automated CI/CD pipeline execution.
 
 ---
 
@@ -21,8 +21,6 @@ Conditions and expressions control workflow execution and allow GitHub Actions t
 - **Uses dynamic values** – Expressions retrieve information while the workflow is running.
 - **Expression syntax** – `${{ }}` evaluates GitHub context values and other workflow information.
 - **Improves flexibility** – Allows workflows to respond dynamically to different results, branches, events, and environments.
-
-### Example
 
 <p align="center">
 <img width="1567" height="585" alt="image" src="https://github.com/user-attachments/assets/b70ec672-b954-4cfc-9f54-2afaf8b1536b" />
