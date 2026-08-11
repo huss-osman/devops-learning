@@ -4,7 +4,7 @@
 
 This section explores **using secrets securely in GitHub Actions** and how workflows safely handle sensitive information such as API keys, passwords, tokens, credentials, and authentication details required throughout secure automated CI/CD workflow execution and deployment.
 
-Using secrets securely allows workflows to access sensitive values without exposing them directly within source code, helping teams protect credentials, securely authenticate external services, prevent accidental exposure, and manage confidential information safely throughout automated CI/CD.
+Using secrets securely allows workflows to access sensitive values without exposing them directly within source code, helping teams protect credentials, securely authenticate external services, prevent accidental exposure, and manage confidential information safely throughout.
 
 ---
 
