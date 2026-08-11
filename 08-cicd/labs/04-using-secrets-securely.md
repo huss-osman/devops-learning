@@ -23,10 +23,10 @@ Using secrets securely ensures sensitive credentials are protected and correctly
 - **Secure automation** – Allows CI/CD pipelines to authenticate with external platforms and services without exposing credentials.
 
 <p align="center">
-<img width="1499" height="749" alt="image" src="https://github.com/user-attachments/assets/955b58c9-41fd-4425-a7d6-2abca9d0e5f9" />
+<img width="1108" height="518" alt="image" src="https://github.com/user-attachments/assets/a0241a46-c93c-4c05-b904-d1ad451e2e7a" />
 </p>
 
-> This example demonstrates how sensitive credentials can be securely stored in GitHub and referenced within GitHub Actions workflows without exposing their actual values within the codebase.
+> This example demonstrates two ways to securely use a GitHub secret within a workflow: referencing it directly with `${{ secrets.MY_SECRET }}` and assigning it to an environment variable using the `env` configuration.
 
 ---
 
