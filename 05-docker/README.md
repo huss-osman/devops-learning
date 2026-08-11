@@ -170,9 +170,32 @@ The goal is long-term understanding that transfers directly into **cloud infrast
 │   ├── 17-debugging-networking-issues.md
 │   └── 19-multistage-builds.md
 │
-├── assignments/
-│   ├── README.md
-│   └── 20-nginx-flask-redis-app.md
+└── assignments/
+    ├── README.md
+    │
+    └── nginx-flask-redis-app/
+        ├── README.md
+        ├── .gitignore
+        ├── Dockerfile
+        ├── docker-compose.yml
+        │
+        ├── app/
+        │   ├── main.py
+        │   ├── requirements.txt
+        │   │
+        │   └── static/
+        │       └── images/
+        │           ├── .gitkeep
+        │           ├── Environment_Variables.png
+        │           ├── Flask_Code_App.png
+        │           ├── Load_Balancing_NGINX.png
+        │           ├── NGINX_Flask_Redis_App_Architecture.gif
+        │           ├── Redis_Config.png
+        │           ├── Redis_Persistence_storage.png
+        │           └── trackerio_logo.png
+        │
+        └── nginx/
+            └── nginx.conf
 ```
 
 ---
