@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section explores **secrets and encrypted variables in GitHub Actions** and how they securely store sensitive information such as API keys, passwords, tokens, and credentials required during automated CI/CD workflow execution.
+This section explores **secrets and encrypted variables in GitHub Actions** and how they securely store sensitive information such as API keys, passwords, tokens, credentials, and authentication details required throughout secure automated CI/CD workflow execution and deployment.
 
-Secrets allow workflows to access sensitive values without exposing them directly within source code, helping teams protect credentials, securely authenticate external services, and prevent confidential information from being committed into repositories.
+Secrets allow workflows to access sensitive values without exposing them directly within source code, helping teams protect credentials, securely authenticate external services, prevent accidental exposure, and manage confidential information safely throughout automated CI/CD pipeline execution processes.
 
 ---
 
