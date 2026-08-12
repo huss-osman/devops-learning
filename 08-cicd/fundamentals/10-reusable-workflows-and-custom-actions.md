@@ -67,7 +67,7 @@ Custom actions can be referenced from another repository inside workflow steps, 
 - **Consistent execution** – The same action logic can be applied across multiple projects.
 
 <p align="center">
-<img width="703" height="322" alt="image" src="https://github.com/user-attachments/assets/d120ee85-a0be-475f-8fab-e86f82058d45" />
+<img width="559" height="254" alt="image" src="https://github.com/user-attachments/assets/ce5159df-7e3f-4e28-a247-fb6ddc6c1e73" />
 </p>
 
 > This example demonstrates the reusable action syntax where `owner/repo@v1` references a custom action from another repository and `with` passes an input value into the action during execution.
