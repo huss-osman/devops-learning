@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section explores **reusable workflows and custom actions in GitHub Actions** and how they allow common automation logic to be shared across projects, reducing duplicated configuration and creating cleaner, more maintainable CI/CD pipelines.
+This section explores reusable workflows and custom actions in GitHub Actions and how they allow common automation logic to be shared across different projects, reducing duplicated configuration and creating cleaner, more maintainable CI/CD automation pipelines.
 
-Reusable workflows and custom actions allow teams to package repeated automation into reusable components, helping standardise CI/CD processes, simplify workflow configuration, share custom tooling between repositories, and improve consistency across different software projects.
+Reusable workflows and custom actions allow teams to package repeated automation into reusable components, helping standardise CI/CD processes, simplify workflow configuration, share custom tooling between repositories, and improve consistency across software projects.
 
 ---
 
