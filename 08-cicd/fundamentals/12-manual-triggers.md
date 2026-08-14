@@ -23,7 +23,7 @@ Manual triggers allow GitHub Actions workflows to be started manually instead of
 - **Controlled execution** – Provides greater control over when sensitive or operational jobs run.
 
 <p align="center">
-<img width="703" height="680" alt="image" src="https://github.com/user-attachments/assets/0bd0e5b0-6642-47d3-8776-27d53088456a" />
+<img width="1276" height="1233" alt="image" src="https://github.com/user-attachments/assets/6baee5e9-d862-44c5-8662-cacc486ec37b" />
 </p>
 
 > This example demonstrates a manually triggered workflow using `workflow_dispatch`, where the user can select a Python version from predefined options before starting the GitHub Actions workflow.
