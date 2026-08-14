@@ -23,13 +23,13 @@ Automated testing and linting help maintain code quality by automatically detect
 - **Testing tools** – Frameworks such as unittest, pytest, Jest, and Mocha provide automated application testing.
 
 <p align="center">
-<img width="348" height="272" alt="image" src="https://github.com/user-attachments/assets/ff86aa72-e413-4f40-8697-e2148d7a53d2" />
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/732e7252-0858-4c20-8dfc-a20c38f5917c" />
 </p>
 
 > This example highlights ESLint and Python tooling used for code quality practices, helping developers automatically analyse source code and identify potential issues before changes progress through the CI/CD pipeline.
 
 <p align="center">
-<img width="302" height="252" alt="image" src="https://github.com/user-attachments/assets/46e696f2-704e-4367-b044-d140ebc61b4a" />
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/ec20cd04-99a8-41fa-90b7-a966ae6782d2" />
 </p>
 
 > This example highlights common automated testing frameworks including unittest, pytest, Jest, and Mocha, which can automatically verify application behaviour and identify failures whenever changes are introduced.
