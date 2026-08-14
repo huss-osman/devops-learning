@@ -2,80 +2,63 @@
 
 ## Overview
 
-[Short explanation of what the overall topic is and what you learned.]
+This section explores manual triggers in GitHub Actions and how they allow workflows to be started on demand through the GitHub interface, providing greater control over when specific CI/CD jobs and deployment processes are securely and reliably executed when required.
 
-[Second paragraph explaining how the concepts are used in CI/CD and why they are useful.]
+Manual triggers use `workflow_dispatch` to start workflows manually and collect configurable inputs, making them useful for controlled deployments, maintenance tasks, database operations, and other processes that should only execute when explicitly requested by users.
 
 ---
 
-## Name
+## Manual Triggers
 
-**Name**
-[A simple one-sentence definition.]
+**Manual Triggers**  
+Manual triggers allow GitHub Actions workflows to be started manually instead of relying entirely on automatic events such as pushes or pull requests.
 
-### Characteristics of Name
+### Characteristics of Manual Triggers
 
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
+- **On-demand execution** – Workflows can be started manually whenever they are required.
+- **`workflow_dispatch`** – Enables manual workflow execution within GitHub Actions.
+- **Configurable inputs** – Users can provide values before starting a workflow.
+- **Input validation** – Inputs can be marked as required and provided with default values.
+- **Choice options** – Users can select values from predefined options before execution.
+- **Controlled execution** – Provides greater control over when sensitive or operational jobs run.
+
+<p align="center">
+  <img src="YOUR-IMAGE-LINK" width="700">
+</p>
+
+> This example demonstrates a manually triggered workflow using `workflow_dispatch`, where the user can select a Python version from predefined options before starting the GitHub Actions workflow.
+
+---
+
+## Manual Trigger Use Cases
+
+**Manual Trigger Use Cases**  
+Manual triggers are useful when CI/CD processes should execute only when deliberately started rather than automatically after every repository change.
+
+### Characteristics of Manual Trigger Use Cases
+
+- **Controlled deployments** – Deployments to staging or production can be started at an appropriate time.
+- **Maintenance jobs** – Operational tasks can be executed manually when maintenance is required.
+- **Database operations** – Tasks such as database migrations can be triggered on demand.
+- **Backup operations** – Database or application backups can be started when required.
+- **On-demand jobs** – Workflows that do not require automatic execution can remain manually controlled.
+- **User configuration** – Inputs allow users to customise workflow behaviour before execution.
 
 ### Example
 
-[Short explanation of what the example demonstrates.]
+```yaml
+name: Manual CI
 
----
-
-## Additional Name (Only If Needed)
-
-**Additional Name**
-[A simple one-sentence definition.]
-
-### Characteristics of Additional Name
-
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-
-### Example
-
-[Short explanation of what the example demonstrates.]
-
----
-
-## Additional Name (Only If Needed)
-
-**Additional Name**
-[A simple one-sentence definition.]
-
-### Characteristics of Additional Name
-
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-- **Characteristic** – Explanation.
-
-### Example
-
-[Short explanation of what the example demonstrates.]
-
----
-
-## Key Takeaways
-
-- Key takeaway.
-- Key takeaway.
-- Key takeaway.
-- Key takeaway.
-- Key takeaway.
-- Key takeaway.
-
----
-
-## Reflection
-
-[Short personal reflection explaining what you understood, what you learned, and how the concepts help you build cleaner, reusable, and maintainable CI/CD workflows.]
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      python-version:
+        description: "Choose Python version"
+        required: true
+        default: "3.7"
+        type: choice
+        options:
+          - "3.7"
+          - "3.8"
+          - "3.9"
