@@ -61,7 +61,7 @@ Built through hands-on deployment automation, CI/CD workflows, environment manag
 <br>
 
 <p align="center">
-  <img width="850" alt="Simple CD Workflow Architecture" src="../images/SimpleCDWorkflow.png" />
+  <img src="./assets/terraform-ci-checks.png" alt="Successful Terraform validation pipeline run" width="850">
 </p>
 
 <br>
