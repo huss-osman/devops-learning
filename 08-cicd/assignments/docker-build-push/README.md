@@ -31,6 +31,6 @@ Image publishing is handled in CI, with deployment intentionally kept separate.
 ## Successful Checks
 
 <p align="center">
-  <img src="/assets/docker-build-push.png" alt="Successful Docker build and push pipeline run" width="1000">
+  <img src="../assets/docker-build-push.png" alt="Successful Docker build and push pipeline run" width="1000">
 </p>
 
