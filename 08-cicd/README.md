@@ -164,9 +164,27 @@ The goal is long-term understanding that transfers directly into **AWS**, **Dock
 │   └── 06-manual-workflow-triggers.md
 │
 └── assignments/
-    ├── README.md
-    ├── 01-basic-ci-pipeline.md
-    └── 02-simple-cd-workflow.md
+    ├── .github/
+    │   └── workflows/
+    │       ├── docker-build-push.yaml
+    │       └── terraform-ci-checks.yaml
+    │
+    ├── assets/
+    │   ├── docker-build-push.png
+    │   └── terraform-ci-checks.png
+    │
+    ├── docker-build-push/
+    │   ├── Dockerfile
+    │   ├── README.md
+    │   └── hello.py
+    │
+    ├── terraform-checks/
+    │   ├── README.md
+    │   ├── main.tf
+    │   └── provider.tf
+    │
+    ├── .gitignore
+    └── README.md
 ```
 
 ---
