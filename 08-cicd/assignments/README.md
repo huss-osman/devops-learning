@@ -67,7 +67,7 @@ Built through hands-on deployment automation, CI/CD workflows, environment manag
 <br>
 
 <p align="center">
-  <a href="./02-simple-cd-workflow.md"><strong>➡️ View Project</strong></a>
+  <a href="./terraform-checks/README.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
