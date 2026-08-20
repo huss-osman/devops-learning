@@ -32,11 +32,11 @@ By working through these assignments, I aim to:
 
 ## Assignments
 
-### **[Assignment 1 - Build a Basic CI Pipeline](./01-basic-ci-pipeline.md)**
+### **[Assignment 1 - Docker Build and Push Pipeline](./docker-build-push/README.md)**
 
-Built a basic Continuous Integration pipeline using GitHub Actions that automatically runs checks whenever code changes are pushed.
-Implemented automated linting, testing, Docker build checks, and pipeline triggers to validate changes before progressing through the software delivery lifecycle.
-Built through hands-on CI/CD automation, workflow configuration, testing, and GitHub Actions practices.
+Built a CI/CD pipeline using GitHub Actions to automatically build and publish Docker images to Docker Hub.
+Implemented automated image builds, tagging, and secure publishing using credentials managed through GitHub Actions secrets.
+Built through hands-on CI/CD automation, Docker workflows, artefact publishing, and DevOps delivery practices.
 
 <br>
 
@@ -52,11 +52,11 @@ Built through hands-on CI/CD automation, workflow configuration, testing, and Gi
 
 ---
 
-### **[Assignment 2 - Build a Simple CD Workflow](./02-simple-cd-workflow.md)**
+### **[Assignment 2 - Terraform Validation Pipeline](./terraform-checks/README.md)**
 
-Built a Continuous Delivery workflow using GitHub Actions to automatically deploy an application or update an environment.
-Implemented automated build and deployment steps to reduce manual intervention and create a consistent, repeatable software delivery process.
-Built through hands-on deployment automation, CI/CD workflows, environment management, and DevOps delivery practices.
+Built a Continuous Integration pipeline using GitHub Actions to automatically validate Terraform configuration before infrastructure changes.
+Implemented automated formatting and validation checks to ensure consistent, correct Terraform code without deploying resources.
+Built through hands-on Terraform automation, CI workflows, Infrastructure as Code validation, and DevOps engineering practices.
 
 <br>
 
