@@ -47,7 +47,7 @@ Built through hands-on CI/CD automation, workflow configuration, testing, and Gi
 <br>
 
 <p align="center">
-  <a href="./01-basic-ci-pipeline.md"><strong>➡️ View Project</strong></a>
+  <a href="./docker-build-push/README.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
