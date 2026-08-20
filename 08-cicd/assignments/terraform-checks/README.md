@@ -28,5 +28,5 @@ The pipeline enforces consistent formatting and validates configuration correctn
 ## Successful Checks
 
 <p align="center">
-  <img src="/assets/terraform-ci-checks.png" alt="Successful Terraform validation pipeline run" width="1000">
+  <img src="../assets/terraform-ci-checks.png" alt="Successful Terraform validation pipeline run" width="1000">
 </p>
