@@ -36,7 +36,7 @@ By working through these assignments, I aim to:
 
 Built a CI/CD pipeline using GitHub Actions to automatically build and publish Docker images to Docker Hub.
 Implemented automated image builds, tagging, and secure publishing using credentials managed through GitHub Actions secrets.
-Built through hands-on CI/CD automation, Docker workflows, artefact publishing, and DevOps delivery practices.
+Built through hands-on CI/CD automation, Docker workflows, artefact publishing, pipeline validation, secure deployment practices, and DevOps delivery workflows.
 
 <br>
 
