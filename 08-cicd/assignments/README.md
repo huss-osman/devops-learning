@@ -41,7 +41,7 @@ Built through hands-on CI/CD automation, workflow configuration, testing, and Gi
 <br>
 
 <p align="center">
-  <img width="850" alt="Basic CI Pipeline Architecture" src="../images/BasicCIPipeline.png" />
+  <img src="./assets/docker-build-push.png" alt="Successful Docker build and push pipeline run" width="850">
 </p>
 
 <br>
