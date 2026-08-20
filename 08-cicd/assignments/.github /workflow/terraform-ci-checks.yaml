@@ -1,0 +1,34 @@
+name: terraform ci checks
+
+on: [push, pull_request]
+
+jobs:
+  terraform-ci-checks:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: terraform-checks
+
+    steps:
+    - 
+      name: checkout code  
+      uses: actions/checkout@v4
+
+    - 
+      name: setup terraform
+      uses: hashicorp/setup-terraform@v3
+      with:
+          terraform_version: 1.5.5
+
+    -
+      name: terraform init
+      run: terraform init
+
+    -
+      name: terraform fmt check
+      run: terraform fmt -check -recursive
+
+    -
+      name: terraform validate
+      run: terraform validate
