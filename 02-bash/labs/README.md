@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="imageedit_1_7201657005" src="https://github.com/user-attachments/assets/39d71cc6-38e4-4cc3-9808-d8de96f01b7d" />
+<p align="center">
+  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/7382c937-8b66-4817-891a-829c7ad2e6ee" />
+</p> 
 
 # Bash Labs
 
