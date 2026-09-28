@@ -217,5 +217,4 @@ The emphasis is on **understanding system behaviour**, not memorising commands.
 
 **Work in progress** — continuously updated as I progress through:
 
-- CI/CD
 - Kubernetes
