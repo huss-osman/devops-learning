@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/0554616f-c9a5-4d66-87f9-892a5d1ff3a7" />
-</p>
+  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/d957d75d-4ed3-4005-966b-cd62e315b794" />
+</p> 
 
 # Bash Fundamentals
 
