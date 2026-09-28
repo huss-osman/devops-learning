@@ -1,5 +1,6 @@
-<img width="1000" height="500" alt="imageedit_5_6842549894" src="https://github.com/user-attachments/assets/b94bf4e7-ebc7-410b-b6a3-202194563503" />
-
+<p align="center">
+  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/16abef5c-0142-4e7e-aaf5-9e70773d92c5" />
+</p> 
 
 # Linux Fundamentals
 
