@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="git-banner" src="https://github.com/user-attachments/assets/0dc18f70-7ef3-4d05-a161-c9ba91fbe5fd" />
+<p align="center">
+  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/b57a3c5d-0f7e-423c-b1c4-343ddbaf2396" />
+</p>
 
 # Git
 
