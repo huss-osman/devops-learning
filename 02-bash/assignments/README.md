@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/b8d26818-581c-46d1-af51-28c553dc8056" />
+  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/59849c5b-8f87-4d4d-9c1d-2897d41efd85" />
 </p> 
 
 # Bash Assignments 
