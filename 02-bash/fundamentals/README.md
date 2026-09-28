@@ -1,5 +1,6 @@
-<img width="1000" height="500" alt="imageedit_2_8984710263" src="https://github.com/user-attachments/assets/c4e88e66-f601-4082-a7d9-3263d7b440a4" />
-
+<p align="center">
+  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/0554616f-c9a5-4d66-87f9-892a5d1ff3a7" />
+</p>
 
 # Bash Fundamentals
 
