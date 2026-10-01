@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="AWS Banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS%20banner.png" />
+<p align="center">
+<img width="540" height="500" alt="AWS Banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/AWS%20banner.png" />
+</p>
 
 # AWS
 
