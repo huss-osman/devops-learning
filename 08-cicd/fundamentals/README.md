@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/b0d6902c-3568-4065-8411-4c6e43f93880" />
+</p>
+
 # CI/CD Fundamentals
 
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
