@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="imageedit_1_5708764918" src="https://github.com/huss-osman/devops-learning/blob/main/images/DockerFundamentalsBanner.png" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/0429fbb7-0311-4174-93d4-f9d3c8871279" />
+</p> 
 
 # Docker Fundamentals
 
