@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="Application Load Balancer Banner" src="https://github.com/user-attachments/assets/f51f18e0-55aa-487f-aa51-e6ab1d94deaa" />
+  <img width="540" style="margin-left: 40px;" alt="Application Load Balancer Banner" src="https://github.com/user-attachments/assets/f51f18e0-55aa-487f-aa51-e6ab1d94deaa" />
 </p>
 
 # Elastic Load Balancing
