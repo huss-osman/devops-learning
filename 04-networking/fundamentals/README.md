@@ -1,4 +1,7 @@
-<img width="1000" height="500" alt="networking-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/Networking%20Fundamentals.png" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/d8460d64-b9de-4cd8-9768-7839cfe6061e" />
+</p> 
+
 
 # Networking Fundamentals
 
