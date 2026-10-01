@@ -30,7 +30,7 @@ Each section documents practical exercises, real-world challenges, scripts, trou
 
 The goal is not just to memorise tools, but to understand how systems behave, automate reliably, and think operationally in production-style environments.
 
-<img width="1000" height="500" alt="imageedit_7_8304587864" src="https://github.com/user-attachments/assets/0b5652f0-87d2-412e-b769-5b29f46e2af2" />
+<img width="1684" height="934" alt="image" src="https://github.com/user-attachments/assets/5028501b-0706-4a06-a6da-045e095f07fd" />
 
 ---
 
