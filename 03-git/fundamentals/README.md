@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="imageedit_1_5708764918" src="https://github.com/user-attachments/assets/baa90d9b-d500-4d92-aeaf-e35a5226baff" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/e6011533-45e6-4c46-97db-96aa612084a0" />
+</p> 
 
 # Git Fundamentals
 
