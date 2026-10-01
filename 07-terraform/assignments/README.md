@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1000" alt="Terraform Assignments Banner" src="../images/TerraformAssignmentsBanner.png" />
+  <img width="540" alt="Terraform Assignments Banner" src="https://github.com/user-attachments/assets/42dba22f-e260-4917-9695-78fa065c5708" />
 </p>
 
 # Terraform Assignments
