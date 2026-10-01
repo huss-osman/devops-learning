@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="1000" alt="CI/CD Assignments Banner" src="../images/CICDAssignmentsBanner.png" />
-</p>
+  <img width="1000" alt="CI/CD Assignments Banner" src="https://github.com/user-attachments/assets/5173f1a7-0302-4912-ab8f-fdc0fcc357ef" />
+</p> 
 
 # CI/CD Assignments
 
