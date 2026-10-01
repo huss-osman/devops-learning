@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="IAM Banner" src="https://github.com/user-attachments/assets/f253d414-a96a-4003-998e-66f1ed6334d6" /> 
+  <img width="540" style="margin-left: 40px;" alt="IAM Banner" src="https://github.com/user-attachments/assets/f253d414-a96a-4003-998e-66f1ed6334d6" /> 
 </p>
 
 # AWS Identity and Access Management (IAM)
