@@ -1,4 +1,7 @@
-<img width="1000" height="500" alt="Terraform Banner" src="images/TerraformBanner.png" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/cc76f203-6c20-42e6-9851-98e4c3d7a1f1" />
+</p> 
+
 
 # Terraform
 
