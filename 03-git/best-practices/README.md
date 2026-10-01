@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="git-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/Git%20Best%20Practices%20Banner.png" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/61af9525-46aa-4304-92bc-e31a391dc14e" />
+</p> 
 
  # Git Best Practices
 
