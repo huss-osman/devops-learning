@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="imageedit_1_5708764918" src="https://github.com/huss-osman/devops-learning/blob/main/images/Networking%20Banner%20Main.png" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/1d51f1aa-3dd5-4ecd-981b-97f1ee2043bd" />
+</p> 
 
 # Networking
 
