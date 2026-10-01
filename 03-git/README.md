@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="850" alt="Linux Banner" src="https://github.com/user-attachments/assets/0fd0e051-832a-4443-83dc-0028fa4ae83c" /> 
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/0fd0e051-832a-4443-83dc-0028fa4ae83c" /> 
 </p>
 
 # Git
