@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/d895ac83-81ad-4d36-b1ca-59fa959f406dd" />
+  <img width="540" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/d895ac83-81ad-4d36-b1ca-59fa959f406dd" />
 </p>
 
 # Amazon Cloudfront
