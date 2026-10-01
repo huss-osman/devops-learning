@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="Serverless Banner" src="https://github.com/user-attachments/assets/7ab91d06-abfc-4b9d-92df-4ae37289576b" />
+  <img width="540" style="margin-left: 40px;" alt="Serverless Banner" src="https://github.com/user-attachments/assets/7ab91d06-abfc-4b9d-92df-4ae37289576b" />
 </p>
 
 # AWS Serverless
