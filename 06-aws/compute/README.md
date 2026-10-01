@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/81dc6753-5313-4368-8521-f7d549b8fba5" />
+  <img width="540" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/81dc6753-5313-4368-8521-f7d549b8fba5" />
 </p>
 
 # Amazon Elastic Compute Cloud (EC2)
