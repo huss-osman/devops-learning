@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="Terraform Labs Banner" src="../images/TerraformLabsBanner.png" />
+<p align="center">
+  <img width="540" alt="Linux Banner" src="https://github.com/user-attachments/assets/71ee24aa-6a5b-49d2-8de2-df41a233fe12" />
+</p> 
 
 # Terraform Labs
 
